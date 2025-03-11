@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Which statement is true about JavaScript's object-based nature?",
+    "options": [
+      "It only supports single inheritance.",
+      "It does not allow creation of custom objects.",
+      "Objects are fundamental building blocks in JavaScript.",
+      "JavaScript cannot handle complex object structures."
+    ],
+    "correctAnswer": "Objects are fundamental building blocks in JavaScript."
+  },
+  {
+    "question": "Which property of a function references the function's textual code as a string?",
+    "options": [
+      "function.source",
+      "function.text",
+      "function.toString()",
+      "function.code"
+    ],
+    "correctAnswer": "function.toString()"
+  }
+]
