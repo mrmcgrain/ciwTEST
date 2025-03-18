@@ -1,0 +1,992 @@
+[
+    {
+      "question": "1. What is Express.js?",
+      "options": [
+        "A frontend JavaScript framework",
+        "A database management system",
+        "A Node.js web application framework",
+        "A testing library for JavaScript"
+      ],
+      "correctAnswer": "A Node.js web application framework"
+    },
+    {
+      "question": "2. Which HTTP method is typically used to create a new resource?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correctAnswer": "POST"
+    },
+    {
+      "question": "3. What is the purpose of bcrypt in a MERN application?",
+      "options": [
+        "To encrypt API endpoints",
+        "To hash passwords securely",
+        "To compress database files",
+        "To encrypt data during transmission"
+      ],
+      "correctAnswer": "To hash passwords securely"
+    },
+    {
+      "question": "4. What does CRUD stand for?",
+      "options": [
+        "Create, Read, Update, Delete",
+        "Connect, Route, Unlink, Deploy",
+        "Client, Request, User, Database",
+        "Configure, Run, Update, Debug"
+      ],
+      "correctAnswer": "Create, Read, Update, Delete"
+    },
+    {
+      "question": "5. What is Mongoose?",
+      "options": [
+        "A testing framework for Express",
+        "A MongoDB object modeling tool",
+        "A routing library for Node.js",
+        "A frontend state management library"
+      ],
+      "correctAnswer": "A MongoDB object modeling tool"
+    },
+    {
+      "question": "6. What is middleware in Express.js?",
+      "options": [
+        "The database layer between MongoDB and Express",
+        "Functions that process requests before handlers",
+        "The software connecting frontend to backend",
+        "Components that render server-side content"
+      ],
+      "correctAnswer": "Functions that process requests before handlers"
+    },
+    {
+      "question": "7. How do you access URL parameters in Express.js?",
+      "options": [
+        "req.params",
+        "req.body",
+        "req.query",
+        "req.data"
+      ],
+      "correctAnswer": "req.params"
+    },
+    {
+      "question": "8. In MongoDB, what is a document?",
+      "options": [
+        "A JavaScript file containing database queries",
+        "A record in a MongoDB collection",
+        "API documentation for the database",
+        "A configuration file for database settings"
+      ],
+      "correctAnswer": "A record in a MongoDB collection"
+    },
+    {
+      "question": "9. Which Express method is used to handle GET requests?",
+      "options": [
+        "app.get()",
+        "app.post()",
+        "app.request()",
+        "app.retrieve()"
+      ],
+      "correctAnswer": "app.get()"
+    },
+    {
+      "question": "10. What's the correct way to create a Mongoose schema?",
+      "options": [
+        "mongoose.createSchema({name: String})",
+        "new Schema({name: String})",
+        "mongoose.Schema({name: String})",
+        "Schema.create({name: String})"
+      ],
+      "correctAnswer": "new Schema({name: String})"
+    },
+    {
+      "question": "11. Which module should you use to handle environment variables?",
+      "options": [
+        "env-vars",
+        "dotenv",
+        "node-env",
+        "config-env"
+      ],
+      "correctAnswer": "dotenv"
+    },
+    {
+      "question": "12. What is the purpose of the Express Router?",
+      "options": [
+        "To connect to different database servers",
+        "To create modular, mountable route handlers",
+        "To redirect users based on authentication",
+        "To route traffic between frontend and backend"
+      ],
+      "correctAnswer": "To create modular, mountable route handlers"
+    },
+    {
+      "question": "13. Which of these is NOT a typical controller function in CRUD?",
+      "options": [
+        "createUser",
+        "fetchUser",
+        "modifyUser",
+        "authenticateUser"
+      ],
+      "correctAnswer": "authenticateUser"
+    },
+    {
+      "question": "14. How do you handle form data in Express without body-parser?",
+      "options": [
+        "express.urlencoded({extended: true})",
+        "express.form()",
+        "app.parser()",
+        "express.formData()"
+      ],
+      "correctAnswer": "express.urlencoded({extended: true})"
+    },
+    {
+      "question": "15. What HTTP status code should be returned for successful resource creation?",
+      "options": [
+        "200 OK",
+        "201 Created",
+        "204 No Content",
+        "202 Accepted"
+      ],
+      "correctAnswer": "201 Created"
+    },
+    {
+      "question": "16. What is the purpose of JWT (JSON Web Tokens)?",
+      "options": [
+        "To compress JSON data for performance",
+        "To create secure user authentication tokens",
+        "To format JavaScript objects as JSON",
+        "To validate incoming JSON request bodies"
+      ],
+      "correctAnswer": "To create secure user authentication tokens"
+    },
+    {
+      "question": "17. Which Mongoose method finds a single document by ID?",
+      "options": [
+        "Model.queryById()",
+        "Model.selectById()",
+        "Model.findById()",
+        "Model.getById()"
+      ],
+      "correctAnswer": "Model.findById()"
+    },
+    {
+      "question": "18. What is the purpose of express.static() middleware?",
+      "options": [
+        "To generate static HTML from templates",
+        "To serve static files like CSS and images",
+        "To create static database connections",
+        "To prevent dynamic content generation"
+      ],
+      "correctAnswer": "To serve static files like CSS and images"
+    },
+    {
+      "question": "19. What does the cors middleware do?",
+      "options": [
+        "Compresses response objects",
+        "Handles Cross-Origin Resource Sharing",
+        "Creates options for route parameters",
+        "Manages network request retries"
+      ],
+      "correctAnswer": "Handles Cross-Origin Resource Sharing"
+    },
+    {
+      "question": "20. How would you compare a password with its bcrypt hash?",
+      "options": [
+        "bcrypt.verify(password, hash)",
+        "bcrypt.check(password, hash)",
+        "bcrypt.compare(password, hash)",
+        "bcrypt.match(password, hash)"
+      ],
+      "correctAnswer": "bcrypt.compare(password, hash)"
+    },
+    {
+      "question": "21. What's the purpose of the 'next' function in Express middleware?",
+      "options": [
+        "To move to the next request",
+        "To pass control to the next middleware",
+        "To redirect to the next page",
+        "To terminate the current process"
+      ],
+      "correctAnswer": "To pass control to the next middleware"
+    },
+    {
+      "question": "22. What is an Express.js route?",
+      "options": [
+        "A path connecting databases",
+        "An endpoint that handles HTTP requests",
+        "A way to navigate between pages",
+        "A connection between components"
+      ],
+      "correctAnswer": "An endpoint that handles HTTP requests"
+    },
+    {
+      "question": "23. Which HTTP method is idempotent?",
+      "options": [
+        "POST",
+        "GET",
+        "PATCH",
+        "DELETE"
+      ],
+      "correctAnswer": "GET"
+    },
+    {
+      "question": "24. What's the purpose of express.json() middleware?",
+      "options": [
+        "To create JSON web tokens",
+        "To validate JSON data structures",
+        "To parse incoming JSON request bodies",
+        "To convert responses to JSON format"
+      ],
+      "correctAnswer": "To parse incoming JSON request bodies"
+    },
+    {
+      "question": "25. Which package handles file uploads in Express applications?",
+      "options": [
+        "express-upload",
+        "multer",
+        "filestream",
+        "upload-handler"
+      ],
+      "correctAnswer": "multer"
+    },
+    {
+      "question": "26. What is the Model in the MVC pattern?",
+      "options": [
+        "A representation of database structure",
+        "The server configuration file",
+        "The user interface components",
+        "A visualization of application data"
+      ],
+      "correctAnswer": "A representation of database structure"
+    },
+    {
+      "question": "27. How do you access query parameters in Express.js?",
+      "options": [
+        "req.parameters",
+        "req.query",
+        "req.queryParams",
+        "req.args"
+      ],
+      "correctAnswer": "req.query"
+    },
+    {
+      "question": "28. Which of these is NOT a Mongoose hook?",
+      "options": [
+        "pre",
+        "post",
+        "during",
+        "validate"
+      ],
+      "correctAnswer": "during"
+    },
+    {
+      "question": "29. What is the purpose of the cookie-parser middleware?",
+      "options": [
+        "To bake HTTP cookies on the server",
+        "To parse Cookie header and populate req.cookies",
+        "To encrypt cookies for secure transmission",
+        "To validate cookie formats and structures"
+      ],
+      "correctAnswer": "To parse Cookie header and populate req.cookies"
+    },
+    {
+      "question": "30. What is the difference between PUT and PATCH methods?",
+      "options": [
+        "PUT creates new resources, PATCH updates",
+        "PUT updates whole resources, PATCH updates parts",
+        "PUT is secure, PATCH is not encrypted",
+        "PUT is for documents, PATCH for databases"
+      ],
+      "correctAnswer": "PUT updates whole resources, PATCH updates parts"
+    },
+    {
+      "question": "31. How would you set a cookie in Express?",
+      "options": [
+        "req.cookie('name', 'value')",
+        "res.cookie('name', 'value')",
+        "req.setCookie('name', 'value')",
+        "res.addCookie('name', 'value')"
+      ],
+      "correctAnswer": "res.cookie('name', 'value')"
+    },
+    {
+      "question": "32. What is a MongoDB collection?",
+      "options": [
+        "An index of documents",
+        "A group of database queries",
+        "A table of related documents",
+        "A set of database connections"
+      ],
+      "correctAnswer": "A table of related documents"
+    },
+    {
+      "question": "33. Which of these is NOT a valid HTTP status code?",
+      "options": [
+        "200 OK",
+        "201 Created",
+        "404 Not Found",
+        "600 Server Error"
+      ],
+      "correctAnswer": "600 Server Error"
+    },
+    {
+      "question": "34. What's the purpose of the validate() method in Mongoose?",
+      "options": [
+        "To check user credentials",
+        "To verify API calls are authorized",
+        "To ensure document fields meet requirements",
+        "To confirm database connectivity"
+      ],
+      "correctAnswer": "To ensure document fields meet requirements"
+    },
+    {
+      "question": "35. How do you define required fields in a Mongoose schema?",
+      "options": [
+        "{name: {type: String, needed: true}}",
+        "{name: {type: String, required: true}}",
+        "{name: {type: String, mandatory: true}}",
+        "{name: String, required()}"
+      ],
+      "correctAnswer": "{name: {type: String, required: true}}"
+    },
+    {
+      "question": "36. What is the main purpose of the .env file?",
+      "options": [
+        "To list project dependencies",
+        "To store environment-specific variables",
+        "To document API endpoints",
+        "To configure build processes"
+      ],
+      "correctAnswer": "To store environment-specific variables"
+    },
+    {
+      "question": "37. What is express-session used for?",
+      "options": [
+        "To track user activities",
+        "To create persistent session data",
+        "To log session performance metrics",
+        "To extend Express response objects"
+      ],
+      "correctAnswer": "To create persistent session data"
+    },
+    {
+      "question": "38. What is Mongoose's populate() method used for?",
+      "options": [
+        "To fill a database with initial data",
+        "To add fields dynamically to schemas",
+        "To replace references with actual documents",
+        "To generate sample data for testing"
+      ],
+      "correctAnswer": "To replace references with actual documents"
+    },
+    {
+      "question": "39. What is REST in the context of APIs?",
+      "options": [
+        "Rapid Entity State Transfer",
+        "Representational State Transfer",
+        "Resource Exchange System Technology",
+        "Return Express Server Technology"
+      ],
+      "correctAnswer": "Representational State Transfer"
+    },
+    {
+      "question": "40. Which HTTP method should be used to delete a resource?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correctAnswer": "DELETE"
+    },
+    {
+      "question": "41. What is the helmet middleware used for?",
+      "options": [
+        "To protect against common web vulnerabilities",
+        "To compress HTTP responses",
+        "To cache frequent database queries",
+        "To manage user authentication"
+      ],
+      "correctAnswer": "To protect against common web vulnerabilities"
+    },
+    {
+      "question": "42. What's the purpose of the morgan middleware?",
+      "options": [
+        "To authenticate API requests",
+        "To log HTTP requests",
+        "To parse request bodies",
+        "To compress response data"
+      ],
+      "correctAnswer": "To log HTTP requests"
+    },
+    {
+      "question": "43. How is the MongoDB ObjectId typically structured?",
+      "options": [
+        "A UUID generated by the client",
+        "An auto-incrementing integer",
+        "A 12-byte value with timestamp and identifiers",
+        "A hash of the document's contents"
+      ],
+      "correctAnswer": "A 12-byte value with timestamp and identifiers"
+    },
+    {
+      "question": "44. What is middleware error handling in Express?",
+      "options": [
+        "Using try-catch in route handlers",
+        "A function with (err, req, res, next) parameters",
+        "Implementing global event listeners",
+        "Adding error properties to response objects"
+      ],
+      "correctAnswer": "A function with (err, req, res, next) parameters"
+    },
+    {
+      "question": "45. What is the purpose of bcrypt's salt rounds?",
+      "options": [
+        "To limit login attempts",
+        "To determine the complexity of the hash",
+        "To set password expiration periods",
+        "To generate random security questions"
+      ],
+      "correctAnswer": "To determine the complexity of the hash"
+    },
+    {
+      "question": "46. What is the correct way to handle async errors in Express routes?",
+      "options": [
+        "Use global error handlers",
+        "Wrap route handlers in try-catch blocks",
+        "Use the express-async-errors package",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above"
+    },
+    {
+      "question": "47. What does the HTTP status code 403 represent?",
+      "options": [
+        "Not Found",
+        "Unauthorized",
+        "Forbidden",
+        "Bad Request"
+      ],
+      "correctAnswer": "Forbidden"
+    },
+    {
+      "question": "48. How would you implement rate limiting in Express?",
+      "options": [
+        "Using the rate-limit middleware",
+        "Setting maximum connections in server config",
+        "Adding timeout functions to routes",
+        "Using the express-throttle package"
+      ],
+      "correctAnswer": "Using the rate-limit middleware"
+    },
+    {
+      "question": "49. What is the difference between authentication and authorization?",
+      "options": [
+        "Authentication verifies identity, authorization checks permissions",
+        "Authentication is automatic, authorization is manual",
+        "Authentication is for APIs, authorization for users",
+        "Authentication uses tokens, authorization uses passwords"
+      ],
+      "correctAnswer": "Authentication verifies identity, authorization checks permissions"
+    },
+    {
+      "question": "50. What is a virtual in Mongoose schemas?",
+      "options": [
+        "A temporary field that exists during requests",
+        "A field that exists in schema but not in database",
+        "A placeholder for future schema additions",
+        "An encrypted field for secure storage"
+      ],
+      "correctAnswer": "A field that exists in schema but not in database"
+    },
+    {
+      "question": "51. Which HTTP method is used for partial updates?",
+      "options": [
+        "POST",
+        "PUT",
+        "PATCH",
+        "UPDATE"
+      ],
+      "correctAnswer": "PATCH"
+    },
+    {
+      "question": "52. How do you hash a password with bcrypt?",
+      "options": [
+        "bcrypt.encode(password, saltRounds)",
+        "bcrypt.hash(password, saltRounds)",
+        "bcrypt.encrypt(password, saltRounds)",
+        "bcrypt.secure(password, saltRounds)"
+      ],
+      "correctAnswer": "bcrypt.hash(password, saltRounds)"
+    },
+    {
+      "question": "53. What is the purpose of Mongoose middleware?",
+      "options": [
+        "To connect Express with MongoDB",
+        "To execute code before or after operations",
+        "To validate incoming HTTP requests",
+        "To compress database responses"
+      ],
+      "correctAnswer": "To execute code before or after operations"
+    },
+    {
+      "question": "54. How would you implement API versioning in Express?",
+      "options": [
+        "Adding version numbers to file names",
+        "Using URL paths like /api/v1/resource",
+        "Setting version headers in requests",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above"
+    },
+    {
+      "question": "55. What is the purpose of the res.locals object in Express?",
+      "options": [
+        "To store local files for download",
+        "To cache frequently used responses",
+        "To pass variables to templates and subsequent middleware",
+        "To store user session information"
+      ],
+      "correctAnswer": "To pass variables to templates and subsequent middleware"
+    },
+    {
+      "question": "56. What does app.use() do in Express?",
+      "options": [
+        "Configures database connections",
+        "Mounts middleware functions",
+        "Defines environment variables",
+        "Creates application instances"
+      ],
+      "correctAnswer": "Mounts middleware functions"
+    },
+    {
+      "question": "57. What is the purpose of a Controller in MVC architecture?",
+      "options": [
+        "To represent data structure",
+        "To display information to users",
+        "To handle user requests and business logic",
+        "To manage database connections"
+      ],
+      "correctAnswer": "To handle user requests and business logic"
+    },
+    {
+      "question": "58. How do you validate incoming data in an Express application?",
+      "options": [
+        "Using the express-validate package",
+        "Using express-validator middleware",
+        "Using built-in Express validation",
+        "Using the validate.js library"
+      ],
+      "correctAnswer": "Using express-validator middleware"
+    },
+    {
+      "question": "59. What is the purpose of the cors middleware options?",
+      "options": [
+        "To specify which origins can access resources",
+        "To configure database connection settings",
+        "To define API authentication methods",
+        "To set response content types"
+      ],
+      "correctAnswer": "To specify which origins can access resources"
+    },
+    {
+      "question": "60. What are JSON Web Tokens typically used for?",
+      "options": [
+        "Storing user preferences",
+        "Authentication and authorization",
+        "Database encryption",
+        "API documentation"
+      ],
+      "correctAnswer": "Authentication and authorization"
+    },
+    {
+      "question": "61. Which module would you use for password hashing?",
+      "options": [
+        "crypto",
+        "hash-js",
+        "bcrypt",
+        "password-secure"
+      ],
+      "correctAnswer": "bcrypt"
+    },
+    {
+      "question": "62. What HTTP method would you use to update an entire resource?",
+      "options": [
+        "POST",
+        "PATCH",
+        "PUT",
+        "UPDATE"
+      ],
+      "correctAnswer": "PUT"
+    },
+    {
+      "question": "63. What is middleware chaining in Express?",
+      "options": [
+        "Using multiple databases sequentially",
+        "Passing requests through multiple middleware functions",
+        "Connecting multiple Express applications",
+        "Creating chains of error handlers"
+      ],
+      "correctAnswer": "Passing requests through multiple middleware functions"
+    },
+    {
+      "question": "64. How would you implement pagination in a MongoDB query?",
+      "options": [
+        "Using the paginate() method",
+        "Using skip() and limit() methods",
+        "Using the page() and size() methods",
+        "Using the slice() method"
+      ],
+      "correctAnswer": "Using skip() and limit() methods"
+    },
+    {
+      "question": "65. What is the primary purpose of the .gitignore file in a Node.js project?",
+      "options": [
+        "To list files that need security auditing",
+        "To specify files that should not be tracked by Git",
+        "To identify files needing compression",
+        "To mark files for production deployment"
+      ],
+      "correctAnswer": "To specify files that should not be tracked by Git"
+    },
+    {
+      "question": "66. What is the stale-while-revalidate caching strategy?",
+      "options": [
+        "Never using cached data",
+        "Serving stale data while fetching fresh data",
+        "Always validating before using cache",
+        "Using stale data only during server errors"
+      ],
+      "correctAnswer": "Serving stale data while fetching fresh data"
+    },
+    {
+      "question": "67. How would you secure cookies in Express?",
+      "options": [
+        "Using the secure and httpOnly flags",
+        "Encrypting cookie contents",
+        "Setting short expiration times",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above"
+    },
+    {
+      "question": "68. What is a Mongoose Schema?",
+      "options": [
+        "A MongoDB database structure",
+        "A blueprint for MongoDB documents",
+        "A REST API documentation",
+        "An authentication strategy"
+      ],
+      "correctAnswer": "A blueprint for MongoDB documents"
+    },
+    {
+      "question": "69. What does the HTTP status code 401 represent?",
+      "options": [
+        "Bad Request",
+        "Unauthorized",
+        "Payment Required",
+        "Forbidden"
+      ],
+      "correctAnswer": "Unauthorized"
+    },
+    {
+      "question": "70. What is the purpose of the express-rate-limit package?",
+      "options": [
+        "To improve server response times",
+        "To limit repeated requests to endpoints",
+        "To reduce database query frequency",
+        "To compress HTTP responses"
+      ],
+      "correctAnswer": "To limit repeated requests to endpoints"
+    },
+    {
+      "question": "71. Which of these is NOT a valid way to connect to MongoDB?",
+      "options": [
+        "Using the MongoDB driver directly",
+        "Using Mongoose",
+        "Using express-mongo",
+        "Using MongoDB Atlas connection string"
+      ],
+      "correctAnswer": "Using express-mongo"
+    },
+    {
+      "question": "72. What is the purpose of index in MongoDB?",
+      "options": [
+        "To identify collections",
+        "To improve query performance",
+        "To link related documents",
+        "To compress document storage"
+      ],
+      "correctAnswer": "To improve query performance"
+    },
+    {
+      "question": "73. How would you implement input validation in Express?",
+      "options": [
+        "Using the express.validate() middleware",
+        "Using Joi or express-validator",
+        "Using built-in Express validation methods",
+        "Using MongoDB schema validation only"
+      ],
+      "correctAnswer": "Using Joi or express-validator"
+    },
+    {
+      "question": "74. What is the purpose of Mongoose's findOneAndUpdate()?",
+      "options": [
+        "To find and update multiple documents",
+        "To find a document and update it atomically",
+        "To update database configuration",
+        "To update indexes after finding duplicates"
+      ],
+      "correctAnswer": "To find a document and update it atomically"
+    },
+    {
+      "question": "75. Which Express method matches all HTTP verbs?",
+      "options": [
+        "app.use()",
+        "app.all()",
+        "app.every()",
+        "app.match()"
+      ],
+      "correctAnswer": "app.all()"
+    },
+    {
+      "question": "76. What is the JWT structure?",
+      "options": [
+        "Header, Claims, Signature",
+        "Header, Payload, Signature",
+        "Prefix, Body, Verification",
+        "Algorithm, Data, Hash"
+      ],
+      "correctAnswer": "Header, Payload, Signature"
+    },
+    {
+      "question": "77. What is a session cookie?",
+      "options": [
+        "A cookie that expires when browser closes",
+        "A cookie used only during login sessions",
+        "A cookie with sensitive user information",
+        "A cookie with the session ID"
+      ],
+      "correctAnswer": "A cookie that expires when browser closes"
+    },
+    {
+      "question": "78. Which package helps in securing your Express apps?",
+      "options": [
+        "express-safe",
+        "helmet",
+        "shield",
+        "express-protector"
+      ],
+      "correctAnswer": "helmet"
+    },
+    {
+      "question": "79. What is the purpose of the compression middleware?",
+      "options": [
+        "To reduce database size",
+        "To compress HTTP responses",
+        "To minimize JavaScript files",
+        "To package applications for deployment"
+      ],
+      "correctAnswer": "To compress HTTP responses"
+    },
+    {
+      "question": "80. What is MongoDB's replica set used for?",
+      "options": [
+        "Distributing database queries",
+        "Creating multiple database copies",
+        "Providing high availability and redundancy",
+        "Separating read and write operations"
+      ],
+      "correctAnswer": "Providing high availability and redundancy"
+    },
+    {
+      "question": "81. What is the proper way to store JWT tokens?",
+      "options": [
+        "In local storage",
+        "In HTTP-only cookies",
+        "In the database with user records",
+        "In session variables"
+      ],
+      "correctAnswer": "In HTTP-only cookies"
+    },
+    {
+      "question": "82. What is the purpose of express.urlencoded()?",
+      "options": [
+        "To encode URLs for secure transmission",
+        "To parse URL-encoded form data",
+        "To validate URL parameters",
+        "To create SEO-friendly URLs"
+      ],
+      "correctAnswer": "To parse URL-encoded form data"
+    },
+    {
+      "question": "83. Which of these is NOT a valid Mongoose schema type?",
+      "options": [
+        "String",
+        "Number",
+        "Boolean",
+        "Char"
+      ],
+      "correctAnswer": "Char"
+    },
+    {
+      "question": "84. What does Model.create() do in Mongoose?",
+      "options": [
+        "Creates a new database",
+        "Creates and saves a document",
+        "Creates a new schema",
+        "Creates a model template"
+      ],
+      "correctAnswer": "Creates and saves a document"
+    },
+    {
+      "question": "85. Which HTTP status code is used for server errors?",
+      "options": [
+        "400 range",
+        "500 range",
+        "300 range",
+        "200 range"
+      ],
+      "correctAnswer": "500 range"
+    },
+    {
+      "question": "86. What is the main difference between cookies and JWT tokens?",
+      "options": [
+        "Cookies are stored client-side, JWT tokens server-side",
+        "JWT tokens are self-contained, cookies reference server data",
+        "Cookies are encrypted, JWT tokens are not",
+        "JWT tokens expire automatically, cookies don't"
+      ],
+      "correctAnswer": "JWT tokens are self-contained, cookies reference server data"
+    },
+    {
+      "question": "87. What's the most secure way to store environment variables?",
+      "options": [
+        "In the package.json file",
+        "In a .env file not committed to version control",
+        "Directly in application code",
+        "In the database configuration"
+      ],
+      "correctAnswer": "In a .env file not committed to version control"
+    },
+    {
+      "question": "88. What is Cross-Site Request Forgery (CSRF)?",
+      "options": [
+        "When attackers create duplicate websites",
+        "Forcing users to execute unwanted actions",
+        "Injecting malicious code into web pages",
+        "Overloading servers with repeated requests"
+      ],
+      "correctAnswer": "Forcing users to execute unwanted actions"
+    },
+    {
+      "question": "89. What is the purpose of the express-async-handler package?",
+      "options": [
+        "To simplify error handling in async routes",
+        "To improve performance of asynchronous code",
+        "To create async middleware functions",
+        "To monitor asynchronous operations"
+      ],
+      "correctAnswer": "To simplify error handling in async routes"
+    },
+    {
+      "question": "90. What is NoSQL injection?",
+      "options": [
+        "Adding new fields to MongoDB documents",
+        "Exploiting vulnerabilities in MongoDB queries",
+        "Inserting JavaScript into NoSQL databases",
+        "Creating multiple collections automatically"
+      ],
+      "correctAnswer": "Exploiting vulnerabilities in MongoDB queries"
+    },
+    {
+      "question": "91. How can you prevent MongoDB injection attacks?",
+      "options": [
+        "Using MongoDB Enterprise edition",
+        "Validating and sanitizing user inputs",
+        "Disabling JavaScript execution",
+        "Using SSL for database connections"
+      ],
+      "correctAnswer": "Validating and sanitizing user inputs"
+    },
+    {
+      "question": "92. What is the role of the Routes in MVC architecture?",
+      "options": [
+        "To display information to users",
+        "To process and validate all data",
+        "To direct requests to appropriate controllers",
+        "To interact with the database"
+      ],
+      "correctAnswer": "To direct requests to appropriate controllers"
+    },
+    {
+      "question": "94. Which npm command is used to install a package and save it as a dependency?",
+      "options": [
+        "npm install packageName --save",
+        "npm install packageName --save-dev",
+        "npm add packageName",
+        "npm get packageName"
+      ],
+      "correctAnswer": "npm install packageName --save"
+    },
+    {
+      "question": "95. What does 'npm start' typically do in a Node.js application?",
+      "options": [
+        "Runs the application using the start script defined in package.json",
+        "Installs dependencies",
+        "Starts the database",
+        "Clears the cache"
+      ],
+      "correctAnswer": "Runs the application using the start script defined in package.json"
+    },
+    {
+      "question": "96. Which tool is used to automatically restart a Node.js server during development?",
+      "options": [
+        "nodemon",
+        "pm2",
+        "forever",
+        "systemctl"
+      ],
+      "correctAnswer": "nodemon"
+    },
+    {
+      "question": "97. What is the purpose of using promises in JavaScript?",
+      "options": [
+        "To handle asynchronous operations",
+        "To manage synchronous code",
+        "To create new objects",
+        "To define classes"
+      ],
+      "correctAnswer": "To handle asynchronous operations"
+    },
+    {
+      "question": "98. What is the advantage of using async/await over traditional promises?",
+      "options": [
+        "Simpler and more readable asynchronous code",
+        "Faster execution",
+        "Better memory management",
+        "Automatic error logging"
+      ],
+      "correctAnswer": "Simpler and more readable asynchronous code"
+    },
+    {
+      "question": "99. Which package is used to connect an Express application to MongoDB?",
+      "options": [
+        "mongoose",
+        "mongodb",
+        "express-mongo",
+        "mongojs"
+      ],
+      "correctAnswer": "mongoose"
+    },
+    {
+      "question": "100. What is a schema in Mongoose?",
+      "options": [
+        "A blueprint for the structure of a document",
+        "A query builder",
+        "A connection manager",
+        "A middleware function"
+      ],
+      "correctAnswer": "A blueprint for the structure of a document"
+    }
+  ]

@@ -1,0 +1,1002 @@
+[
+    {
+        "question": "1. What is a functional component in React?",
+        "options": [
+            "A JavaScript function returning JSX",
+            "A class-based component design",
+            "A direct DOM manipulation method",
+            "A CSS styling approach only"
+        ],
+        "correctAnswer": "A JavaScript function returning JSX"
+    },
+    {
+        "question": "2. What is the purpose of props in React?",
+        "options": [
+            "To pass data from parent to child",
+            "To manage internal component state",
+            "To handle lifecycle events automatically",
+            "To style components with dynamic CSS"
+        ],
+        "correctAnswer": "To pass data from parent to child"
+    },
+    {
+        "question": "3. What are children in React?",
+        "options": [
+            "Elements passed between component tags",
+            "Components rendered by routers",
+            "Functions returning component JSX",
+            "Hooks managing component logic"
+        ],
+        "correctAnswer": "Elements passed between component tags"
+    },
+    {
+        "question": "4. How do you pass children in a component?",
+        "options": [
+            "By placing elements between opening and closing tags",
+            "By using a dedicated children prop only",
+            "By importing child modules explicitly",
+            "By wrapping components in higher order functions"
+        ],
+        "correctAnswer": "By placing elements between opening and closing tags"
+    },
+    {
+        "question": "5. What is state in React?",
+        "options": [
+            "An object that holds dynamic component data",
+            "A function that returns HTML markup",
+            "A method to pass data among siblings",
+            "A technique for styling component layouts"
+        ],
+        "correctAnswer": "An object that holds dynamic component data"
+    },
+    {
+        "question": "6. How do you update state in React?",
+        "options": [
+            "Using setter functions provided by useState",
+            "By directly modifying the state object",
+            "By reassigning the state variable directly",
+            "By triggering lifecycle methods manually"
+        ],
+        "correctAnswer": "Using setter functions provided by useState"
+    },
+    {
+        "question": "7. What is the useState hook used for?",
+        "options": [
+            "To manage local state in functional components",
+            "To perform side effects after render cycles",
+            "To access context values in the component",
+            "To create references for DOM elements"
+        ],
+        "correctAnswer": "To manage local state in functional components"
+    },
+    {
+        "question": "8. What is the purpose of the useEffect hook?",
+        "options": [
+            "To handle side effects after component renders",
+            "To update state synchronously within components",
+            "To pass props from parent to child elements",
+            "To define inline styles for JSX elements"
+        ],
+        "correctAnswer": "To handle side effects after component renders"
+    },
+    {
+        "question": "9. How does the dependency array in useEffect work?",
+        "options": [
+            "It specifies when the effect should re-run",
+            "It holds previous state values for reference",
+            "It stores event handlers for later use",
+            "It passes props automatically to child components"
+        ],
+        "correctAnswer": "It specifies when the effect should re-run"
+    },
+    {
+        "question": "10. What is React Router used for?",
+        "options": [
+            "To manage navigation and routing in applications",
+            "To update component state dynamically on events",
+            "To handle API requests using axios calls",
+            "To style components with CSS modules only"
+        ],
+        "correctAnswer": "To manage navigation and routing in applications"
+    },
+    {
+        "question": "11. What are protected routes in React Router?",
+        "options": [
+            "Routes accessible only to authenticated users",
+            "Routes that handle data fetching securely",
+            "Routes that manage state with hooks only",
+            "Routes that implement error boundaries automatically"
+        ],
+        "correctAnswer": "Routes accessible only to authenticated users"
+    },
+    {
+        "question": "12. How do you perform conditional rendering in React?",
+        "options": [
+            "Using JavaScript conditional operators within JSX",
+            "By directly modifying the DOM based on conditions",
+            "By switching CSS classes dynamically on events",
+            "Using lifecycle methods to update the UI"
+        ],
+        "correctAnswer": "Using JavaScript conditional operators within JSX"
+    },
+    {
+        "question": "13. What is JSX in React?",
+        "options": [
+            "A syntax extension that resembles HTML in JavaScript",
+            "A state management library for components only",
+            "A routing library for single page applications",
+            "A module bundler for JavaScript projects"
+        ],
+        "correctAnswer": "A syntax extension that resembles HTML in JavaScript"
+    },
+    {
+        "question": "14. How do you export a component in React?",
+        "options": [
+            "By using export or export default statements",
+            "By registering the component in the router",
+            "By adding it to the global state object",
+            "By importing it into the App component only"
+        ],
+        "correctAnswer": "By using export or export default statements"
+    },
+    {
+        "question": "15. What is the app entry point in a React application?",
+        "options": [
+            "The main file that renders the root component, typically index.js",
+            "The first component imported in every module file",
+            "The component that handles API requests directly",
+            "The file that manages all component state updates"
+        ],
+        "correctAnswer": "The main file that renders the root component, typically index.js"
+    },
+    {
+        "question": "16. What is the component lifecycle in functional components?",
+        "options": [
+            "Managed through hooks like useEffect for side effects",
+            "Defined by constructor and render methods in classes",
+            "Handled by higher order components automatically",
+            "Configured via React Router properties only"
+        ],
+        "correctAnswer": "Managed through hooks like useEffect for side effects"
+    },
+    {
+        "question": "17. How does inverse data flow work in React?",
+        "options": [
+            "Data flows upward through callbacks from child to parent",
+            "Data flows directly between sibling components only",
+            "Data is passed using global variables entirely",
+            "Data flows from parent to child using props solely"
+        ],
+        "correctAnswer": "Data flows upward through callbacks from child to parent"
+    },
+    {
+        "question": "18. What is the Context API used for?",
+        "options": [
+            "To share data globally without prop drilling issues",
+            "To manage local state within individual components",
+            "To define custom hooks for API data requests",
+            "To manage routing logic across the entire app"
+        ],
+        "correctAnswer": "To share data globally without prop drilling issues"
+    },
+    {
+        "question": "19. How do you provide context to components?",
+        "options": [
+            "By wrapping components with a Context Provider component",
+            "By passing context as a prop to each individual component",
+            "By importing context directly in every module file",
+            "By defining context in the component state object"
+        ],
+        "correctAnswer": "By wrapping components with a Context Provider component"
+    },
+    {
+        "question": "20. What does the useContext hook do?",
+        "options": [
+            "It allows components to consume context values directly",
+            "It creates a new context for component state only",
+            "It synchronizes state across multiple component levels",
+            "It passes props from parent to child automatically"
+        ],
+        "correctAnswer": "It allows components to consume context values directly"
+    },
+    {
+        "question": "21. How do you fetch data with axios in React?",
+        "options": [
+            "By making HTTP requests inside useEffect and updating state",
+            "By calling axios directly in the render method always",
+            "By using axios in the component constructor only",
+            "By importing axios globally and using it in JSX"
+        ],
+        "correctAnswer": "By making HTTP requests inside useEffect and updating state"
+    },
+    {
+        "question": "22. What is a Higher Order Component (HOC)?",
+        "options": [
+            "A function that takes a component and returns a new component",
+            "A component that manages its own state exclusively",
+            "A module that exports several React components",
+            "A hook that enhances component performance directly"
+        ],
+        "correctAnswer": "A function that takes a component and returns a new component"
+    },
+    {
+        "question": "23. What is a render prop in React?",
+        "options": [
+            "A technique for sharing code using a prop that is a function",
+            "A property that defines a component’s initial state",
+            "A method to pass JSX elements as standard props",
+            "A function that handles lifecycle events automatically"
+        ],
+        "correctAnswer": "A technique for sharing code using a prop that is a function"
+    },
+    {
+        "question": "24. How do you lift state up in React?",
+        "options": [
+            "By moving shared state to the nearest common ancestor component",
+            "By copying state from one component to another directly",
+            "By storing state in a global variable for all components",
+            "By using the Context API exclusively for state transfer"
+        ],
+        "correctAnswer": "By moving shared state to the nearest common ancestor component"
+    },
+    {
+        "question": "25. What is the role of keys in lists?",
+        "options": [
+            "To uniquely identify list elements for efficient updates",
+            "To define the display order of list items strictly",
+            "To store data associated with each individual list item",
+            "To style list elements with unique CSS selectors"
+        ],
+        "correctAnswer": "To uniquely identify list elements for efficient updates"
+    },
+    {
+        "question": "26. How do you handle events in React?",
+        "options": [
+            "By using event handler functions passed as props from parents",
+            "By directly attaching events to DOM nodes in JSX",
+            "By using inline JavaScript inside HTML without JSX",
+            "By defining event listeners in the component constructor"
+        ],
+        "correctAnswer": "By using event handler functions passed as props from parents"
+    },
+    {
+        "question": "27. What is the virtual DOM in React?",
+        "options": [
+            "A lightweight representation of the real DOM for efficient updates",
+            "A copy of the DOM stored temporarily in the browser",
+            "An alternative DOM used solely for component styling",
+            "A template system that generates HTML dynamically"
+        ],
+        "correctAnswer": "A lightweight representation of the real DOM for efficient updates"
+    },
+    {
+        "question": "28. How does reconciliation work in React?",
+        "options": [
+            "It compares virtual DOM trees to update only changed elements",
+            "It re-renders all components on every state change fully",
+            "It uses the browser’s native diffing algorithm internally",
+            "It optimizes performance by caching static element trees"
+        ],
+        "correctAnswer": "It compares virtual DOM trees to update only changed elements"
+    },
+    {
+        "question": "29. What is a controlled component?",
+        "options": [
+            "A component whose form data is managed by React state exclusively",
+            "A component that handles its own DOM events without state",
+            "A component that does not require any state management",
+            "A component with conditional rendering based on props"
+        ],
+        "correctAnswer": "A component whose form data is managed by React state exclusively"
+    },
+    {
+        "question": "30. What is an uncontrolled component?",
+        "options": [
+            "A component that manages form data directly through the DOM",
+            "A component that uses React state exclusively for inputs",
+            "A component wrapped in a Context Provider for control",
+            "A component that relies on Redux for state management"
+        ],
+        "correctAnswer": "A component that manages form data directly through the DOM"
+    },
+    {
+        "question": "31. What is React.Fragment used for?",
+        "options": [
+            "To group multiple elements without adding extra nodes to the DOM",
+            "To split components into smaller functional parts only",
+            "To define conditional rendering blocks within a component",
+            "To import multiple modules in a single component file"
+        ],
+        "correctAnswer": "To group multiple elements without adding extra nodes to the DOM"
+    },
+    {
+        "question": "32. What are inline styles in JSX?",
+        "options": [
+            "Style definitions written as JavaScript objects within components",
+            "External CSS files imported into component modules",
+            "CSS classes applied via the className attribute only",
+            "Styles defined using styled-components library exclusively"
+        ],
+        "correctAnswer": "Style definitions written as JavaScript objects within components"
+    },
+    {
+        "question": "33. How do you add comments in JSX?",
+        "options": [
+            "By enclosing comments within curly braces and block comment syntax",
+            "By using HTML comment tags directly in JSX markup",
+            "By placing comments outside the return statement in JSX",
+            "By using inline JavaScript comments without enclosing braces"
+        ],
+        "correctAnswer": "By enclosing comments within curly braces and block comment syntax"
+    },
+    {
+        "question": "34. How do you handle form submissions in React?",
+        "options": [
+            "By preventing default behavior and processing data in event handlers",
+            "By using HTML form attributes to submit data automatically",
+            "By reloading the page on form submission every time",
+            "By binding form actions inside the component constructor"
+        ],
+        "correctAnswer": "By preventing default behavior and processing data in event handlers"
+    },
+    {
+        "question": "35. What is the significance of the useMemo hook?",
+        "options": [
+            "To memoize expensive computations and optimize performance",
+            "To manage component state in a more efficient manner",
+            "To handle asynchronous API calls within functional components",
+            "To synchronize component props with local state changes"
+        ],
+        "correctAnswer": "To memoize expensive computations and optimize performance"
+    },
+    {
+        "question": "36. How does useCallback improve performance?",
+        "options": [
+            "By memoizing callback functions to prevent unnecessary re-renders",
+            "By caching component state values between render cycles",
+            "By preventing memory leaks through delayed function calls",
+            "By synchronizing context updates across multiple components"
+        ],
+        "correctAnswer": "By memoizing callback functions to prevent unnecessary re-renders"
+    },
+    {
+        "question": "37. What are custom hooks in React?",
+        "options": [
+            "Reusable functions that encapsulate stateful logic using hooks",
+            "Components that extend React’s built-in functionality only",
+            "Built-in hooks provided by the React library itself",
+            "Higher order components that wrap standard hook calls"
+        ],
+        "correctAnswer": "Reusable functions that encapsulate stateful logic using hooks"
+    },
+    {
+        "question": "38. How do you handle errors with Error Boundaries?",
+        "options": [
+            "By creating a class component with componentDidCatch and getDerivedStateFromError",
+            "By using useEffect to catch errors during rendering cycles",
+            "By wrapping components with a dedicated useError hook function",
+            "By importing error handlers from a third-party utility library"
+        ],
+        "correctAnswer": "By creating a class component with componentDidCatch and getDerivedStateFromError"
+    },
+    {
+        "question": "39. What is React.lazy used for?",
+        "options": [
+            "To enable code-splitting by lazy loading components when needed",
+            "To manage component state more efficiently with hooks",
+            "To perform side effects immediately after component renders",
+            "To define inline styling for components dynamically"
+        ],
+        "correctAnswer": "To enable code-splitting by lazy loading components when needed"
+    },
+    {
+        "question": "40. What is Suspense in React?",
+        "options": [
+            "A component that displays a fallback UI while lazy-loaded components load",
+            "A hook that delays state updates during asynchronous tasks",
+            "A utility for handling asynchronous events in component logic",
+            "A method for defining protected routes within the application"
+        ],
+        "correctAnswer": "A component that displays a fallback UI while lazy-loaded components load"
+    },
+    {
+        "question": "41. How do you optimize performance in React apps?",
+        "options": [
+            "By using memoization, lazy loading, and efficient state management",
+            "By reloading the page frequently during development cycles",
+            "By avoiding the use of hooks in functional components entirely",
+            "By directly manipulating the DOM for faster updates"
+        ],
+        "correctAnswer": "By using memoization, lazy loading, and efficient state management"
+    },
+    {
+        "question": "42. What is the purpose of prop-types in React?",
+        "options": [
+            "To validate props and enforce type checking in components",
+            "To manage component state and handle side effects properly",
+            "To style components using CSS-in-JS techniques effectively",
+            "To define component lifecycle methods and state transitions"
+        ],
+        "correctAnswer": "To validate props and enforce type checking in components"
+    },
+    {
+        "question": "43. What is a stateful component?",
+        "options": [
+            "A component that manages and updates its own state internally",
+            "A component that only renders static content without state",
+            "A component that relies solely on props for all its data",
+            "A component without any built-in lifecycle methods at all"
+        ],
+        "correctAnswer": "A component that manages and updates its own state internally"
+    },
+    {
+        "question": "44. How do you structure component hierarchy in React?",
+        "options": [
+            "By organizing components in a tree with clear parent-child relationships",
+            "By using a flat file structure without any component nesting",
+            "By creating multiple entry points for each individual component",
+            "By using external libraries to manage component ordering only"
+        ],
+        "correctAnswer": "By organizing components in a tree with clear parent-child relationships"
+    },
+    {
+        "question": "45. What is the difference between client-side and server-side rendering in React?",
+        "options": [
+            "Client-side rendering happens in the browser, while server-side occurs on the server",
+            "Client-side rendering uses hooks, whereas server-side uses class methods",
+            "Client-side rendering is always slower than server-side rendering processes",
+            "Client-side rendering does not support JSX, unlike server-side methods"
+        ],
+        "correctAnswer": "Client-side rendering happens in the browser, while server-side occurs on the server"
+    },
+    {
+        "question": "46. How is data passed from child to parent in React?",
+        "options": [
+            "By using callback functions passed as props from the parent component",
+            "By directly modifying the parent’s state from the child component",
+            "By using the Context API exclusively for upward data flow",
+            "By importing parent components within child module files"
+        ],
+        "correctAnswer": "By using callback functions passed as props from the parent component"
+    },
+    {
+        "question": "47. What is a functional update in useState?",
+        "options": [
+            "An update that uses a function to calculate the new state value",
+            "An update that directly replaces the entire state object",
+            "An update that merges new state with previous state values",
+            "An update triggered by component lifecycle events only"
+        ],
+        "correctAnswer": "An update that uses a function to calculate the new state value"
+    },
+    {
+        "question": "48. How do you perform cleanup in useEffect?",
+        "options": [
+            "By returning a cleanup function from the effect callback function",
+            "By calling setState with null immediately after the effect",
+            "By using a dedicated cleanup hook after component rendering",
+            "By manually removing event listeners inside the constructor"
+        ],
+        "correctAnswer": "By returning a cleanup function from the effect callback function"
+    },
+    {
+        "question": "49. What is the useRef hook used for?",
+        "options": [
+            "To create a mutable reference that persists across component renders",
+            "To manage component state in functional components exclusively",
+            "To trigger re-renders when state values are updated dynamically",
+            "To handle asynchronous API calls within the component body"
+        ],
+        "correctAnswer": "To create a mutable reference that persists across component renders"
+    },
+    {
+        "question": "50. What is the purpose of the useReducer hook?",
+        "options": [
+            "To manage complex state logic using a reducer function pattern",
+            "To update state using multiple setState calls in sequence",
+            "To memoize state values for performance improvements only",
+            "To create a global state without using the Context API"
+        ],
+        "correctAnswer": "To manage complex state logic using a reducer function pattern"
+    },
+    {
+        "question": "51. What is a context consumer in React?",
+        "options": [
+            "A component that subscribes to context changes via the Consumer element",
+            "A hook that provides default context state values only",
+            "A function that creates new context objects for components",
+            "A method to directly manipulate context data within components"
+        ],
+        "correctAnswer": "A component that subscribes to context changes via the Consumer element"
+    },
+    {
+        "question": "52. How do you memoize a component with React.memo?",
+        "options": [
+            "By wrapping a component with React.memo to avoid unnecessary re-renders",
+            "By using the useMemo hook inside the component for caching",
+            "By implementing a shouldComponentUpdate method in class components",
+            "By caching the component output in the global state structure"
+        ],
+        "correctAnswer": "By wrapping a component with React.memo to avoid unnecessary re-renders"
+    },
+    {
+        "question": "53. What is the importance of keys in arrays?",
+        "options": [
+            "To help React identify which items have changed for efficient updates",
+            "To create unique styling identifiers for each list element",
+            "To store component data within array structures securely",
+            "To pass props automatically between list item components"
+        ],
+        "correctAnswer": "To help React identify which items have changed for efficient updates"
+    },
+    {
+        "question": "54. What is a stateless component?",
+        "options": [
+            "A component that does not manage its own state internally",
+            "A component that relies on hooks for all state management",
+            "A component that uses context exclusively for its data needs",
+            "A component that is not exported for use in other modules"
+        ],
+        "correctAnswer": "A component that does not manage its own state internally"
+    },
+    {
+        "question": "55. How do you integrate third-party libraries in React?",
+        "options": [
+            "By importing them into components and using their provided APIs",
+            "By embedding external scripts directly within JSX markup",
+            "By replacing React’s built-in features with library functions",
+            "By modifying the virtual DOM with external library code"
+        ],
+        "correctAnswer": "By importing them into components and using their provided APIs"
+    },
+    {
+        "question": "56. What is the role of the BrowserRouter component in React Router?",
+        "options": [
+            "It enables routing by managing the URL history in a web app",
+            "It handles API requests for dynamic content loading only",
+            "It provides state management for routed components solely",
+            "It styles navigation links with CSS modules automatically"
+        ],
+        "correctAnswer": "It enables routing by managing the URL history in a web app"
+    },
+    {
+        "question": "57. How do you define dynamic routes in React Router?",
+        "options": [
+            "By using route parameters in the path prop of Route components",
+            "By importing dynamic modules directly in the route configuration",
+            "By defining routes in a global configuration object only",
+            "By using state hooks to generate route paths dynamically"
+        ],
+        "correctAnswer": "By using route parameters in the path prop of Route components"
+    },
+    {
+        "question": "58. What is route nesting in React Router?",
+        "options": [
+            "Placing Route components inside other Route components for hierarchy",
+            "Using multiple routers in a single application module only",
+            "Defining separate routing files for each component individually",
+            "Nesting hooks within Route components for complex data flow"
+        ],
+        "correctAnswer": "Placing Route components inside other Route components for hierarchy"
+    },
+    {
+        "question": "59. How do you implement redirection in React Router?",
+        "options": [
+            "By using the Navigate component or history.push method for routing",
+            "By reloading the page with a new URL in the browser",
+            "By using conditional rendering blocks inside the App component",
+            "By modifying the virtual DOM directly during routing events"
+        ],
+        "correctAnswer": "By using the Navigate component or history.push method for routing"
+    },
+    {
+        "question": "60. What is the useHistory hook used for?",
+        "options": [
+            "To access and manipulate the browser history in React Router",
+            "To manage component state during navigation events only",
+            "To synchronize props between parent and child components",
+            "To log routing events within the application automatically"
+        ],
+        "correctAnswer": "To access and manipulate the browser history in React Router"
+    },
+    {
+        "question": "61. What does the useLocation hook do?",
+        "options": [
+            "It provides access to the current URL location object in the router",
+            "It updates component state with route parameters automatically",
+            "It triggers re-renders when the location changes in the browser",
+            "It manages navigation history across multiple route changes"
+        ],
+        "correctAnswer": "It provides access to the current URL location object in the router"
+    },
+    {
+        "question": "62. How do you pass props in a route component?",
+        "options": [
+            "By using the element prop with inline JSX that includes the desired props",
+            "By directly assigning props to the Route component configuration",
+            "By embedding prop values within the URL path string only",
+            "By using a global state management tool to pass route data"
+        ],
+        "correctAnswer": "By using the element prop with inline JSX that includes the desired props"
+    },
+    {
+        "question": "63. What is a fallback UI in Suspense?",
+        "options": [
+            "A placeholder interface shown while a lazy-loaded component is loading",
+            "A default state rendered when data fetching from the API fails",
+            "A temporary component used solely for error handling purposes",
+            "A CSS-styled placeholder for components that are missing data"
+        ],
+        "correctAnswer": "A placeholder interface shown while a lazy-loaded component is loading"
+    },
+    {
+        "question": "64. How do you manage global state in React?",
+        "options": [
+            "By using state management libraries like Redux or the Context API",
+            "By lifting state to the top-level component for global access",
+            "By using multiple useState hooks in each individual component",
+            "By passing state directly through URL parameters and queries"
+        ],
+        "correctAnswer": "By using state management libraries like Redux or the Context API"
+    },
+    {
+        "question": "65. What is Redux in the React ecosystem?",
+        "options": [
+            "A state management library that centralizes application state data",
+            "A routing library that manages navigation history across pages",
+            "A tool for lazy loading components in large applications",
+            "A utility for validating component prop types during runtime"
+        ],
+        "correctAnswer": "A state management library that centralizes application state data"
+    },
+    {
+        "question": "66. How do you connect React with Redux?",
+        "options": [
+            "By using the Provider component to wrap the app and connect functions",
+            "By importing Redux directly into every component module",
+            "By replacing useState hooks with Redux actions entirely",
+            "By defining reducers inside individual component files only"
+        ],
+        "correctAnswer": "By using the Provider component to wrap the app and connect functions"
+    },
+    {
+        "question": "67. What is the useDispatch hook in Redux?",
+        "options": [
+            "A hook to dispatch actions to the Redux store for state updates",
+            "A hook to select state data from the Redux store directly",
+            "A hook to connect components with the Context API seamlessly",
+            "A hook to manage local component state within functional components"
+        ],
+        "correctAnswer": "A hook to dispatch actions to the Redux store for state updates"
+    },
+    {
+        "question": "68. What is the useSelector hook in Redux?",
+        "options": [
+            "A hook to extract specific state data from the Redux store",
+            "A hook to dispatch Redux actions to update component state",
+            "A hook to manage component lifecycle events with Redux",
+            "A hook to create new state slices within a component file"
+        ],
+        "correctAnswer": "A hook to extract specific state data from the Redux store"
+    },
+    {
+        "question": "69. How do you write conditional components in JSX?",
+        "options": [
+            "By using ternary operators or logical && expressions directly in JSX",
+            "By defining separate components for each condition to render",
+            "By using switch-case statements outside of the JSX return block",
+            "By directly modifying the DOM based on condition flags"
+        ],
+        "correctAnswer": "By using ternary operators or logical && expressions directly in JSX"
+    },
+    {
+        "question": "70. What is code splitting in React?",
+        "options": [
+            "A technique to split application code into smaller chunks for performance",
+            "A method to combine multiple components into a single file bundle",
+            "A process for bundling all code into one large file at runtime",
+            "A strategy to handle component state updates asynchronously only"
+        ],
+        "correctAnswer": "A technique to split application code into smaller chunks for performance"
+    },
+    {
+        "question": "71. How do you lazy load a component in React?",
+        "options": [
+            "By using React.lazy and Suspense to load components on demand",
+            "By dynamically importing components inside the render method",
+            "By using useEffect to fetch component modules asynchronously",
+            "By loading components through the Context API on demand"
+        ],
+        "correctAnswer": "By using React.lazy and Suspense to load components on demand"
+    },
+    {
+        "question": "72. What are side effects in React?",
+        "options": [
+            "Operations that affect components outside the scope of rendering",
+            "State changes triggered solely by event handlers in components",
+            "Props updates passed automatically from parent to child only",
+            "Styling modifications done within inline JSX code blocks"
+        ],
+        "correctAnswer": "Operations that affect components outside the scope of rendering"
+    },
+    {
+        "question": "73. How do you handle asynchronous actions in React?",
+        "options": [
+            "By using hooks like useEffect with async functions and state updates",
+            "By synchronously calling API endpoints in the render method",
+            "By using setTimeout to simulate asynchronous behavior only",
+            "By handling all actions directly within the component body always"
+        ],
+        "correctAnswer": "By using hooks like useEffect with async functions and state updates"
+    },
+    {
+        "question": "74. What is the purpose of axios interceptors?",
+        "options": [
+            "To modify requests or responses globally before handling them",
+            "To perform conditional rendering based on API response data",
+            "To manage component state after fetching external data",
+            "To cache API responses for faster retrieval later"
+        ],
+        "correctAnswer": "To modify requests or responses globally before handling them"
+    },
+    {
+        "question": "75. How do you handle errors in axios requests?",
+        "options": [
+            "By using try-catch blocks or .catch() to handle promise rejections",
+            "By ignoring errors to keep the UI responsive at all times",
+            "By relying on React lifecycle methods to catch API errors",
+            "By modifying the virtual DOM to display error messages only"
+        ],
+        "correctAnswer": "By using try-catch blocks or .catch() to handle promise rejections"
+    },
+    {
+        "question": "76. What is CORS in the context of axios?",
+        "options": [
+            "A security feature that restricts cross-origin HTTP requests",
+            "A method for handling asynchronous API calls securely",
+            "A technique to optimize component rendering speed directly",
+            "A tool for managing global state across React components"
+        ],
+        "correctAnswer": "A security feature that restricts cross-origin HTTP requests"
+    },
+    {
+        "question": "77. How do you ensure safe data fetching in React?",
+        "options": [
+            "By handling errors, using cleanup functions, and validating responses",
+            "By fetching data directly in the render method without checks",
+            "By relying solely on component constructors for API calls",
+            "By bypassing error handling to simplify code structure"
+        ],
+        "correctAnswer": "By handling errors, using cleanup functions, and validating responses"
+    },
+    {
+        "question": "78. What is the difference between useEffect and useLayoutEffect?",
+        "options": [
+            "useLayoutEffect runs synchronously after DOM mutations, while useEffect runs asynchronously",
+            "useEffect handles state updates only, while useLayoutEffect manages props",
+            "useEffect is for styling, while useLayoutEffect is for routing concerns",
+            "useEffect is used in class components, while useLayoutEffect is for functional ones"
+        ],
+        "correctAnswer": "useLayoutEffect runs synchronously after DOM mutations, while useEffect runs asynchronously"
+    },
+    {
+        "question": "79. How do you avoid infinite loops in useEffect?",
+        "options": [
+            "By properly specifying dependency arrays and avoiding unconditional state changes",
+            "By calling useEffect only once in the component’s lifetime",
+            "By removing all dependencies from the useEffect hook entirely",
+            "By using a setTimeout to delay effect execution every time"
+        ],
+        "correctAnswer": "By properly specifying dependency arrays and avoiding unconditional state changes"
+    },
+    {
+        "question": "80. What is the dependency array in useEffect used for?",
+        "options": [
+            "To determine when the effect should re-run based on specified variables",
+            "To store previous state values for later comparisons only",
+            "To pass props to child components automatically each time",
+            "To manage component styling dynamically with variable checks"
+        ],
+        "correctAnswer": "To determine when the effect should re-run based on specified variables"
+    },
+    {
+        "question": "81. What is the significance of passing an empty array to useEffect?",
+        "options": [
+            "It ensures the effect runs only once on component mount initially",
+            "It disables the effect entirely after the first render cycle",
+            "It triggers the effect on every component update continuously",
+            "It forces the effect to run asynchronously without dependencies"
+        ],
+        "correctAnswer": "It ensures the effect runs only once on component mount initially"
+    },
+    {
+        "question": "82. How do you handle multiple useEffects in a component?",
+        "options": [
+            "By separating concerns into multiple useEffect calls for clarity",
+            "By combining all side effects into one single useEffect block",
+            "By nesting useEffect calls within each other unnecessarily",
+            "By using a single useState hook to manage all side effects"
+        ],
+        "correctAnswer": "By separating concerns into multiple useEffect calls for clarity"
+    },
+    {
+        "question": "83. What is a portal in React?",
+        "options": [
+            "A method to render components outside the main DOM hierarchy",
+            "A technique to handle routing in nested component trees",
+            "A hook for managing asynchronous data flows efficiently",
+            "A component for styling isolated UI elements separately"
+        ],
+        "correctAnswer": "A method to render components outside the main DOM hierarchy"
+    },
+    {
+        "question": "84. How do you render modals using portals?",
+        "options": [
+            "By creating a portal to a DOM node outside the root element",
+            "By rendering modal components directly inside the App component",
+            "By using conditional rendering to display modals inline",
+            "By wrapping modals in a Higher Order Component exclusively"
+        ],
+        "correctAnswer": "By creating a portal to a DOM node outside the root element"
+    },
+    {
+        "question": "85. What is hydration in React?",
+        "options": [
+            "The process of attaching event listeners to server-rendered markup",
+            "The technique to update state with data fetched externally",
+            "The method to refresh components after asynchronous data loads",
+            "The approach to manage dynamic CSS updates on the client"
+        ],
+        "correctAnswer": "The process of attaching event listeners to server-rendered markup"
+    },
+    {
+        "question": "86. How do you handle form validation in React?",
+        "options": [
+            "By managing input state and validating data on form submission",
+            "By relying solely on HTML5 form validation attributes provided",
+            "By using component constructors to perform data checks initially",
+            "By directly modifying the DOM to indicate input errors visually"
+        ],
+        "correctAnswer": "By managing input state and validating data on form submission"
+    },
+    {
+        "question": "87. What is the significance of controlled forms in React?",
+        "options": [
+            "They enable consistent state management and validation for form inputs",
+            "They automatically update the DOM without any user interaction",
+            "They use browser defaults for styling and form behavior only",
+            "They rely on external libraries to handle state management tasks"
+        ],
+        "correctAnswer": "They enable consistent state management and validation for form inputs"
+    },
+    {
+        "question": "88. How do you use the Context API for theming in React?",
+        "options": [
+            "By creating a theme context and providing values to styled components",
+            "By passing theme values as props through each nested component",
+            "By embedding CSS directly in each component file for themes",
+            "By using inline styles exclusively to manage theme changes"
+        ],
+        "correctAnswer": "By creating a theme context and providing values to styled components"
+    },
+    {
+        "question": "89. What is the higher order component pattern?",
+        "options": [
+            "A pattern where a function wraps a component to enhance its functionality",
+            "A method to directly pass state between sibling components only",
+            "A technique for lazy loading components when needed dynamically",
+            "A strategy for managing routes in large applications seamlessly"
+        ],
+        "correctAnswer": "A pattern where a function wraps a component to enhance its functionality"
+    },
+    {
+        "question": "90. How do you pass additional props to children?",
+        "options": [
+            "By cloning children elements and merging new props with existing ones",
+            "By assigning props directly in the parent’s render method always",
+            "By using the spread operator to copy child props implicitly",
+            "By setting default props in the child component definition"
+        ],
+        "correctAnswer": "By cloning children elements and merging new props with existing ones"
+    },
+    {
+        "question": "91. What is the purpose of React Router's Switch component?",
+        "options": [
+            "To render only the first matching route among all children routes",
+            "To handle state updates for nested routes within an application",
+            "To pass props to all route components simultaneously always",
+            "To manage asynchronous data fetching during route transitions"
+        ],
+        "correctAnswer": "To render only the first matching route among all children routes"
+    },
+    {
+        "question": "92. How do you handle 404 pages in React Router?",
+        "options": [
+            "By defining a catch-all route that renders a not found component",
+            "By using a dedicated error boundary for missing routes exclusively",
+            "By redirecting users to the home page on unmatched pathnames",
+            "By dynamically importing a 404 error module when needed"
+        ],
+        "correctAnswer": "By defining a catch-all route that renders a not found component"
+    },
+    {
+        "question": "93. What is the useNavigate hook used for in React Router v6?",
+        "options": [
+            "To programmatically navigate between routes within the application",
+            "To extract route parameters for use in component logic only",
+            "To render nested routes based on dynamic user roles",
+            "To manage route transitions with built-in animations only"
+        ],
+        "correctAnswer": "To programmatically navigate between routes within the application"
+    },
+    {
+        "question": "94. How do you create a protected route component?",
+        "options": [
+            "By wrapping a Route with authentication checks before rendering",
+            "By using useEffect to verify user permissions after component load",
+            "By conditionally loading routes based on URL patterns exclusively",
+            "By using global state to disable routing for unauthenticated users"
+        ],
+        "correctAnswer": "By wrapping a Route with authentication checks before rendering"
+    },
+    {
+        "question": "95. What is the benefit of server-side rendering with React?",
+        "options": [
+            "It improves SEO and initial load performance by rendering on the server",
+            "It simplifies state management with global variables for data",
+            "It enables direct DOM manipulation before client hydration begins",
+            "It reduces the need for client-side routing logic entirely"
+        ],
+        "correctAnswer": "It improves SEO and initial load performance by rendering on the server"
+    },
+    {
+        "question": "96. How do you optimize bundle size in a React application?",
+        "options": [
+            "By using code splitting, tree shaking, and lazy loading techniques",
+            "By bundling all components into one single file for simplicity",
+            "By increasing the number of useState hooks per component heavily",
+            "By avoiding the use of external libraries and dependencies"
+        ],
+        "correctAnswer": "By using code splitting, tree shaking, and lazy loading techniques"
+    },
+    {
+        "question": "97. What is a component's render method responsible for?",
+        "options": [
+            "Returning the JSX structure that defines the UI output",
+            "Managing state updates and side effects concurrently",
+            "Handling HTTP requests and asynchronous data fetching",
+            "Executing lifecycle methods after the component mounts"
+        ],
+        "correctAnswer": "Returning the JSX structure that defines the UI output"
+    },
+    {
+        "question": "98. How do you share logic between React components?",
+        "options": [
+            "By using custom hooks to encapsulate and reuse stateful logic",
+            "By copying code between component files without any modifications",
+            "By importing functions from unrelated modules in each component",
+            "By duplicating similar code blocks across multiple components"
+        ],
+        "correctAnswer": "By using custom hooks to encapsulate and reuse stateful logic"
+    },
+    {
+        "question": "99. What is the purpose of export default in React?",
+        "options": [
+            "To designate a component or module as the primary export for easy import",
+            "To allow multiple exports from a single component file concurrently",
+            "To define named exports for utility functions within the module",
+            "To restrict component usage within the module where it is defined"
+        ],
+        "correctAnswer": "To designate a component or module as the primary export for easy import"
+    },
+    {
+        "question": "100. How do you bootstrap a React application as the entry point?",
+        "options": [
+            "By rendering the root component in an index.js file using ReactDOM",
+            "By initializing state in the main App component during startup",
+            "By importing all components in a single entry file by default",
+            "By configuring routes directly in the HTML file of the project"
+        ],
+        "correctAnswer": "By rendering the root component in an index.js file using ReactDOM"
+    }
+]

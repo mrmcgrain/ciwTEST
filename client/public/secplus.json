@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "1. Which of the following is a key component of the CIA triad?",
+    "options": [
+      "Confidentiality",
+      "Connectivity",
+      "Consistency",
+      "Capacity"
+    ],
+    "correctAnswer": "Confidentiality"
+  },
+  {
+    "question": "2. The principle of least privilege is designed to:",
+    "options": [
+      "Maximize user rights",
+      "Minimize access rights",
+      "Allow unrestricted access",
+      "Enhance performance"
+    ],
+    "correctAnswer": "Minimize access rights"
+  },
+  {
+    "question": "3. Which of the following is an example of an administrative control?",
+    "options": [
+      "Firewalls",
+      "Encryption",
+      "Security policies",
+      "Antivirus software"
+    ],
+    "correctAnswer": "Security policies"
+  },
+  {
+    "question": "4. What does the term 'defense in depth' refer to?",
+    "options": [
+      "Single-layer security",
+      "Multiple security measures",
+      "Security through obscurity",
+      "Using a strong password"
+    ],
+    "correctAnswer": "Multiple security measures"
+  },
+  {
+    "question": "5. What is a primary function of access control lists (ACLs)?",
+    "options": [
+      "Allow or deny traffic based on rules",
+      "Encrypt data",
+      "Scan for viruses",
+      "Monitor system performance"
+    ],
+    "correctAnswer": "Allow or deny traffic based on rules"
+  },
+  {
+    "question": "6. Which of the following is a common form of multi-factor authentication?",
+    "options": [
+      "Username and password",
+      "Smart card and PIN",
+      "Password only",
+      "Biometric only"
+    ],
+    "correctAnswer": "Smart card and PIN"
+  },
+  {
+    "question": "7. What is the main purpose of encryption?",
+    "options": [
+      "Improve system performance",
+      "Protect data confidentiality",
+      "Facilitate user access",
+      "Reduce storage space"
+    ],
+    "correctAnswer": "Protect data confidentiality"
+  },
+  {
+    "question": "8. Which type of control is most effective for mitigating human error?",
+    "options": [
+      "Technical controls",
+      "Administrative controls",
+      "Physical controls",
+      "Environmental controls"
+    ],
+    "correctAnswer": "Administrative controls"
+  },
+  {
+    "question": "9. What does risk assessment involve?",
+    "options": [
+      "Eliminating all risks",
+      "Identifying and analyzing risks",
+      "Ignoring low-level threats",
+      "Deploying firewalls"
+    ],
+    "correctAnswer": "Identifying and analyzing risks"
+  },
+  {
+    "question": "10. Which term describes the process of converting plaintext into ciphertext?",
+    "options": [
+      "Decryption",
+      "Encryption",
+      "Hashing",
+      "Encoding"
+    ],
+    "correctAnswer": "Encryption"
+  },
+  {
+    "question": "11. What is an example of a technical security control?",
+    "options": [
+      "Security training",
+      "Firewalls",
+      "Access policies",
+      "Surveillance cameras"
+    ],
+    "correctAnswer": "Firewalls"
+  },
+  {
+    "question": "12. What does the term 'zero-day vulnerability' refer to?",
+    "options": [
+      "A vulnerability known for zero days",
+      "A vulnerability that has been patched",
+      "A previously unknown vulnerability",
+      "A vulnerability that affects only new systems"
+    ],
+    "correctAnswer": "A previously unknown vulnerability"
+  },
+  {
+    "question": "13. Which concept ensures that data is accurate and unaltered?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "correctAnswer": "Integrity"
+  },
+  {
+    "question": "14. Which term is used to describe unauthorized access attempts?",
+    "options": [
+      "Authentication",
+      "Intrusion",
+      "Encryption",
+      "Back-up"
+    ],
+    "correctAnswer": "Intrusion"
+  },
+  {
+    "question": "15. Which of the following is a common characteristic of phishing attacks?",
+    "options": [
+      "Physical theft",
+      "Social engineering",
+      "System upgrades",
+      "Hardware failure"
+    ],
+    "correctAnswer": "Social engineering"
+  },
+  {
+    "question": "16. What is a DDoS attack?",
+    "options": [
+      "A distributed denial-of-service attack",
+      "A data decryption operation",
+      "A digital domain organization service",
+      "A device driver operating system"
+    ],
+    "correctAnswer": "A distributed denial-of-service attack"
+  },
+  {
+    "question": "17. Malware that disguises itself as legitimate software is known as:",
+    "options": [
+      "Virus",
+      "Trojan",
+      "Worm",
+      "Ransomware"
+    ],
+    "correctAnswer": "Trojan"
+  },
+  {
+    "question": "18. Which vulnerability scanning method uses external IP addresses to identify potential weaknesses?",
+    "options": [
+      "Internal scanning",
+      "External scanning",
+      "Manual testing",
+      "Penetration testing"
+    ],
+    "correctAnswer": "External scanning"
+  },
+  {
+    "question": "19. What does patch management involve?",
+    "options": [
+      "Updating software to fix vulnerabilities",
+      "Designing new systems",
+      "Backing up data",
+      "Disabling antivirus software"
+    ],
+    "correctAnswer": "Updating software to fix vulnerabilities"
+  },
+  {
+    "question": "20. What is the primary purpose of intrusion detection systems (IDS)?",
+    "options": [
+      "To prevent attacks",
+      "To detect suspicious activities",
+      "To encrypt data",
+      "To manage backups"
+    ],
+    "correctAnswer": "To detect suspicious activities"
+  },
+  {
+    "question": "21. A ransomware attack typically involves:",
+    "options": [
+      "Data encryption and ransom demand",
+      "Unauthorized data deletion",
+      "Improved system performance",
+      "System reboot"
+    ],
+    "correctAnswer": "Data encryption and ransom demand"
+  },
+  {
+    "question": "22. Which type of attack exploits vulnerabilities in web applications by injecting malicious code?",
+    "options": [
+      "SQL injection",
+      "Phishing",
+      "DDoS",
+      "Man-in-the-middle"
+    ],
+    "correctAnswer": "SQL injection"
+  },
+  {
+    "question": "23. What is a key indicator of a vulnerability?",
+    "options": [
+      "Strong encryption",
+      "Weak password policies",
+      "Frequent software updates",
+      "Robust firewalls"
+    ],
+    "correctAnswer": "Weak password policies"
+  },
+  {
+    "question": "24. Which of the following best describes social engineering?",
+    "options": [
+      "Exploiting software vulnerabilities",
+      "Manipulating people to divulge confidential information",
+      "Installing malware on systems",
+      "Bypassing encryption protocols"
+    ],
+    "correctAnswer": "Manipulating people to divulge confidential information"
+  },
+  {
+    "question": "25. What is the primary function of antivirus software?",
+    "options": [
+      "Detect and remove malicious software",
+      "Monitor network traffic",
+      "Encrypt data",
+      "Backup data automatically"
+    ],
+    "correctAnswer": "Detect and remove malicious software"
+  },
+  {
+    "question": "26. Which term refers to the process of exploiting a vulnerability to gain unauthorized access?",
+    "options": [
+      "Penetration",
+      "Encryption",
+      "Decryption",
+      "Mitigation"
+    ],
+    "correctAnswer": "Penetration"
+  },
+  {
+    "question": "27. What is a botnet?",
+    "options": [
+      "A network of computers controlled by cybercriminals",
+      "A type of firewall",
+      "A secure virtual private network",
+      "A method of data encryption"
+    ],
+    "correctAnswer": "A network of computers controlled by cybercriminals"
+  },
+  {
+    "question": "28. Which of the following is a common mitigation strategy against malware?",
+    "options": [
+      "Implementing multi-factor authentication",
+      "Regular software patching",
+      "Using default passwords",
+      "Disabling firewalls"
+    ],
+    "correctAnswer": "Regular software patching"
+  },
+  {
+    "question": "29. What is a vulnerability assessment?",
+    "options": [
+      "A process to identify, quantify, and prioritize vulnerabilities",
+      "A method to patch systems",
+      "A user authentication protocol",
+      "A network performance test"
+    ],
+    "correctAnswer": "A process to identify, quantify, and prioritize vulnerabilities"
+  },
+  {
+    "question": "30. Which of the following is a characteristic of a worm?",
+    "options": [
+      "Requires user interaction",
+      "Self-replicates and spreads automatically",
+      "Is always disguised as legitimate software",
+      "Only infects mobile devices"
+    ],
+    "correctAnswer": "Self-replicates and spreads automatically"
+  },
+  {
+    "question": "31. What is the primary purpose of a firewall?",
+    "options": [
+      "Encrypt data",
+      "Filter incoming and outgoing network traffic",
+      "Detect physical intrusions",
+      "Perform system backups"
+    ],
+    "correctAnswer": "Filter incoming and outgoing network traffic"
+  },
+  {
+    "question": "32. Which type of malware is designed to steal data from a victim's system?",
+    "options": [
+      "Spyware",
+      "Ransomware",
+      "Adware",
+      "Logic bomb"
+    ],
+    "correctAnswer": "Spyware"
+  },
+  {
+    "question": "33. What does the term 'exploit' refer to in cybersecurity?",
+    "options": [
+      "A patch to fix a vulnerability",
+      "A tool or technique used to take advantage of a vulnerability",
+      "An encrypted communication method",
+      "A type of firewall rule"
+    ],
+    "correctAnswer": "A tool or technique used to take advantage of a vulnerability"
+  },
+  {
+    "question": "34. A zero-day exploit targets:",
+    "options": [
+      "Vulnerabilities that are publicly known and patched",
+      "Vulnerabilities that are unknown to the vendor",
+      "Encryption protocols",
+      "Backup systems"
+    ],
+    "correctAnswer": "Vulnerabilities that are unknown to the vendor"
+  },
+  {
+    "question": "35. Which mitigation strategy involves isolating affected systems to prevent spread?",
+    "options": [
+      "System hardening",
+      "Network segmentation",
+      "Full data encryption",
+      "User awareness training"
+    ],
+    "correctAnswer": "Network segmentation"
+  },
+  {
+    "question": "36. What does 'social engineering' primarily rely on?",
+    "options": [
+      "Technical vulnerabilities",
+      "User manipulation",
+      "Hardware failures",
+      "Network configurations"
+    ],
+    "correctAnswer": "User manipulation"
+  },
+  {
+    "question": "37. Which term describes malicious software that holds data hostage until a ransom is paid?",
+    "options": [
+      "Trojan",
+      "Spyware",
+      "Ransomware",
+      "Rootkit"
+    ],
+    "correctAnswer": "Ransomware"
+  },
+  {
+    "question": "38. Which of the following is a sign that a system may have been compromised by malware?",
+    "options": [
+      "Increased system performance",
+      "Unexpected system behavior",
+      "Improved battery life",
+      "Clear error messages"
+    ],
+    "correctAnswer": "Unexpected system behavior"
+  },
+  {
+    "question": "39. Which best practice helps mitigate vulnerabilities in software?",
+    "options": [
+      "Ignoring updates",
+      "Applying patches regularly",
+      "Using weak passwords",
+      "Disabling antivirus software"
+    ],
+    "correctAnswer": "Applying patches regularly"
+  },
+  {
+    "question": "40. In cybersecurity, what is the purpose of a honeypot?",
+    "options": [
+      "Attract attackers to a decoy system",
+      "Improve system performance",
+      "Encrypt sensitive data",
+      "Monitor employee productivity"
+    ],
+    "correctAnswer": "Attract attackers to a decoy system"
+  },
+  {
+    "question": "41. Which of the following is most effective at mitigating insider threats?",
+    "options": [
+      "Implementing strong physical security",
+      "Regular employee training and monitoring",
+      "Disabling remote access",
+      "Using outdated software"
+    ],
+    "correctAnswer": "Regular employee training and monitoring"
+  },
+  {
+    "question": "42. Which of the following best describes a DMZ in network architecture?",
+    "options": [
+      "A secure internal network",
+      "A buffer zone between internal and external networks",
+      "A type of encryption algorithm",
+      "A software development methodology"
+    ],
+    "correctAnswer": "A buffer zone between internal and external networks"
+  },
+  {
+    "question": "43. What is the purpose of network segmentation?",
+    "options": [
+      "Increase network speed",
+      "Reduce broadcast traffic",
+      "Improve security by isolating network segments",
+      "Enhance physical security"
+    ],
+    "correctAnswer": "Improve security by isolating network segments"
+  },
+  {
+    "question": "44. Which architecture model involves centralized processing in a mainframe environment?",
+    "options": [
+      "Client-server",
+      "Peer-to-peer",
+      "Mainframe architecture",
+      "Distributed computing"
+    ],
+    "correctAnswer": "Mainframe architecture"
+  },
+  {
+    "question": "45. What does virtualization in security architecture enable?",
+    "options": [
+      "Physical isolation of servers",
+      "Creation of multiple virtual machines on a single physical machine",
+      "Elimination of security risks",
+      "Faster hardware processing"
+    ],
+    "correctAnswer": "Creation of multiple virtual machines on a single physical machine"
+  },
+  {
+    "question": "46. What is a common purpose of implementing a VPN?",
+    "options": [
+      "Increase website traffic",
+      "Secure remote communications",
+      "Detect malware",
+      "Manage user accounts"
+    ],
+    "correctAnswer": "Secure remote communications"
+  },
+  {
+    "question": "47. Which security model focuses on ensuring that subjects only access objects for which they have clearance?",
+    "options": [
+      "Discretionary Access Control (DAC)",
+      "Mandatory Access Control (MAC)",
+      "Role-Based Access Control (RBAC)",
+      "Attribute-Based Access Control (ABAC)"
+    ],
+    "correctAnswer": "Mandatory Access Control (MAC)"
+  },
+  {
+    "question": "48. In a layered security approach, what is the first line of defense?",
+    "options": [
+      "Physical security controls",
+      "Administrative policies",
+      "Technical controls",
+      "Incident response plans"
+    ],
+    "correctAnswer": "Physical security controls"
+  },
+  {
+    "question": "49. What is the primary function of an IDS in a network?",
+    "options": [
+      "Block unauthorized access",
+      "Detect and alert on suspicious activities",
+      "Encrypt data in transit",
+      "Backup system logs"
+    ],
+    "correctAnswer": "Detect and alert on suspicious activities"
+  },
+  {
+    "question": "50. Which type of security architecture is often used in cloud computing environments?",
+    "options": [
+      "Monolithic architecture",
+      "Service-Oriented Architecture (SOA)",
+      "Peer-to-peer architecture",
+      "Mainframe architecture"
+    ],
+    "correctAnswer": "Service-Oriented Architecture (SOA)"
+  },
+  {
+    "question": "51. What does 'defense in depth' imply in security architecture?",
+    "options": [
+      "Relying on a single security solution",
+      "Layering multiple security controls",
+      "Using encryption exclusively",
+      "Focusing only on perimeter security"
+    ],
+    "correctAnswer": "Layering multiple security controls"
+  },
+  {
+    "question": "52. Which tool is commonly used for network traffic monitoring?",
+    "options": [
+      "IDS/IPS",
+      "Encryption software",
+      "Backup software",
+      "Spreadsheet applications"
+    ],
+    "correctAnswer": "IDS/IPS"
+  },
+  {
+    "question": "53. What is the purpose of secure network design?",
+    "options": [
+      "Maximize data throughput",
+      "Minimize vulnerabilities by isolating critical assets",
+      "Increase system downtime",
+      "Eliminate the need for firewalls"
+    ],
+    "correctAnswer": "Minimize vulnerabilities by isolating critical assets"
+  },
+  {
+    "question": "54. Which of the following best defines a hypervisor?",
+    "options": [
+      "A physical server",
+      "Software that creates and manages virtual machines",
+      "A type of firewall",
+      "A network protocol"
+    ],
+    "correctAnswer": "Software that creates and manages virtual machines"
+  },
+  {
+    "question": "55. What is the function of a proxy server in a network?",
+    "options": [
+      "Encrypt data",
+      "Act as an intermediary between clients and servers",
+      "Store backup data",
+      "Monitor employee activities"
+    ],
+    "correctAnswer": "Act as an intermediary between clients and servers"
+  },
+  {
+    "question": "56. Which architecture component is critical for disaster recovery?",
+    "options": [
+      "Redundant systems",
+      "Single point of failure",
+      "Outdated hardware",
+      "Unencrypted data storage"
+    ],
+    "correctAnswer": "Redundant systems"
+  },
+  {
+    "question": "57. What is a common strategy to secure wireless networks?",
+    "options": [
+      "Use of open, unencrypted access",
+      "Implementing WPA2 or WPA3 protocols",
+      "Disabling authentication",
+      "Relying solely on firewalls"
+    ],
+    "correctAnswer": "Implementing WPA2 or WPA3 protocols"
+  },
+  {
+    "question": "58. Which of the following best describes a zero trust network architecture?",
+    "options": [
+      "Implicit trust of all internal users",
+      "Verifying every access request regardless of origin",
+      "No authentication required",
+      "Reliance on perimeter defenses only"
+    ],
+    "correctAnswer": "Verifying every access request regardless of origin"
+  },
+  {
+    "question": "59. What is a primary benefit of using cloud-based security architecture?",
+    "options": [
+      "Increased physical hardware costs",
+      "Scalability and flexibility",
+      "Reduced data protection",
+      "Increased manual management"
+    ],
+    "correctAnswer": "Scalability and flexibility"
+  },
+  {
+    "question": "60. Which term describes a system designed to reduce the attack surface by minimizing unnecessary services?",
+    "options": [
+      "Hardening",
+      "Vulnerability scanning",
+      "Patch management",
+      "Incident response"
+    ],
+    "correctAnswer": "Hardening"
+  },
+  {
+    "question": "61. What is the role of an architecture review in security?",
+    "options": [
+      "Identify and mitigate design flaws",
+      "Develop marketing strategies",
+      "Monitor employee performance",
+      "Ensure financial compliance"
+    ],
+    "correctAnswer": "Identify and mitigate design flaws"
+  },
+  {
+    "question": "62. Which component is essential for establishing secure remote access?",
+    "options": [
+      "Virtual Private Network (VPN)",
+      "Public Wi-Fi",
+      "Unsecured HTTP",
+      "Open proxy servers"
+    ],
+    "correctAnswer": "Virtual Private Network (VPN)"
+  },
+  {
+    "question": "63. What does segregation of duties help prevent in a security architecture?",
+    "options": [
+      "Single point of failure",
+      "Internal fraud",
+      "Data backup issues",
+      "Hardware malfunctions"
+    ],
+    "correctAnswer": "Internal fraud"
+  },
+  {
+    "question": "64. What is the primary purpose of incident response?",
+    "options": [
+      "Prevent incidents from occurring",
+      "Manage and mitigate security incidents",
+      "Encrypt all network traffic",
+      "Update software applications"
+    ],
+    "correctAnswer": "Manage and mitigate security incidents"
+  },
+  {
+    "question": "65. Which of the following is a critical component of a Security Operations Center (SOC)?",
+    "options": [
+      "Employee training",
+      "Real-time monitoring",
+      "Marketing strategies",
+      "Physical security only"
+    ],
+    "correctAnswer": "Real-time monitoring"
+  },
+  {
+    "question": "66. What is a SIEM system used for?",
+    "options": [
+      "Collecting and analyzing log data",
+      "Storing backup data",
+      "Controlling user access",
+      "Encrypting communications"
+    ],
+    "correctAnswer": "Collecting and analyzing log data"
+  },
+  {
+    "question": "67. Which process involves recovering systems after a security incident?",
+    "options": [
+      "Incident response",
+      "Disaster recovery",
+      "Vulnerability assessment",
+      "Threat hunting"
+    ],
+    "correctAnswer": "Disaster recovery"
+  },
+  {
+    "question": "68. What is the purpose of change management in security operations?",
+    "options": [
+      "Introducing uncontrolled modifications",
+      "Managing changes to minimize security risks",
+      "Eliminating the need for updates",
+      "Increasing system downtime"
+    ],
+    "correctAnswer": "Managing changes to minimize security risks"
+  },
+  {
+    "question": "69. Which tool is commonly used for vulnerability scanning?",
+    "options": [
+      "Antivirus software",
+      "Nmap",
+      "Spreadsheet applications",
+      "Firewall configuration tool"
+    ],
+    "correctAnswer": "Nmap"
+  },
+  {
+    "question": "70. What is threat hunting?",
+    "options": [
+      "Proactive search for security threats within a network",
+      "Passive monitoring of network traffic",
+      "Scheduled software updates",
+      "Disabling user access"
+    ],
+    "correctAnswer": "Proactive search for security threats within a network"
+  },
+  {
+    "question": "71. Which of the following is an example of an operational control?",
+    "options": [
+      "Security policy",
+      "Intrusion detection system",
+      "Encryption algorithm",
+      "Physical lock on a door"
+    ],
+    "correctAnswer": "Intrusion detection system"
+  },
+  {
+    "question": "72. What does the process of log analysis help identify?",
+    "options": [
+      "System performance improvements",
+      "Potential security incidents and anomalies",
+      "Software license compliance",
+      "Employee attendance patterns"
+    ],
+    "correctAnswer": "Potential security incidents and anomalies"
+  },
+  {
+    "question": "73. Which best practice is essential for effective incident response?",
+    "options": [
+      "Immediate public disclosure without analysis",
+      "Well-defined incident response plan",
+      "Ignoring minor incidents",
+      "Delaying response until system failure"
+    ],
+    "correctAnswer": "Well-defined incident response plan"
+  },
+  {
+    "question": "74. What is the role of a forensic investigation in security operations?",
+    "options": [
+      "Predicting future threats",
+      "Analyzing incidents to determine cause and impact",
+      "Developing marketing strategies",
+      "Configuring network devices"
+    ],
+    "correctAnswer": "Analyzing incidents to determine cause and impact"
+  },
+  {
+    "question": "75. Which of the following describes a business continuity plan?",
+    "options": [
+      "A plan to resume operations after a disruption",
+      "A marketing strategy",
+      "A software development methodology",
+      "A type of encryption"
+    ],
+    "correctAnswer": "A plan to resume operations after a disruption"
+  },
+  {
+    "question": "76. What does vulnerability management involve?",
+    "options": [
+      "Identifying, classifying, and mitigating vulnerabilities",
+      "Enhancing system aesthetics",
+      "Removing all user access",
+      "Increasing hardware costs"
+    ],
+    "correctAnswer": "Identifying, classifying, and mitigating vulnerabilities"
+  },
+  {
+    "question": "77. Which technique is used to limit the impact of a security breach?",
+    "options": [
+      "Network segmentation",
+      "Disabling security protocols",
+      "Disregarding user training",
+      "Expanding the attack surface"
+    ],
+    "correctAnswer": "Network segmentation"
+  },
+  {
+    "question": "78. What is a key objective of continuous monitoring?",
+    "options": [
+      "Periodic system audits only",
+      "Real-time detection of threats and anomalies",
+      "Annual security reviews",
+      "Isolating systems permanently"
+    ],
+    "correctAnswer": "Real-time detection of threats and anomalies"
+  },
+  {
+    "question": "79. Which of the following is a method used to secure endpoints?",
+    "options": [
+      "Endpoint detection and response (EDR)",
+      "Disabling antivirus",
+      "Removing firewalls",
+      "Allowing open network access"
+    ],
+    "correctAnswer": "Endpoint detection and response (EDR)"
+  },
+  {
+    "question": "80. What is a common sign that a system may have been compromised?",
+    "options": [
+      "Regular system performance",
+      "Unexpected system slowdowns",
+      "Scheduled maintenance",
+      "Planned updates"
+    ],
+    "correctAnswer": "Unexpected system slowdowns"
+  },
+  {
+    "question": "81. Which of the following is critical for effective disaster recovery planning?",
+    "options": [
+      "Comprehensive backups",
+      "Ignoring data redundancy",
+      "Uncoordinated recovery steps",
+      "Lack of documentation"
+    ],
+    "correctAnswer": "Comprehensive backups"
+  },
+  {
+    "question": "82. What is the purpose of security awareness training in operations?",
+    "options": [
+      "To increase user vulnerability",
+      "To educate employees on recognizing security threats",
+      "To eliminate the need for technical controls",
+      "To delay incident response"
+    ],
+    "correctAnswer": "To educate employees on recognizing security threats"
+  },
+  {
+    "question": "83. Which process helps in understanding the cause and impact of a security incident?",
+    "options": [
+      "Root cause analysis",
+      "Network mapping",
+      "User authentication",
+      "Hardware inspection"
+    ],
+    "correctAnswer": "Root cause analysis"
+  },
+  {
+    "question": "84. What is the purpose of a kill chain in cybersecurity?",
+    "options": [
+      "To describe stages of a cyber attack",
+      "To secure data using encryption",
+      "To manage physical security",
+      "To backup critical systems"
+    ],
+    "correctAnswer": "To describe stages of a cyber attack"
+  },
+  {
+    "question": "85. Which practice enhances security operations by reducing the time to detect threats?",
+    "options": [
+      "Manual log review",
+      "Automated monitoring and alerting",
+      "Delayed software updates",
+      "Ignoring anomalies"
+    ],
+    "correctAnswer": "Automated monitoring and alerting"
+  },
+  {
+    "question": "86. What is the role of threat intelligence in security operations?",
+    "options": [
+      "Providing data to predict and respond to threats",
+      "Disabling network devices",
+      "Managing hardware inventory",
+      "Increasing system latency"
+    ],
+    "correctAnswer": "Providing data to predict and respond to threats"
+  },
+  {
+    "question": "87. Which of the following is a key element of incident response documentation?",
+    "options": [
+      "Detailed timeline of events",
+      "Employee vacation schedules",
+      "List of purchased software",
+      "Marketing strategies"
+    ],
+    "correctAnswer": "Detailed timeline of events"
+  },
+  {
+    "question": "88. What does the term 'mean time to repair (MTTR)' refer to?",
+    "options": [
+      "Average time to resolve a system failure",
+      "Average time to detect a threat",
+      "Average time between system backups",
+      "Average time for user training"
+    ],
+    "correctAnswer": "Average time to resolve a system failure"
+  },
+  {
+    "question": "89. Which of the following best describes a Security Operations Center (SOC)?",
+    "options": [
+      "A facility for managing physical security only",
+      "A centralized unit for monitoring and analyzing security incidents",
+      "A marketing department",
+      "An IT help desk"
+    ],
+    "correctAnswer": "A centralized unit for monitoring and analyzing security incidents"
+  },
+  {
+    "question": "90. What is the main goal of patch management in operations?",
+    "options": [
+      "To update software and mitigate vulnerabilities",
+      "To increase hardware lifespan",
+      "To reduce network traffic",
+      "To disable automatic updates"
+    ],
+    "correctAnswer": "To update software and mitigate vulnerabilities"
+  },
+  {
+    "question": "91. Which term refers to the ongoing process of identifying and addressing new vulnerabilities?",
+    "options": [
+      "Security hardening",
+      "Continuous vulnerability management",
+      "Risk avoidance",
+      "Disaster recovery"
+    ],
+    "correctAnswer": "Continuous vulnerability management"
+  },
+  {
+    "question": "92. What is the function of a backup strategy in security operations?",
+    "options": [
+      "To prevent malware attacks",
+      "To ensure data can be restored after loss or corruption",
+      "To detect network intrusions",
+      "To encrypt communications"
+    ],
+    "correctAnswer": "To ensure data can be restored after loss or corruption"
+  },
+  {
+    "question": "93. Which of the following best represents a proactive security measure?",
+    "options": [
+      "Waiting for an incident to occur",
+      "Threat hunting",
+      "Disabling logging",
+      "Ignoring alerts"
+    ],
+    "correctAnswer": "Threat hunting"
+  },
+  {
+    "question": "94. What is the purpose of implementing multi-factor authentication (MFA) in operations?",
+    "options": [
+      "To simplify user login processes",
+      "To enhance security by requiring additional verification factors",
+      "To replace passwords entirely",
+      "To limit user access to one device"
+    ],
+    "correctAnswer": "To enhance security by requiring additional verification factors"
+  },
+  {
+    "question": "95. Which term refers to the strategy of isolating a compromised system to prevent further damage?",
+    "options": [
+      "Containment",
+      "Exfiltration",
+      "Propagation",
+      "Escalation"
+    ],
+    "correctAnswer": "Containment"
+  },
+  {
+    "question": "96. What does 'incident containment' aim to achieve?",
+    "options": [
+      "Preventing further damage after a breach",
+      "Identifying new vulnerabilities",
+      "Enhancing system performance",
+      "Scheduling routine maintenance"
+    ],
+    "correctAnswer": "Preventing further damage after a breach"
+  },
+  {
+    "question": "97. Which of the following is a key indicator that an incident response plan is effective?",
+    "options": [
+      "Delayed threat detection",
+      "Quick recovery and minimal impact",
+      "Increased system downtime",
+      "Extended investigation periods"
+    ],
+    "correctAnswer": "Quick recovery and minimal impact"
+  },
+  {
+    "question": "98. What is the primary purpose of a security policy?",
+    "options": [
+      "To outline an organization's security expectations and guidelines",
+      "To manage hardware inventory",
+      "To schedule employee vacations",
+      "To configure network devices"
+    ],
+    "correctAnswer": "To outline an organization's security expectations and guidelines"
+  },
+  {
+    "question": "99. Which of the following is a key component of risk management?",
+    "options": [
+      "Risk identification, assessment, and mitigation",
+      "Ignoring potential threats",
+      "Focusing solely on physical security",
+      "Maximizing system uptime"
+    ],
+    "correctAnswer": "Risk identification, assessment, and mitigation"
+  },
+  {
+    "question": "100. What is compliance in the context of cybersecurity?",
+    "options": [
+      "Adhering to laws, regulations, and standards",
+      "Enhancing system performance",
+      "Creating encryption keys",
+      "Expanding network architecture"
+    ],
+    "correctAnswer": "Adhering to laws, regulations, and standards"
+  },
+  {
+    "question": "101. Which role is typically responsible for developing security awareness programs?",
+    "options": [
+      "Network administrator",
+      "Security officer",
+      "Marketing manager",
+      "Software developer"
+    ],
+    "correctAnswer": "Security officer"
+  },
+  {
+    "question": "102. What is the purpose of a security audit?",
+    "options": [
+      "To evaluate the effectiveness of security controls",
+      "To update software systems",
+      "To develop marketing campaigns",
+      "To design network topologies"
+    ],
+    "correctAnswer": "To evaluate the effectiveness of security controls"
+  },
+  {
+    "question": "103. Which of the following best defines governance in cybersecurity?",
+    "options": [
+      "Establishing policies and procedures to manage security",
+      "Focusing only on technology",
+      "Increasing system speed",
+      "Eliminating all risks"
+    ],
+    "correctAnswer": "Establishing policies and procedures to manage security"
+  },
+  {
+    "question": "104. What is the role of risk assessment in security program management?",
+    "options": [
+      "Identifying potential threats and vulnerabilities",
+      "Developing new hardware",
+      "Configuring software updates",
+      "Monitoring network traffic only"
+    ],
+    "correctAnswer": "Identifying potential threats and vulnerabilities"
+  },
+  {
+    "question": "105. Which term describes the process of evaluating the cost and benefit of security controls?",
+    "options": [
+      "Cost-benefit analysis",
+      "Encryption",
+      "User authentication",
+      "Incident response"
+    ],
+    "correctAnswer": "Cost-benefit analysis"
+  },
+  {
+    "question": "106. What is the purpose of a business impact analysis (BIA)?",
+    "options": [
+      "To determine the potential impact of disruptions on business operations",
+      "To update security software",
+      "To increase network traffic",
+      "To configure backup systems"
+    ],
+    "correctAnswer": "To determine the potential impact of disruptions on business operations"
+  },
+  {
+    "question": "107. Which document outlines the procedures for responding to security incidents?",
+    "options": [
+      "Incident response plan",
+      "Business continuity plan",
+      "Risk management policy",
+      "User manual"
+    ],
+    "correctAnswer": "Incident response plan"
+  },
+  {
+    "question": "108. What does the term 'due diligence' refer to in cybersecurity?",
+    "options": [
+      "Taking reasonable steps to secure systems",
+      "Ignoring potential risks",
+      "Maximizing profits",
+      "Avoiding regulatory compliance"
+    ],
+    "correctAnswer": "Taking reasonable steps to secure systems"
+  },
+  {
+    "question": "109. Which of the following best describes an effective security awareness program?",
+    "options": [
+      "Regular training and simulated phishing exercises",
+      "One-time training during onboarding",
+      "Exclusive reliance on technical controls",
+      "Ignoring social engineering threats"
+    ],
+    "correctAnswer": "Regular training and simulated phishing exercises"
+  },
+  {
+    "question": "110. What is a key objective of security program management?",
+    "options": [
+      "Aligning security strategies with business goals",
+      "Increasing operational costs",
+      "Reducing employee training",
+      "Eliminating all security investments"
+    ],
+    "correctAnswer": "Aligning security strategies with business goals"
+  },
+  {
+    "question": "111. Which framework is commonly used for managing cybersecurity risk?",
+    "options": [
+      "NIST Cybersecurity Framework",
+      "ISO 9001",
+      "ITIL",
+      "COBIT"
+    ],
+    "correctAnswer": "NIST Cybersecurity Framework"
+  },
+  {
+    "question": "112. What is the purpose of compliance audits?",
+    "options": [
+      "To ensure adherence to regulatory and internal standards",
+      "To develop new software",
+      "To monitor system performance",
+      "To design network architectures"
+    ],
+    "correctAnswer": "To ensure adherence to regulatory and internal standards"
+  },
+  {
+    "question": "113. Which of the following best describes the concept of non-repudiation?",
+    "options": [
+      "Ensuring actions cannot be denied",
+      "Allowing anonymous access",
+      "Minimizing encryption",
+      "Enabling multiple user logins"
+    ],
+    "correctAnswer": "Ensuring actions cannot be denied"
+  },
+  {
+    "question": "114. What is the role of an executive sponsor in a security program?",
+    "options": [
+      "Providing support and resources for security initiatives",
+      "Managing daily IT operations",
+      "Developing code",
+      "Designing user interfaces"
+    ],
+    "correctAnswer": "Providing support and resources for security initiatives"
+  },
+  {
+    "question": "115. Which of the following is essential for effective security program oversight?",
+    "options": [
+      "Regular reporting and metrics",
+      "Occasional system updates",
+      "Ignoring audit findings",
+      "Uncoordinated communication"
+    ],
+    "correctAnswer": "Regular reporting and metrics"
+  },
+  {
+    "question": "116. What is meant by 'security culture' within an organization?",
+    "options": [
+      "The overall attitude and practices regarding security among employees",
+      "The design of the company logo",
+      "The technical specifications of security tools",
+      "The physical location of the security team"
+    ],
+    "correctAnswer": "The overall attitude and practices regarding security among employees"
+  },
+  {
+    "question": "117. Which role typically oversees the implementation of security policies?",
+    "options": [
+      "Chief Information Security Officer (CISO)",
+      "Marketing Director",
+      "Sales Manager",
+      "Software Developer"
+    ],
+    "correctAnswer": "Chief Information Security Officer (CISO)"
+  },
+  {
+    "question": "118. What is an important component of effective risk management communication?",
+    "options": [
+      "Clear and concise reporting",
+      "Technical jargon only",
+      "No reporting",
+      "Confusing metrics"
+    ],
+    "correctAnswer": "Clear and concise reporting"
+  },
+  {
+    "question": "119. What does a compliance program aim to achieve?",
+    "options": [
+      "Ensure that an organization meets legal and regulatory requirements",
+      "Increase network speed",
+      "Develop new products",
+      "Reduce user training"
+    ],
+    "correctAnswer": "Ensure that an organization meets legal and regulatory requirements"
+  },
+  {
+    "question": "120. Which of the following is a key consideration when developing a security program?",
+    "options": [
+      "Alignment with business objectives",
+      "Ignoring stakeholder input",
+      "Focusing solely on technical solutions",
+      "Avoiding regular audits"
+    ],
+    "correctAnswer": "Alignment with business objectives"
+  }
+]

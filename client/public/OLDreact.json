@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "1. What is a React functional component?",
+    "options": [
+      "A plain JavaScript function that returns JSX",
+      "A class-based component",
+      "A type of CSS framework",
+      "A state management library"
+    ],
+    "correctAnswer": "A plain JavaScript function that returns JSX"
+  },
+  {
+    "question": "2. How do you define a React functional component using an arrow function?",
+    "options": [
+      "const MyComponent = () => <div>Hello</div>",
+      "function MyComponent() { return <div>Hello</div> }",
+      "Both of the above",
+      "None of the above"
+    ],
+    "correctAnswer": "Both of the above"
+  },
+  {
+    "question": "3. Which hook is used for managing state in functional components?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useContext",
+      "useReducer"
+    ],
+    "correctAnswer": "useState"
+  },
+  {
+    "question": "4. Which hook is used to perform side effects in functional components?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useCallback",
+      "useMemo"
+    ],
+    "correctAnswer": "useEffect"
+  },
+  {
+    "question": "5. What does JSX stand for?",
+    "options": [
+      "JavaScript XML",
+      "JavaScript Syntax Extension",
+      "JavaScript eXtended",
+      "Both A and B"
+    ],
+    "correctAnswer": "Both A and B"
+  },
+  {
+    "question": "6. In React 17+, what is true about importing React in functional components?",
+    "options": [
+      "You must always import React to use JSX",
+      "You do not need to import React when using JSX",
+      "React is automatically imported by the browser",
+      "JSX does not require any import statements"
+    ],
+    "correctAnswer": "You do not need to import React when using JSX"
+  },
+  {
+    "question": "7. How are props passed to a React functional component?",
+    "options": [
+      "As an argument to the function",
+      "Through the state",
+      "Using the this keyword",
+      "Via a global variable"
+    ],
+    "correctAnswer": "As an argument to the function"
+  },
+  {
+    "question": "8. What is the default value of props if none are provided?",
+    "options": [
+      "null",
+      "undefined",
+      "An empty object",
+      "0"
+    ],
+    "correctAnswer": "undefined"
+  },
+  {
+    "question": "9. Which hook can be used to mimic lifecycle events in functional components?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useReducer",
+      "useContext"
+    ],
+    "correctAnswer": "useEffect"
+  },
+  {
+    "question": "10. Which hook helps optimize performance by memoizing expensive computations?",
+    "options": [
+      "useState",
+      "useMemo",
+      "useEffect",
+      "useCallback"
+    ],
+    "correctAnswer": "useMemo"
+  },
+  {
+    "question": "11. Which hook can help prevent unnecessary re-renders by memoizing functions?",
+    "options": [
+      "useState",
+      "useMemo",
+      "useEffect",
+      "useCallback"
+    ],
+    "correctAnswer": "useCallback"
+  },
+  {
+    "question": "12. What does the useRef hook do?",
+    "options": [
+      "Returns a mutable ref object whose .current property is initialized to the passed argument",
+      "Creates a new state variable",
+      "Triggers a component re-render",
+      "Memoizes a function"
+    ],
+    "correctAnswer": "Returns a mutable ref object whose .current property is initialized to the passed argument"
+  },
+  {
+    "question": "13. How can you conditionally render elements in a functional component?",
+    "options": [
+      "Using ternary operators",
+      "Using logical &&",
+      "Using if statements inside JSX",
+      "Both A and B"
+    ],
+    "correctAnswer": "Both A and B"
+  },
+  {
+    "question": "14. What is the purpose of keys in a list of React elements?",
+    "options": [
+      "To uniquely identify elements for efficient re-rendering",
+      "To style elements uniquely",
+      "To bind event handlers",
+      "To manage component state"
+    ],
+    "correctAnswer": "To uniquely identify elements for efficient re-rendering"
+  },
+  {
+    "question": "15. Which hook is ideal for managing complex state logic in functional components?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useReducer",
+      "useContext"
+    ],
+    "correctAnswer": "useReducer"
+  },
+  {
+    "question": "16. How do you create a custom hook in React?",
+    "options": [
+      "By creating a function that uses built-in hooks and starts with 'use'",
+      "By extending React.Component",
+      "By using higher-order components",
+      "By using class inheritance"
+    ],
+    "correctAnswer": "By creating a function that uses built-in hooks and starts with 'use'"
+  },
+  {
+    "question": "17. What is the significance of returning null from a functional component?",
+    "options": [
+      "It renders nothing to the DOM",
+      "It causes an error",
+      "It renders an empty div",
+      "It logs a warning"
+    ],
+    "correctAnswer": "It renders nothing to the DOM"
+  },
+  {
+    "question": "18. What is the correct way to handle events in React functional components?",
+    "options": [
+      "Define event handler functions and pass them to JSX elements",
+      "Use inline JavaScript in the render method",
+      "Bind event handlers in the constructor",
+      "Directly manipulate the DOM"
+    ],
+    "correctAnswer": "Define event handler functions and pass them to JSX elements"
+  },
+  {
+    "question": "19. How do you prevent the default behavior in an event handler in React?",
+    "options": [
+      "return false",
+      "event.preventDefault()",
+      "stopPropagation()",
+      "None of the above"
+    ],
+    "correctAnswer": "event.preventDefault()"
+  },
+  {
+    "question": "20. What is the primary purpose of the dependency array in useEffect?",
+    "options": [
+      "To specify which variables trigger the effect when changed",
+      "To define local state",
+      "To bind event handlers",
+      "To memoize functions"
+    ],
+    "correctAnswer": "To specify which variables trigger the effect when changed"
+  },
+  {
+    "question": "21. What happens if you pass an empty dependency array to useEffect?",
+    "options": [
+      "The effect runs on every render",
+      "The effect runs only once after the initial render",
+      "The effect never runs",
+      "The effect runs twice"
+    ],
+    "correctAnswer": "The effect runs only once after the initial render"
+  },
+  {
+    "question": "22. How can you clean up an effect in useEffect?",
+    "options": [
+      "By returning a cleanup function from the effect",
+      "By calling useCleanup",
+      "By using useRef",
+      "Cleanup is automatic"
+    ],
+    "correctAnswer": "By returning a cleanup function from the effect"
+  },
+  {
+    "question": "23. What is React.memo used for?",
+    "options": [
+      "To memoize functional components and avoid unnecessary re-renders",
+      "To create stateful components",
+      "To define context",
+      "To manage side effects"
+    ],
+    "correctAnswer": "To memoize functional components and avoid unnecessary re-renders"
+  },
+  {
+    "question": "24. Which of the following is a valid way to destructure props in a functional component?",
+    "options": [
+      "const { name } = props",
+      "props.name",
+      "this.props.name",
+      "All of the above"
+    ],
+    "correctAnswer": "const { name } = props"
+  },
+  {
+    "question": "25. How can you set default props for a functional component?",
+    "options": [
+      "By using default parameters in the function signature",
+      "By assigning a defaultProps property on the component",
+      "Both A and B",
+      "None of the above"
+    ],
+    "correctAnswer": "Both A and B"
+  },
+  {
+    "question": "26. Which hook would you use to access context in a functional component?",
+    "options": [
+      "useContext",
+      "useEffect",
+      "useState",
+      "useReducer"
+    ],
+    "correctAnswer": "useContext"
+  },
+  {
+    "question": "27. What is the primary purpose of the React Context API?",
+    "options": [
+      "To pass data through the component tree without prop drilling",
+      "To manage component state",
+      "To optimize performance",
+      "To handle side effects"
+    ],
+    "correctAnswer": "To pass data through the component tree without prop drilling"
+  },
+  {
+    "question": "28. How do you lazy load a component in React?",
+    "options": [
+      "Using React.lazy() and Suspense",
+      "Using dynamic import() in a class component",
+      "Using useEffect",
+      "Lazy loading is not supported in React"
+    ],
+    "correctAnswer": "Using React.lazy() and Suspense"
+  },
+  {
+    "question": "29. What is Suspense used for in React?",
+    "options": [
+      "To show a fallback UI while a lazy-loaded component is being loaded",
+      "To manage component state",
+      "To handle errors in functional components",
+      "To optimize list rendering"
+    ],
+    "correctAnswer": "To show a fallback UI while a lazy-loaded component is being loaded"
+  },
+  {
+    "question": "30. How can you access a DOM element in a functional component?",
+    "options": [
+      "Using useRef",
+      "Using this.refs",
+      "By querying the document directly",
+      "Using useState"
+    ],
+    "correctAnswer": "Using useRef"
+  },
+  {
+    "question": "31. How do you trigger a re-render in a functional component?",
+    "options": [
+      "By updating state using the updater function from useState",
+      "By calling forceUpdate()",
+      "By modifying props directly",
+      "By updating global variables"
+    ],
+    "correctAnswer": "By updating state using the updater function from useState"
+  },
+  {
+    "question": "32. What is a side effect in the context of React?",
+    "options": [
+      "An operation that affects something outside the function scope, such as data fetching or subscriptions",
+      "A function that returns JSX",
+      "A state update",
+      "A prop change"
+    ],
+    "correctAnswer": "An operation that affects something outside the function scope, such as data fetching or subscriptions"
+  },
+  {
+    "question": "33. What does the dependency array in useEffect control?",
+    "options": [
+      "When the effect function runs",
+      "The component's state",
+      "The component's props",
+      "The component's lifecycle methods"
+    ],
+    "correctAnswer": "When the effect function runs"
+  },
+  {
+    "question": "34. How can you avoid infinite loops in useEffect?",
+    "options": [
+      "By specifying the correct dependencies in the dependency array",
+      "By not using useEffect",
+      "By updating state outside of useEffect",
+      "Infinite loops cannot be avoided"
+    ],
+    "correctAnswer": "By specifying the correct dependencies in the dependency array"
+  },
+  {
+    "question": "35. What is the purpose of the useCallback hook?",
+    "options": [
+      "To memoize functions so they are not recreated on every render",
+      "To update state based on previous state",
+      "To handle side effects",
+      "To manage context"
+    ],
+    "correctAnswer": "To memoize functions so they are not recreated on every render"
+  },
+  {
+    "question": "36. When should you use useMemo?",
+    "options": [
+      "When you need to memoize an expensive calculation",
+      "When you want to manage side effects",
+      "When you need to update state",
+      "When you want to memoize event handlers"
+    ],
+    "correctAnswer": "When you need to memoize an expensive calculation"
+  },
+  {
+    "question": "37. How can you share state between functional components without prop drilling?",
+    "options": [
+      "By using the Context API",
+      "By using Redux only",
+      "By lifting state up to the global scope",
+      "By passing state as a parameter to every function"
+    ],
+    "correctAnswer": "By using the Context API"
+  },
+  {
+    "question": "38. What is the purpose of the useReducer hook?",
+    "options": [
+      "To manage complex state logic using a reducer function",
+      "To perform side effects",
+      "To memoize functions",
+      "To access context"
+    ],
+    "correctAnswer": "To manage complex state logic using a reducer function"
+  },
+  {
+    "question": "39. Which statement is true about functional components?",
+    "options": [
+      "They do not have lifecycle methods, but hooks can simulate lifecycle behavior",
+      "They can only render static content",
+      "They require a constructor",
+      "They cannot manage state"
+    ],
+    "correctAnswer": "They do not have lifecycle methods, but hooks can simulate lifecycle behavior"
+  },
+  {
+    "question": "40. Can functional components have state?",
+    "options": [
+      "Yes, using hooks like useState",
+      "No, only class components can have state",
+      "Yes, but only with Redux",
+      "No, state is managed globally"
+    ],
+    "correctAnswer": "Yes, using hooks like useState"
+  },
+  {
+    "question": "41. What is JSX?",
+    "options": [
+      "A syntax extension for JavaScript that resembles HTML",
+      "A CSS preprocessor",
+      "A state management library",
+      "A testing framework"
+    ],
+    "correctAnswer": "A syntax extension for JavaScript that resembles HTML"
+  },
+  {
+    "question": "42. How is JSX transformed into React elements?",
+    "options": [
+      "Babel converts JSX into React.createElement calls",
+      "It is interpreted directly by the browser",
+      "It is compiled into HTML",
+      "It is not transformed at all"
+    ],
+    "correctAnswer": "Babel converts JSX into React.createElement calls"
+  },
+  {
+    "question": "43. What does React.useState return?",
+    "options": [
+      "A stateful value and a function to update it",
+      "Only the current state",
+      "A function to update state",
+      "A new component"
+    ],
+    "correctAnswer": "A stateful value and a function to update it"
+  },
+  {
+    "question": "44. Which hook is best for performing cleanup tasks such as unsubscribing from a service?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useRef",
+      "useMemo"
+    ],
+    "correctAnswer": "useEffect"
+  },
+  {
+    "question": "45. What are controlled components in React?",
+    "options": [
+      "Components where form data is handled by the component’s state",
+      "Components that do not manage their own state",
+      "Components that manage state globally",
+      "Components with no state"
+    ],
+    "correctAnswer": "Components where form data is handled by the component’s state"
+  },
+  {
+    "question": "46. How do you handle form submissions in React?",
+    "options": [
+      "By handling the onSubmit event and managing form data with state",
+      "By directly accessing the DOM",
+      "By using jQuery",
+      "Forms cannot be submitted in React"
+    ],
+    "correctAnswer": "By handling the onSubmit event and managing form data with state"
+  },
+  {
+    "question": "47. What is the purpose of the key prop in lists?",
+    "options": [
+      "To uniquely identify each element for efficient re-rendering",
+      "To style list items",
+      "To manage component state",
+      "To sort the list"
+    ],
+    "correctAnswer": "To uniquely identify each element for efficient re-rendering"
+  },
+  {
+    "question": "48. What does the fragment syntax <>...</> do in React?",
+    "options": [
+      "Groups multiple elements without adding extra nodes to the DOM",
+      "Renders a single element",
+      "Creates a new component",
+      "Binds event handlers"
+    ],
+    "correctAnswer": "Groups multiple elements without adding extra nodes to the DOM"
+  },
+  {
+    "question": "49. How can you conditionally apply CSS classes in JSX?",
+    "options": [
+      "By using JavaScript expressions or libraries like classnames",
+      "By directly modifying the DOM",
+      "By using inline styles only",
+      "By using CSS selectors only"
+    ],
+    "correctAnswer": "By using JavaScript expressions or libraries like classnames"
+  },
+  {
+    "question": "50. What is the purpose of prop-types in React?",
+    "options": [
+      "To validate the types of props passed to a component",
+      "To manage component state",
+      "To optimize performance",
+      "To style components"
+    ],
+    "correctAnswer": "To validate the types of props passed to a component"
+  },
+  {
+    "question": "51. Which hook would you use to interact directly with a DOM element?",
+    "options": [
+      "useRef",
+      "useState",
+      "useContext",
+      "useEffect"
+    ],
+    "correctAnswer": "useRef"
+  },
+  {
+    "question": "52. What happens if a component’s render method returns false?",
+    "options": [
+      "It results in an error; a component must return null, a React element, or a fragment",
+      "It renders nothing",
+      "It renders a default element",
+      "It logs a warning"
+    ],
+    "correctAnswer": "It results in an error; a component must return null, a React element, or a fragment"
+  },
+  {
+    "question": "53. How do you import a named export from React?",
+    "options": [
+      "import { useState } from 'react'",
+      "import useState from 'react'",
+      "import React.useState from 'react'",
+      "import { React } from 'react'"
+    ],
+    "correctAnswer": "import { useState } from 'react'"
+  },
+  {
+    "question": "54. How do you import a default export from a module?",
+    "options": [
+      "import Component from 'module'",
+      "import { Component } from 'module'",
+      "import * as Component from 'module'",
+      "import { default as Component } from 'module'"
+    ],
+    "correctAnswer": "import Component from 'module'"
+  },
+  {
+    "question": "55. What is one benefit of using functional components over class components?",
+    "options": [
+      "They are simpler and easier to test, and can use hooks",
+      "They require less memory",
+      "They do not support state",
+      "They automatically bind event handlers"
+    ],
+    "correctAnswer": "They are simpler and easier to test, and can use hooks"
+  },
+  {
+    "question": "56. What is the 'children' prop in React?",
+    "options": [
+      "A special prop that allows components to pass and render nested elements",
+      "A prop that contains CSS styles",
+      "A state variable",
+      "A method for handling events"
+    ],
+    "correctAnswer": "A special prop that allows components to pass and render nested elements"
+  },
+  {
+    "question": "57. What is the purpose of React.StrictMode?",
+    "options": [
+      "To identify potential problems by activating additional checks and warnings",
+      "To optimize performance",
+      "To manage state",
+      "To handle routing"
+    ],
+    "correctAnswer": "To identify potential problems by activating additional checks and warnings"
+  },
+  {
+    "question": "58. Which hook is used to execute code only on component mount?",
+    "options": [
+      "useEffect with an empty dependency array",
+      "useState",
+      "useContext",
+      "useMemo"
+    ],
+    "correctAnswer": "useEffect with an empty dependency array"
+  },
+  {
+    "question": "59. How do you prevent a function from being recreated on every render?",
+    "options": [
+      "By using the useCallback hook",
+      "By using the useState hook",
+      "By defining the function inside the render",
+      "By using the useEffect hook"
+    ],
+    "correctAnswer": "By using the useCallback hook"
+  },
+  {
+    "question": "60. What is the result of calling useState() without an initial value?",
+    "options": [
+      "The state is undefined",
+      "The state is null",
+      "The state is 0",
+      "It throws an error"
+    ],
+    "correctAnswer": "The state is undefined"
+  },
+  {
+    "question": "61. How do you update state based on the previous state value?",
+    "options": [
+      "By passing a function to the state updater returned by useState",
+      "By directly modifying the state variable",
+      "By using useEffect",
+      "By using useRef"
+    ],
+    "correctAnswer": "By passing a function to the state updater returned by useState"
+  },
+  {
+    "question": "62. What is a pure component in React?",
+    "options": [
+      "A component that renders the same output given the same props and state",
+      "A component with no state",
+      "A component that uses only functional components",
+      "A component that does not re-render"
+    ],
+    "correctAnswer": "A component that renders the same output given the same props and state"
+  },
+  {
+    "question": "63. What does React.memo do?",
+    "options": [
+      "It memoizes a component to prevent unnecessary re-renders if its props have not changed",
+      "It memoizes state values",
+      "It caches API responses",
+      "It prevents side effects"
+    ],
+    "correctAnswer": "It memoizes a component to prevent unnecessary re-renders if its props have not changed"
+  },
+  {
+    "question": "64. How do you conditionally render a component in React?",
+    "options": [
+      "Using logical operators or ternary expressions in JSX",
+      "Using if statements outside of JSX",
+      "By returning false from the render",
+      "By directly manipulating the DOM"
+    ],
+    "correctAnswer": "Using logical operators or ternary expressions in JSX"
+  },
+  {
+    "question": "65. Why is it important to use a unique key for each list item?",
+    "options": [
+      "To help React identify which items have changed, been added, or removed",
+      "To style list items uniquely",
+      "To sort the list",
+      "To bind event handlers"
+    ],
+    "correctAnswer": "To help React identify which items have changed, been added, or removed"
+  },
+  {
+    "question": "66. What is the difference between state and props in React?",
+    "options": [
+      "State is managed within a component, while props are passed from parent components",
+      "Props are mutable, state is immutable",
+      "Both are the same",
+      "State is used only for styling"
+    ],
+    "correctAnswer": "State is managed within a component, while props are passed from parent components"
+  },
+  {
+    "question": "67. How can you optimize performance in React functional components?",
+    "options": [
+      "By using hooks like useMemo, useCallback, and React.memo",
+      "By using class components",
+      "By avoiding state entirely",
+      "By disabling events"
+    ],
+    "correctAnswer": "By using hooks like useMemo, useCallback, and React.memo"
+  },
+  {
+    "question": "68. What is the role of useEffect when fetching data?",
+    "options": [
+      "To perform side effects like data fetching after the component mounts",
+      "To update state immediately",
+      "To render the component",
+      "To bind event handlers"
+    ],
+    "correctAnswer": "To perform side effects like data fetching after the component mounts"
+  },
+  {
+    "question": "69. What does it mean to 'lift state up' in React?",
+    "options": [
+      "Moving state to a common ancestor component to share data among children",
+      "Moving state to a child component",
+      "Deleting state",
+      "Storing state in a global variable"
+    ],
+    "correctAnswer": "Moving state to a common ancestor component to share data among children"
+  },
+  {
+    "question": "70. How do you create a custom hook in React?",
+    "options": [
+      "By writing a function that uses built-in hooks and starts with 'use'",
+      "By creating a class component",
+      "By using higher-order components",
+      "By importing a library"
+    ],
+    "correctAnswer": "By writing a function that uses built-in hooks and starts with 'use'"
+  },
+  {
+    "question": "71. Which hook would you use to manage form inputs in a functional component?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useRef",
+      "useContext"
+    ],
+    "correctAnswer": "useState"
+  },
+  {
+    "question": "72. How do you handle asynchronous operations in functional components?",
+    "options": [
+      "By using useEffect to handle asynchronous logic such as data fetching",
+      "By using useState exclusively",
+      "By writing synchronous code only",
+      "Asynchronous operations are not allowed"
+    ],
+    "correctAnswer": "By using useEffect to handle asynchronous logic such as data fetching"
+  },
+  {
+    "question": "73. What is the significance of the dependency array in useEffect?",
+    "options": [
+      "It determines when the effect function should re-run based on dependency changes",
+      "It initializes state",
+      "It binds event handlers",
+      "It is used to import modules"
+    ],
+    "correctAnswer": "It determines when the effect function should re-run based on dependency changes"
+  },
+  {
+    "question": "74. How can you prevent unnecessary API calls in a component?",
+    "options": [
+      "By correctly specifying dependencies in the useEffect dependency array",
+      "By calling the API in every render",
+      "By using global variables",
+      "By avoiding useEffect"
+    ],
+    "correctAnswer": "By correctly specifying dependencies in the useEffect dependency array"
+  },
+  {
+    "question": "75. What is the benefit of using React.lazy()?",
+    "options": [
+      "It enables code splitting by lazy loading components on demand",
+      "It memoizes functions",
+      "It updates state synchronously",
+      "It prevents re-renders"
+    ],
+    "correctAnswer": "It enables code splitting by lazy loading components on demand"
+  },
+  {
+    "question": "76. What is the purpose of useImperativeHandle?",
+    "options": [
+      "To customize the instance value that is exposed to parent components when using refs",
+      "To manage state",
+      "To handle side effects",
+      "To memoize functions"
+    ],
+    "correctAnswer": "To customize the instance value that is exposed to parent components when using refs"
+  },
+  {
+    "question": "77. Which hook stores mutable values that persist across renders without causing re-renders when updated?",
+    "options": [
+      "useRef",
+      "useState",
+      "useMemo",
+      "useEffect"
+    ],
+    "correctAnswer": "useRef"
+  },
+  {
+    "question": "78. What is a higher-order component (HOC) in React?",
+    "options": [
+      "A function that takes a component and returns a new component",
+      "A component with high performance",
+      "A component that manages state",
+      "A function that returns JSX directly"
+    ],
+    "correctAnswer": "A function that takes a component and returns a new component"
+  },
+  {
+    "question": "79. How do you forward refs in a functional component?",
+    "options": [
+      "Using React.forwardRef()",
+      "Using useRef directly",
+      "By passing refs as props",
+      "Forwarding refs is not supported in functional components"
+    ],
+    "correctAnswer": "Using React.forwardRef()"
+  },
+  {
+    "question": "80. What is the benefit of using forwardRef in React?",
+    "options": [
+      "It allows a parent component to pass a ref to a child component",
+      "It memoizes a component",
+      "It handles asynchronous operations",
+      "It manages state globally"
+    ],
+    "correctAnswer": "It allows a parent component to pass a ref to a child component"
+  },
+  {
+    "question": "81. Which method helps optimize re-renders in functional components?",
+    "options": [
+      "React.memo",
+      "useState",
+      "useEffect",
+      "useContext"
+    ],
+    "correctAnswer": "React.memo"
+  },
+  {
+    "question": "82. How can errors be handled in functional components?",
+    "options": [
+      "By using error boundaries at a higher level (functional components themselves cannot be error boundaries)",
+      "By using try-catch inside the render",
+      "By using useError hook",
+      "Errors cannot be handled in functional components"
+    ],
+    "correctAnswer": "By using error boundaries at a higher level (functional components themselves cannot be error boundaries)"
+  },
+  {
+    "question": "83. Which hook is used to avoid expensive recalculations on every render?",
+    "options": [
+      "useMemo",
+      "useState",
+      "useEffect",
+      "useCallback"
+    ],
+    "correctAnswer": "useMemo"
+  },
+  {
+    "question": "84. What does useCallback return?",
+    "options": [
+      "A memoized version of the callback function",
+      "A state updater function",
+      "A new component",
+      "A ref object"
+    ],
+    "correctAnswer": "A memoized version of the callback function"
+  },
+  {
+    "question": "85. How can you share logic between React components?",
+    "options": [
+      "By creating custom hooks",
+      "By using higher-order components only",
+      "By using classes",
+      "By duplicating code in every component"
+    ],
+    "correctAnswer": "By creating custom hooks"
+  },
+  {
+    "question": "86. What does the useDebugValue hook do?",
+    "options": [
+      "It can display a label for custom hooks in React DevTools",
+      "It debugs state changes",
+      "It optimizes performance",
+      "It logs errors"
+    ],
+    "correctAnswer": "It can display a label for custom hooks in React DevTools"
+  },
+  {
+    "question": "87. Which of the following is a valid way to write a React functional component?",
+    "options": [
+      "function MyComponent() { return <div>Hello</div>; }",
+      "class MyComponent extends React.Component { render() { return <div>Hello</div>; } }",
+      "const MyComponent = new React.Component() { return <div>Hello</div>; }",
+      "None of the above"
+    ],
+    "correctAnswer": "function MyComponent() { return <div>Hello</div>; }"
+  },
+  {
+    "question": "88. How do you access component props in a functional component?",
+    "options": [
+      "They are passed as the first argument to the function",
+      "Using this.props",
+      "Through the useState hook",
+      "They are globally available"
+    ],
+    "correctAnswer": "They are passed as the first argument to the function"
+  },
+  {
+    "question": "89. What is the purpose of default parameters in functional components?",
+    "options": [
+      "To provide default values for props",
+      "To initialize state",
+      "To handle side effects",
+      "To bind event handlers"
+    ],
+    "correctAnswer": "To provide default values for props"
+  },
+  {
+    "question": "90. How do you apply inline styles in JSX?",
+    "options": [
+      "By passing a JavaScript object to the style attribute",
+      "By using a CSS file only",
+      "By setting the style attribute to a string",
+      "Inline styles are not supported in JSX"
+    ],
+    "correctAnswer": "By passing a JavaScript object to the style attribute"
+  },
+  {
+    "question": "91. Which property allows rendering multiple components without an extra DOM element?",
+    "options": [
+      "React.Fragment or <>...</>",
+      "div wrapper",
+      "span wrapper",
+      "Fragment is not supported"
+    ],
+    "correctAnswer": "React.Fragment or <>...</>"
+  },
+  {
+    "question": "92. What is one benefit of using React DevTools with functional components?",
+    "options": [
+      "It helps debug component hierarchies and inspect hook states",
+      "It automatically optimizes performance",
+      "It manages state updates",
+      "It handles routing"
+    ],
+    "correctAnswer": "It helps debug component hierarchies and inspect hook states"
+  },
+  {
+    "question": "93. How can you ensure a function is called only once during component mount?",
+    "options": [
+      "By using useEffect with an empty dependency array",
+      "By using useState",
+      "By using React.memo",
+      "By using useCallback without dependencies"
+    ],
+    "correctAnswer": "By using useEffect with an empty dependency array"
+  },
+  {
+    "question": "94. What is the significance of using arrow functions in event handlers within functional components?",
+    "options": [
+      "They preserve the lexical scope and avoid binding issues",
+      "They are slower than regular functions",
+      "They automatically update state",
+      "They are required for all event handlers"
+    ],
+    "correctAnswer": "They preserve the lexical scope and avoid binding issues"
+  },
+  {
+    "question": "95. How do you update state based on the previous state in a functional component?",
+    "options": [
+      "By using a functional update: setState(prev => newValue)",
+      "By directly modifying the state variable",
+      "By using useEffect",
+      "By calling forceUpdate()"
+    ],
+    "correctAnswer": "By using a functional update: setState(prev => newValue)"
+  },
+  {
+    "question": "96. Which hook is typically used to manage timers in a functional component?",
+    "options": [
+      "useEffect in combination with setTimeout or setInterval",
+      "useState",
+      "useReducer",
+      "useCallback"
+    ],
+    "correctAnswer": "useEffect in combination with setTimeout or setInterval"
+  },
+  {
+    "question": "97. What is the correct way to render a list of items in JSX?",
+    "options": [
+      "Using the map() function to return an array of elements with unique keys",
+      "By looping with a for loop inside JSX",
+      "By concatenating strings",
+      "Lists cannot be rendered in JSX"
+    ],
+    "correctAnswer": "Using the map() function to return an array of elements with unique keys"
+  },
+  {
+    "question": "98. How can you prevent a component from rendering on initial load?",
+    "options": [
+      "By conditionally rendering based on state or props",
+      "By using useEffect",
+      "By removing the render method",
+      "By returning false"
+    ],
+    "correctAnswer": "By conditionally rendering based on state or props"
+  },
+  {
+    "question": "99. Which hook would you use to detect changes in a component's size or position?",
+    "options": [
+      "useRef combined with useEffect (often with a ResizeObserver)",
+      "useState",
+      "useMemo",
+      "useCallback"
+    ],
+    "correctAnswer": "useRef combined with useEffect (often with a ResizeObserver)"
+  },
+  {
+    "question": "100. What is code splitting in React?",
+    "options": [
+      "A technique to split code into smaller chunks that can be loaded on demand",
+      "A way to split components into multiple files",
+      "A method of splitting state between components",
+      "Code splitting is not used in React"
+    ],
+    "correctAnswer": "A technique to split code into smaller chunks that can be loaded on demand"
+  },
+  {
+    "question": "101. How can you conditionally apply a className based on state?",
+    "options": [
+      "By using template literals or ternary operators in JSX",
+      "By directly manipulating the DOM",
+      "By using external CSS only",
+      "By using the useEffect hook"
+    ],
+    "correctAnswer": "By using template literals or ternary operators in JSX"
+  },
+  {
+    "question": "102. What is the primary difference between functional and class components regarding state management?",
+    "options": [
+      "Functional components use hooks like useState; class components use this.state",
+      "Functional components do not support state",
+      "Class components are always stateless",
+      "Both manage state the same way"
+    ],
+    "correctAnswer": "Functional components use hooks like useState; class components use this.state"
+  },
+  {
+    "question": "103. How do you import the useState hook from React?",
+    "options": [
+      "import { useState } from 'react'",
+      "import useState from 'react'",
+      "import React.useState from 'react'",
+      "import { React, useState } from 'react'"
+    ],
+    "correctAnswer": "import { useState } from 'react'"
+  },
+  {
+    "question": "104. What determines when the useEffect callback is executed?",
+    "options": [
+      "The dependency array passed as the second argument",
+      "The component's state changes only",
+      "The order of hook declarations",
+      "It executes on every render by default"
+    ],
+    "correctAnswer": "The dependency array passed as the second argument"
+  },
+  {
+    "question": "105. How do you update state in a functional component?",
+    "options": [
+      "By calling the state updater function returned by useState",
+      "By calling this.setState()",
+      "By directly modifying the state variable",
+      "By using forceUpdate()"
+    ],
+    "correctAnswer": "By calling the state updater function returned by useState"
+  },
+  {
+    "question": "106. Which method can be used to force a re-render in a functional component?",
+    "options": [
+      "Updating state using useState or useReducer",
+      "Calling forceUpdate()",
+      "Modifying props directly",
+      "There is no way to force a re-render"
+    ],
+    "correctAnswer": "Updating state using useState or useReducer"
+  },
+  {
+    "question": "107. What is the purpose of the useReducer hook?",
+    "options": [
+      "To handle complex state logic in a functional component",
+      "To perform side effects",
+      "To memoize functions",
+      "To access the context API"
+    ],
+    "correctAnswer": "To handle complex state logic in a functional component"
+  },
+  {
+    "question": "108. How can you share logic between multiple components?",
+    "options": [
+      "By using custom hooks",
+      "By duplicating code in every component",
+      "By using class components",
+      "By using global variables"
+    ],
+    "correctAnswer": "By using custom hooks"
+  },
+  {
+    "question": "109. Which hook is most appropriate for handling data fetching in a functional component?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useContext",
+      "useReducer"
+    ],
+    "correctAnswer": "useEffect"
+  },
+  {
+    "question": "110. What does it mean for a component to be 'pure' in React?",
+    "options": [
+      "It renders the same output given the same props and state, without side effects",
+      "It has no state",
+      "It does not accept props",
+      "It never re-renders"
+    ],
+    "correctAnswer": "It renders the same output given the same props and state, without side effects"
+  },
+  {
+    "question": "111. How can you prevent a functional component from re-rendering when its props have not changed?",
+    "options": [
+      "By wrapping it with React.memo",
+      "By using useEffect",
+      "By using useState",
+      "By using useCallback"
+    ],
+    "correctAnswer": "By wrapping it with React.memo"
+  },
+  {
+    "question": "112. What is the purpose of the Context API in functional components?",
+    "options": [
+      "To avoid prop drilling by providing a way to pass data through the component tree",
+      "To manage state locally",
+      "To optimize performance",
+      "To handle routing"
+    ],
+    "correctAnswer": "To avoid prop drilling by providing a way to pass data through the component tree"
+  },
+  {
+    "question": "113. How do you update state that is an object or array in functional components?",
+    "options": [
+      "By creating a new copy of the state and updating it immutably",
+      "By modifying the state directly",
+      "By using class components",
+      "By using the Context API"
+    ],
+    "correctAnswer": "By creating a new copy of the state and updating it immutably"
+  },
+  {
+    "question": "114. What is the use of the useLayoutEffect hook?",
+    "options": [
+      "It runs synchronously after all DOM mutations, before the browser paints",
+      "It works the same as useEffect",
+      "It delays the render process",
+      "It is used only for performance optimization"
+    ],
+    "correctAnswer": "It runs synchronously after all DOM mutations, before the browser paints"
+  },
+  {
+    "question": "115. How do you implement conditional rendering in JSX?",
+    "options": [
+      "By using conditional expressions such as ternary operators or logical &&",
+      "By using if statements directly in JSX",
+      "By using the switch statement",
+      "Conditional rendering is not supported in JSX"
+    ],
+    "correctAnswer": "By using conditional expressions such as ternary operators or logical &&"
+  },
+  {
+    "question": "116. What is the significance of the 'key' prop in React lists?",
+    "options": [
+      "It helps React identify which items have changed, been added, or removed",
+      "It is used for styling",
+      "It binds event handlers",
+      "It defines the component's state"
+    ],
+    "correctAnswer": "It helps React identify which items have changed, been added, or removed"
+  },
+  {
+    "question": "117. How can you optimize a functional component that renders a list of items?",
+    "options": [
+      "By using React.memo and ensuring each item has a unique key",
+      "By avoiding keys in the list",
+      "By using class components",
+      "By re-rendering the list on every change"
+    ],
+    "correctAnswer": "By using React.memo and ensuring each item has a unique key"
+  },
+  {
+    "question": "118. Which hook is used to store a mutable value that persists for the lifetime of the component?",
+    "options": [
+      "useRef",
+      "useState",
+      "useEffect",
+      "useMemo"
+    ],
+    "correctAnswer": "useRef"
+  },
+  {
+    "question": "119. How can you optimize a functional component to prevent unnecessary re-renders when props remain the same?",
+    "options": [
+      "By wrapping the component with React.memo",
+      "By using useEffect without dependencies",
+      "By using useState to track props",
+      "By forcing a re-render"
+    ],
+    "correctAnswer": "By wrapping the component with React.memo"
+  },
+  {
+    "question": "120. Which hook is used to store a mutable value that does not trigger a re-render when updated?",
+    "options": [
+      "useRef",
+      "useState",
+      "useReducer",
+      "useCallback"
+    ],
+    "correctAnswer": "useRef"
+  }
+]

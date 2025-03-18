@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "1. What is the primary role of medical billing in the Division of Developmental Disability Medicaid space in Arizona?",
+    "options": [
+      "To submit claims for reimbursement of services provided to individuals with developmental disabilities",
+      "To provide direct clinical care",
+      "To manage patient appointments",
+      "To develop treatment protocols"
+    ],
+    "correctAnswer": "To submit claims for reimbursement of services provided to individuals with developmental disabilities"
+  },
+  {
+    "question": "2. Which coding system is primarily used to report procedural services in Medicaid billing?",
+    "options": [
+      "ICD-10",
+      "CPT",
+      "LOINC",
+      "SNOMED CT"
+    ],
+    "correctAnswer": "CPT"
+  },
+  {
+    "question": "3. Which diagnostic coding system is used to record patient diagnoses for billing purposes?",
+    "options": [
+      "ICD-10",
+      "CPT",
+      "HCPCS",
+      "DRG"
+    ],
+    "correctAnswer": "ICD-10"
+  },
+  {
+    "question": "4. What does HCPCS stand for?",
+    "options": [
+      "Healthcare Common Procedure Coding System",
+      "Hospital Care and Procedure Coding System",
+      "Health Care Procedure Coding Standard",
+      "High Cost Procedure Coding System"
+    ],
+    "correctAnswer": "Healthcare Common Procedure Coding System"
+  },
+  {
+    "question": "5. Which agency administers Medicaid in Arizona?",
+    "options": [
+      "AHCCCS",
+      "DES",
+      "CMS",
+      "Medicare"
+    ],
+    "correctAnswer": "AHCCCS"
+  },
+  {
+    "question": "6. What is the role of the Arizona Department of Economic Security (DES) in the Division of Developmental Disabilities?",
+    "options": [
+      "Overseeing provider services and funding for individuals with developmental disabilities",
+      "Administering all statewide Medicaid claims",
+      "Providing direct clinical services",
+      "Setting national billing guidelines"
+    ],
+    "correctAnswer": "Overseeing provider services and funding for individuals with developmental disabilities"
+  },
+  {
+    "question": "7. What is a common reason for claim denials in developmental disability Medicaid billing?",
+    "options": [
+      "Incomplete documentation",
+      "Timely submission",
+      "Accurate coding",
+      "Pre-authorization granted"
+    ],
+    "correctAnswer": "Incomplete documentation"
+  },
+  {
+    "question": "8. What does pre-authorization ensure in Medicaid billing?",
+    "options": [
+      "That services are medically necessary and approved before they are provided",
+      "That payment is guaranteed",
+      "That claims are processed faster",
+      "That provider enrollment is complete"
+    ],
+    "correctAnswer": "That services are medically necessary and approved before they are provided"
+  },
+  {
+    "question": "9. Which document is essential to support the billing of developmental disability services?",
+    "options": [
+      "Detailed progress notes and service logs",
+      "Patient satisfaction surveys",
+      "Marketing materials",
+      "Staff resumes"
+    ],
+    "correctAnswer": "Detailed progress notes and service logs"
+  },
+  {
+    "question": "10. Why is accurate coding crucial in Medicaid billing?",
+    "options": [
+      "It ensures proper reimbursement and compliance with regulations",
+      "It speeds up clinical service delivery",
+      "It reduces patient wait times",
+      "It increases patient referrals"
+    ],
+    "correctAnswer": "It ensures proper reimbursement and compliance with regulations"
+  },
+  {
+    "question": "11. Which claim form is most commonly used for professional Medicaid billing?",
+    "options": [
+      "CMS-1500",
+      "UB-04",
+      "CMS-1450",
+      "HCFA-1500"
+    ],
+    "correctAnswer": "CMS-1500"
+  },
+  {
+    "question": "12. What is the purpose of modifier codes in medical billing?",
+    "options": [
+      "To indicate alterations to standard procedures or services rendered",
+      "To provide patient demographic information",
+      "To identify the provider's specialty",
+      "To classify diagnostic codes"
+    ],
+    "correctAnswer": "To indicate alterations to standard procedures or services rendered"
+  },
+  {
+    "question": "13. Which code set is used for billing durable medical equipment under Medicaid?",
+    "options": [
+      "HCPCS",
+      "CPT",
+      "ICD-10",
+      "DRG"
+    ],
+    "correctAnswer": "HCPCS"
+  },
+  {
+    "question": "14. What is the role of National Drug Codes (NDC) in medical billing?",
+    "options": [
+      "To identify medications and supplies",
+      "To classify diagnoses",
+      "To report laboratory results",
+      "To track patient visits"
+    ],
+    "correctAnswer": "To identify medications and supplies"
+  },
+  {
+    "question": "15. How does billing for developmental disability services differ from other Medicaid services in Arizona?",
+    "options": [
+      "It requires specialized documentation and service codes",
+      "It follows the same procedures as all other services",
+      "It is processed through private insurers",
+      "It does not require pre-authorization"
+    ],
+    "correctAnswer": "It requires specialized documentation and service codes"
+  },
+  {
+    "question": "16. What is the function of a billing auditor in the Medicaid space?",
+    "options": [
+      "To review claims for accuracy and compliance with guidelines",
+      "To provide direct patient care",
+      "To enroll new providers",
+      "To design billing software"
+    ],
+    "correctAnswer": "To review claims for accuracy and compliance with guidelines"
+  },
+  {
+    "question": "17. Which factor is critical for determining Medicaid reimbursement rates?",
+    "options": [
+      "Medical necessity and properly documented codes",
+      "Patient income levels",
+      "Provider reputation",
+      "Location of the facility only"
+    ],
+    "correctAnswer": "Medical necessity and properly documented codes"
+  },
+  {
+    "question": "18. What is the purpose of the appeals process in Medicaid billing?",
+    "options": [
+      "To challenge denied claims and seek proper reimbursement",
+      "To delay payment processing",
+      "To adjust provider schedules",
+      "To change diagnostic codes after submission"
+    ],
+    "correctAnswer": "To challenge denied claims and seek proper reimbursement"
+  },
+  {
+    "question": "19. What role does HIPAA play in medical billing?",
+    "options": [
+      "It protects patient privacy and secures health information",
+      "It determines reimbursement rates",
+      "It regulates provider licensing",
+      "It sets coding guidelines"
+    ],
+    "correctAnswer": "It protects patient privacy and secures health information"
+  },
+  {
+    "question": "20. Which billing software is commonly used by providers in the Medicaid space?",
+    "options": [
+      "AdvancedMD",
+      "Photoshop",
+      "Excel",
+      "WordPress"
+    ],
+    "correctAnswer": "AdvancedMD"
+  },
+  {
+    "question": "21. What is the purpose of claim scrubbing in medical billing?",
+    "options": [
+      "To identify errors before claim submission",
+      "To verify patient identity",
+      "To schedule appointments",
+      "To update provider credentials"
+    ],
+    "correctAnswer": "To identify errors before claim submission"
+  },
+  {
+    "question": "22. What is an Explanation of Benefits (EOB)?",
+    "options": [
+      "A document provided to patients detailing the payment for services rendered",
+      "A provider enrollment form",
+      "A coding manual",
+      "A type of insurance policy"
+    ],
+    "correctAnswer": "A document provided to patients detailing the payment for services rendered"
+  },
+  {
+    "question": "23. Which department in Arizona oversees Medicaid billing compliance for developmental disability services?",
+    "options": [
+      "Arizona Department of Economic Security (DES)",
+      "Arizona Department of Transportation",
+      "Arizona Department of Health Services",
+      "Arizona Insurance Commission"
+    ],
+    "correctAnswer": "Arizona Department of Economic Security (DES)"
+  },
+  {
+    "question": "24. What is the significance of timely filing limits in Medicaid billing?",
+    "options": [
+      "Claims must be submitted within a specified period to be eligible for reimbursement",
+      "They determine provider salaries",
+      "They affect patient appointment scheduling",
+      "They are used to calculate co-payments"
+    ],
+    "correctAnswer": "Claims must be submitted within a specified period to be eligible for reimbursement"
+  },
+  {
+    "question": "25. What is the purpose of electronic claim submission in Medicaid billing?",
+    "options": [
+      "To reduce errors and expedite the processing of claims",
+      "To increase paperwork",
+      "To delay reimbursements",
+      "To bypass state regulations"
+    ],
+    "correctAnswer": "To reduce errors and expedite the processing of claims"
+  },
+  {
+    "question": "26. Which process involves resubmitting a corrected claim after an initial denial?",
+    "options": [
+      "Claim resubmission",
+      "Appeals",
+      "Rebilling",
+      "Claim reversal"
+    ],
+    "correctAnswer": "Claim resubmission"
+  },
+  {
+    "question": "27. What is a common modifier used in medical billing to indicate a significant, separately identifiable service?",
+    "options": [
+      "Modifier 25",
+      "Modifier 59",
+      "Modifier 76",
+      "Modifier 80"
+    ],
+    "correctAnswer": "Modifier 25"
+  },
+  {
+    "question": "28. Which element is crucial for accurate billing in developmental disability Medicaid services?",
+    "options": [
+      "Comprehensive service documentation",
+      "Provider's personal history",
+      "Patient's social media profiles",
+      "Marketing brochures"
+    ],
+    "correctAnswer": "Comprehensive service documentation"
+  },
+  {
+    "question": "29. Which service is commonly billed under developmental disability Medicaid?",
+    "options": [
+      "Respite care services",
+      "Surgical procedures",
+      "Cosmetic treatments",
+      "Emergency room visits"
+    ],
+    "correctAnswer": "Respite care services"
+  },
+  {
+    "question": "30. What is the role of a provider's National Provider Identifier (NPI) in billing?",
+    "options": [
+      "It uniquely identifies the healthcare provider in all transactions",
+      "It represents the provider's academic credentials",
+      "It indicates the provider's specialty",
+      "It determines the reimbursement rate"
+    ],
+    "correctAnswer": "It uniquely identifies the healthcare provider in all transactions"
+  },
+  {
+    "question": "31. Why is it important to verify patient eligibility before submitting a Medicaid claim?",
+    "options": [
+      "To ensure the patient is enrolled in Medicaid and eligible for services",
+      "To collect patient co-payments",
+      "To schedule follow-up appointments",
+      "To update patient contact information"
+    ],
+    "correctAnswer": "To ensure the patient is enrolled in Medicaid and eligible for services"
+  },
+  {
+    "question": "32. Which document is used to capture the details of services provided to a patient?",
+    "options": [
+      "Progress notes",
+      "Patient consent forms",
+      "Appointment schedules",
+      "Insurance cards"
+    ],
+    "correctAnswer": "Progress notes"
+  },
+  {
+    "question": "33. What does DRG stand for in medical billing?",
+    "options": [
+      "Diagnosis-Related Group",
+      "Data Reporting Group",
+      "Document Reimbursement Guideline",
+      "Diagnostic Reimbursement Grade"
+    ],
+    "correctAnswer": "Diagnosis-Related Group"
+  },
+  {
+    "question": "34. Which code set is primarily used for inpatient hospital billing rather than developmental disability services?",
+    "options": [
+      "DRG",
+      "CPT",
+      "ICD-10",
+      "HCPCS"
+    ],
+    "correctAnswer": "DRG"
+  },
+  {
+    "question": "35. Which service type might require a separate claim in developmental disability Medicaid billing?",
+    "options": [
+      "Behavioral therapy",
+      "Routine check-ups",
+      "Dental cleaning",
+      "Cosmetic surgery"
+    ],
+    "correctAnswer": "Behavioral therapy"
+  },
+  {
+    "question": "36. What is the primary responsibility of a billing coordinator in a Medicaid billing department?",
+    "options": [
+      "To manage the submission and follow-up of claims",
+      "To provide direct patient care",
+      "To develop clinical treatment plans",
+      "To oversee facility maintenance"
+    ],
+    "correctAnswer": "To manage the submission and follow-up of claims"
+  },
+  {
+    "question": "37. What does the term 'claim adjustment' refer to?",
+    "options": [
+      "Modifications made to a claim due to errors or changes in service details",
+      "An increase in the billed amount",
+      "The initial claim submission",
+      "A provider’s internal audit report"
+    ],
+    "correctAnswer": "Modifications made to a claim due to errors or changes in service details"
+  },
+  {
+    "question": "38. What is the purpose of billing audits in the Medicaid space?",
+    "options": [
+      "To ensure compliance and identify billing errors",
+      "To generate marketing strategies",
+      "To manage patient appointments",
+      "To design billing software"
+    ],
+    "correctAnswer": "To ensure compliance and identify billing errors"
+  },
+  {
+    "question": "39. Which factor is most likely to result in claim denials for developmental disability services?",
+    "options": [
+      "Missing or incorrect documentation",
+      "Timely submission",
+      "Accurate service descriptions",
+      "Proper use of modifiers"
+    ],
+    "correctAnswer": "Missing or incorrect documentation"
+  },
+  {
+    "question": "40. What is the role of an eligibility check in the billing process?",
+    "options": [
+      "To verify that the patient is currently enrolled in Medicaid",
+      "To schedule the service delivery",
+      "To determine the provider's payment schedule",
+      "To update clinical records"
+    ],
+    "correctAnswer": "To verify that the patient is currently enrolled in Medicaid"
+  },
+  {
+    "question": "41. Which software function is used to detect coding errors before claim submission?",
+    "options": [
+      "Claim scrubbing",
+      "Electronic signature verification",
+      "Data encryption",
+      "Provider lookup"
+    ],
+    "correctAnswer": "Claim scrubbing"
+  },
+  {
+    "question": "42. Which of the following is an essential element of billing documentation?",
+    "options": [
+      "Service dates and times",
+      "Patient's favorite color",
+      "Provider's personal interests",
+      "Office decor details"
+    ],
+    "correctAnswer": "Service dates and times"
+  },
+  {
+    "question": "43. What does the term 'billing cycle' refer to?",
+    "options": [
+      "The regular interval at which claims are submitted and processed",
+      "The schedule of patient appointments",
+      "The provider’s work shift",
+      "The review period for clinical outcomes"
+    ],
+    "correctAnswer": "The regular interval at which claims are submitted and processed"
+  },
+  {
+    "question": "44. Which method of claim submission is preferred in modern Medicaid billing?",
+    "options": [
+      "Electronic claim submission",
+      "Paper claim submission",
+      "Faxed claim submission",
+      "Verbal claim submission"
+    ],
+    "correctAnswer": "Electronic claim submission"
+  },
+  {
+    "question": "45. What is a remittance advice in the context of medical billing?",
+    "options": [
+      "A statement from the payer explaining payment decisions",
+      "A type of claim form",
+      "A clinical report",
+      "An internal billing memo"
+    ],
+    "correctAnswer": "A statement from the payer explaining payment decisions"
+  },
+  {
+    "question": "46. What role does provider enrollment play in Medicaid billing?",
+    "options": [
+      "It verifies that providers are authorized to bill Medicaid for services",
+      "It schedules patient appointments",
+      "It develops treatment plans",
+      "It manages clinical operations"
+    ],
+    "correctAnswer": "It verifies that providers are authorized to bill Medicaid for services"
+  },
+  {
+    "question": "47. Which entity is responsible for setting billing rates for Medicaid services in Arizona?",
+    "options": [
+      "The state Medicaid agency (AHCCCS)",
+      "Private insurers",
+      "The federal government exclusively",
+      "Individual providers"
+    ],
+    "correctAnswer": "The state Medicaid agency (AHCCCS)"
+  },
+  {
+    "question": "48. What is the purpose of using modifiers in CPT coding?",
+    "options": [
+      "To indicate that a service was altered in some way",
+      "To change the billing period",
+      "To denote the provider's specialty",
+      "To update patient demographics"
+    ],
+    "correctAnswer": "To indicate that a service was altered in some way"
+  },
+  {
+    "question": "49. Which documentation requirement is commonly associated with billing developmental disability services?",
+    "options": [
+      "Detailed service logs and progress notes",
+      "Patient social media screenshots",
+      "General provider overviews",
+      "Facility maintenance records"
+    ],
+    "correctAnswer": "Detailed service logs and progress notes"
+  },
+  {
+    "question": "50. Which area is a key focus for compliance in Medicaid billing?",
+    "options": [
+      "Adherence to coding guidelines and documentation standards",
+      "Scheduling patient visits",
+      "Designing office layouts",
+      "Developing marketing strategies"
+    ],
+    "correctAnswer": "Adherence to coding guidelines and documentation standards"
+  },
+  {
+    "question": "51. What is the purpose of an audit trail in billing systems?",
+    "options": [
+      "To track all changes and submissions for accountability",
+      "To speed up claim processing",
+      "To schedule patient follow-ups",
+      "To encrypt patient data"
+    ],
+    "correctAnswer": "To track all changes and submissions for accountability"
+  },
+  {
+    "question": "52. How is 'medical necessity' defined in the context of billing?",
+    "options": [
+      "Services must be justified as necessary for the patient's condition",
+      "All services provided are automatically billable",
+      "It is determined solely by the provider's preference",
+      "It is based on patient satisfaction scores"
+    ],
+    "correctAnswer": "Services must be justified as necessary for the patient's condition"
+  },
+  {
+    "question": "53. What is the impact of upcoding in Medicaid billing?",
+    "options": [
+      "It can lead to claim denials and legal penalties",
+      "It increases patient satisfaction",
+      "It speeds up the claim process",
+      "It has no financial impact"
+    ],
+    "correctAnswer": "It can lead to claim denials and legal penalties"
+  },
+  {
+    "question": "54. Which organization provides overarching guidelines for medical billing compliance?",
+    "options": [
+      "Centers for Medicare & Medicaid Services (CMS)",
+      "World Health Organization (WHO)",
+      "American Medical Association (AMA)",
+      "National Institutes of Health (NIH)"
+    ],
+    "correctAnswer": "Centers for Medicare & Medicaid Services (CMS)"
+  },
+  {
+    "question": "55. Which factor is most critical in determining reimbursement amounts for services?",
+    "options": [
+      "Service type, duration, and complexity",
+      "Provider's office decor",
+      "Patient's employment status",
+      "Facility location only"
+    ],
+    "correctAnswer": "Service type, duration, and complexity"
+  },
+  {
+    "question": "56. Why is timely claim submission important?",
+    "options": [
+      "It prevents denial of claims due to filing limits",
+      "It reduces administrative costs",
+      "It improves patient care directly",
+      "It enhances provider reputation"
+    ],
+    "correctAnswer": "It prevents denial of claims due to filing limits"
+  },
+  {
+    "question": "57. Which of the following might trigger a Medicaid claim denial?",
+    "options": [
+      "Incorrect coding or missing documentation",
+      "On-time submission",
+      "Accurate service descriptions",
+      "Proper use of modifiers"
+    ],
+    "correctAnswer": "Incorrect coding or missing documentation"
+  },
+  {
+    "question": "58. What is the role of the reimbursement rate in Medicaid billing?",
+    "options": [
+      "It determines the amount paid for a given service",
+      "It sets patient co-payment amounts",
+      "It schedules provider shifts",
+      "It calculates administrative fees"
+    ],
+    "correctAnswer": "It determines the amount paid for a given service"
+  },
+  {
+    "question": "59. Which billing error can result in overpayment by Medicaid?",
+    "options": [
+      "Upcoding",
+      "Under-coding",
+      "Timely submission",
+      "Accurate documentation"
+    ],
+    "correctAnswer": "Upcoding"
+  },
+  {
+    "question": "60. What is the purpose of cross-referencing codes in billing?",
+    "options": [
+      "To ensure consistency between diagnosis and procedure codes",
+      "To complicate the billing process",
+      "To provide additional patient details",
+      "To expedite claim processing"
+    ],
+    "correctAnswer": "To ensure consistency between diagnosis and procedure codes"
+  },
+  {
+    "question": "61. What can be a consequence of inaccurate billing practices?",
+    "options": [
+      "Financial losses and compliance issues",
+      "Improved reimbursement rates",
+      "Enhanced provider reputation",
+      "Faster claim processing"
+    ],
+    "correctAnswer": "Financial losses and compliance issues"
+  },
+  {
+    "question": "62. What are Medicaid fee schedules?",
+    "options": [
+      "They list the maximum allowable reimbursement rates for services",
+      "They determine patient co-payment amounts",
+      "They schedule provider appointments",
+      "They provide clinical treatment protocols"
+    ],
+    "correctAnswer": "They list the maximum allowable reimbursement rates for services"
+  },
+  {
+    "question": "63. What does the term 'clean claim' mean?",
+    "options": [
+      "A claim submitted without errors or omissions",
+      "A claim that has been previously denied",
+      "A claim with incomplete documentation",
+      "A claim that has been resubmitted"
+    ],
+    "correctAnswer": "A claim submitted without errors or omissions"
+  },
+  {
+    "question": "64. What is the function of a clearinghouse in Medicaid billing?",
+    "options": [
+      "To electronically process and transmit claims",
+      "To provide direct clinical services",
+      "To set reimbursement rates",
+      "To enroll new patients"
+    ],
+    "correctAnswer": "To electronically process and transmit claims"
+  },
+  {
+    "question": "65. What is an essential component of a provider's billing system?",
+    "options": [
+      "Accurate patient and service data",
+      "Provider marketing materials",
+      "Patient appointment reminders",
+      "General office supply inventories"
+    ],
+    "correctAnswer": "Accurate patient and service data"
+  },
+  {
+    "question": "66. What is the purpose of eligibility verification in Medicaid billing?",
+    "options": [
+      "To confirm that the patient is enrolled in Medicaid",
+      "To determine the provider's shift schedule",
+      "To update clinical notes",
+      "To manage office operations"
+    ],
+    "correctAnswer": "To confirm that the patient is enrolled in Medicaid"
+  },
+  {
+    "question": "67. Which document outlines the services covered under developmental disability Medicaid in Arizona?",
+    "options": [
+      "State-specific provider manuals and guidelines",
+      "National treatment protocols",
+      "Hospital policy documents",
+      "Patient consent forms"
+    ],
+    "correctAnswer": "State-specific provider manuals and guidelines"
+  },
+  {
+    "question": "68. What is a key challenge in billing for developmental disability services?",
+    "options": [
+      "The complexity of service documentation and coding",
+      "The simplicity of service descriptions",
+      "The lack of standardized codes",
+      "Uniform billing practices across all states"
+    ],
+    "correctAnswer": "The complexity of service documentation and coding"
+  },
+  {
+    "question": "69. Which term refers to the rate at which Medicaid reimburses for a service?",
+    "options": [
+      "Reimbursement rate",
+      "Billing rate",
+      "Payment multiplier",
+      "Provider fee"
+    ],
+    "correctAnswer": "Reimbursement rate"
+  },
+  {
+    "question": "70. What is the primary role of a medical biller in the developmental disability Medicaid space?",
+    "options": [
+      "To manage and submit claims and follow up on payments",
+      "To provide direct clinical care",
+      "To schedule patient appointments",
+      "To perform diagnostic tests"
+    ],
+    "correctAnswer": "To manage and submit claims and follow up on payments"
+  },
+  {
+    "question": "71. Which practice is key to ensuring compliance in Medicaid billing?",
+    "options": [
+      "Adhering to both state-specific and federal billing guidelines",
+      "Following only federal guidelines",
+      "Using outdated coding manuals",
+      "Relying solely on provider experience"
+    ],
+    "correctAnswer": "Adhering to both state-specific and federal billing guidelines"
+  },
+  {
+    "question": "72. Why is billing education and training important for providers?",
+    "options": [
+      "It ensures accurate claim submissions and reduces errors",
+      "It increases patient volume",
+      "It automatically prevents claim denials",
+      "It replaces the need for audits"
+    ],
+    "correctAnswer": "It ensures accurate claim submissions and reduces errors"
+  },
+  {
+    "question": "73. Which modifier is often used to indicate a distinct procedural service provided on the same day?",
+    "options": [
+      "Modifier 25",
+      "Modifier 59",
+      "Modifier 76",
+      "Modifier 80"
+    ],
+    "correctAnswer": "Modifier 59"
+  },
+  {
+    "question": "74. Which coding guideline is critical for billing behavioral health services in developmental disabilities?",
+    "options": [
+      "Using appropriate CPT and ICD-10 codes for therapy sessions",
+      "Using generic procedure codes",
+      "Skipping detailed documentation",
+      "Using non-standard codes"
+    ],
+    "correctAnswer": "Using appropriate CPT and ICD-10 codes for therapy sessions"
+  },
+  {
+    "question": "75. What documentation is typically required for billing case management services?",
+    "options": [
+      "Detailed service logs, goals, and outcomes",
+      "A single signature",
+      "A brief note",
+      "Provider personal statements"
+    ],
+    "correctAnswer": "Detailed service logs, goals, and outcomes"
+  },
+  {
+    "question": "76. Which state-specific resource provides guidelines for developmental disability billing in Arizona?",
+    "options": [
+      "Arizona DES guidelines",
+      "Federal CMS manuals",
+      "Private insurance policies",
+      "International coding standards"
+    ],
+    "correctAnswer": "Arizona DES guidelines"
+  },
+  {
+    "question": "77. What is the role of a super bill in medical billing?",
+    "options": [
+      "A document summarizing services provided for claim submission",
+      "A type of insurance policy",
+      "A billing error report",
+      "A provider performance review"
+    ],
+    "correctAnswer": "A document summarizing services provided for claim submission"
+  },
+  {
+    "question": "78. What does 'upcoding' in medical billing mean?",
+    "options": [
+      "Billing for a higher-level service than was actually provided",
+      "Billing accurately for the services rendered",
+      "Billing for a lower-level service than provided",
+      "Using modifiers unnecessarily"
+    ],
+    "correctAnswer": "Billing for a higher-level service than was actually provided"
+  },
+  {
+    "question": "79. What is 'downcoding' in the context of medical billing?",
+    "options": [
+      "Reporting a lower-level service than was provided",
+      "Accurately coding the service",
+      "Omitting service details",
+      "Duplicating the claim submission"
+    ],
+    "correctAnswer": "Reporting a lower-level service than was provided"
+  },
+  {
+    "question": "80. Why is it important to track claim status in Medicaid billing?",
+    "options": [
+      "To monitor payments and follow up on denials",
+      "To delay reimbursements",
+      "To update patient records only",
+      "To schedule provider training"
+    ],
+    "correctAnswer": "To monitor payments and follow up on denials"
+  },
+  {
+    "question": "81. Which system is often used by Medicaid providers to submit electronic claims?",
+    "options": [
+      "EHR/EMR systems with integrated billing modules",
+      "Manual paper forms",
+      "Telephone submissions",
+      "Fax-only systems"
+    ],
+    "correctAnswer": "EHR/EMR systems with integrated billing modules"
+  },
+  {
+    "question": "82. What is the purpose of claim batching?",
+    "options": [
+      "To submit multiple claims together for processing",
+      "To merge patient records",
+      "To combine coding systems",
+      "To update provider information"
+    ],
+    "correctAnswer": "To submit multiple claims together for processing"
+  },
+  {
+    "question": "83. Which element is key to a successful appeals process for denied claims?",
+    "options": [
+      "Clear documentation of the initial claim and reasons for denial",
+      "Ignoring the denial notice",
+      "Resubmitting without any changes",
+      "Altering patient data after submission"
+    ],
+    "correctAnswer": "Clear documentation of the initial claim and reasons for denial"
+  },
+  {
+    "question": "84. How does medical necessity affect Medicaid billing?",
+    "options": [
+      "It justifies the need for a service and supports reimbursement",
+      "It has no impact on billing",
+      "It only applies to elective procedures",
+      "It is determined by the patient"
+    ],
+    "correctAnswer": "It justifies the need for a service and supports reimbursement"
+  },
+  {
+    "question": "85. What does 'bundling' in medical billing refer to?",
+    "options": [
+      "Grouping multiple related services into a single reimbursement",
+      "Separating services for individual billing",
+      "Omitting certain service codes",
+      "Duplicating claims for higher payment"
+    ],
+    "correctAnswer": "Grouping multiple related services into a single reimbursement"
+  },
+  {
+    "question": "86. Why is it important to use modifiers correctly in Medicaid billing?",
+    "options": [
+      "They adjust the billing code to reflect service variations",
+      "They automatically increase the charge",
+      "They are optional and rarely impact the claim",
+      "They only apply to inpatient services"
+    ],
+    "correctAnswer": "They adjust the billing code to reflect service variations"
+  },
+  {
+    "question": "87. What ensures that billing practices comply with Medicaid regulations?",
+    "options": [
+      "Strict adherence to state and federal guidelines",
+      "Relying solely on provider judgment",
+      "Using outdated billing manuals",
+      "Minimal oversight"
+    ],
+    "correctAnswer": "Strict adherence to state and federal guidelines"
+  },
+  {
+    "question": "88. What is a potential consequence of fraudulent billing practices in Medicaid?",
+    "options": [
+      "Legal penalties and exclusion from Medicaid programs",
+      "Increased reimbursement rates",
+      "Enhanced provider reputation",
+      "Faster claim processing"
+    ],
+    "correctAnswer": "Legal penalties and exclusion from Medicaid programs"
+  },
+  {
+    "question": "89. What is required for revalidation of provider credentials in Medicaid billing?",
+    "options": [
+      "Submission of updated licenses and certifications",
+      "Submission of marketing materials",
+      "Patient testimonials",
+      "Social media endorsements"
+    ],
+    "correctAnswer": "Submission of updated licenses and certifications"
+  },
+  {
+    "question": "90. What does the term 'gross charges' refer to in medical billing?",
+    "options": [
+      "The amount billed for a service before any adjustments",
+      "The net revenue after deductions",
+      "The patient’s out-of-pocket cost",
+      "The administrative fee"
+    ],
+    "correctAnswer": "The amount billed for a service before any adjustments"
+  },
+  {
+    "question": "91. What does 'contracted rate' mean in Medicaid billing?",
+    "options": [
+      "The negotiated payment rate between a provider and the payer",
+      "The standard fee schedule rate",
+      "The provider’s list price",
+      "The patient’s co-payment"
+    ],
+    "correctAnswer": "The negotiated payment rate between a provider and the payer"
+  },
+  {
+    "question": "92. What process involves reviewing billing data to identify trends and errors?",
+    "options": [
+      "Billing analytics",
+      "Claim scrubbing",
+      "Provider enrollment",
+      "Documentation review"
+    ],
+    "correctAnswer": "Billing analytics"
+  },
+  {
+    "question": "93. Which federal act influences privacy and security in medical billing?",
+    "options": [
+      "HIPAA",
+      "FERPA",
+      "FMLA",
+      "ADA"
+    ],
+    "correctAnswer": "HIPAA"
+  },
+  {
+    "question": "94. What is a benefit of using electronic medical billing systems?",
+    "options": [
+      "Improved accuracy and faster claim processing",
+      "Increased paperwork",
+      "Longer billing cycles",
+      "Higher error rates"
+    ],
+    "correctAnswer": "Improved accuracy and faster claim processing"
+  },
+  {
+    "question": "95. What is the primary goal of the Medicaid provider appeal process?",
+    "options": [
+      "To contest claim denials and secure proper reimbursement",
+      "To delay payment processing",
+      "To change service codes post-submission",
+      "To update provider profiles"
+    ],
+    "correctAnswer": "To contest claim denials and secure proper reimbursement"
+  },
+  {
+    "question": "96. Why are accurate dates of service critical in Medicaid claims?",
+    "options": [
+      "They verify the timeliness and eligibility of the service",
+      "They are used solely for statistical analysis",
+      "They determine the provider's work schedule",
+      "They have minimal impact on reimbursement"
+    ],
+    "correctAnswer": "They verify the timeliness and eligibility of the service"
+  },
+  {
+    "question": "97. What is a common challenge in billing for developmental disability services?",
+    "options": [
+      "The complexity of service documentation requirements",
+      "The simplicity of coding guidelines",
+      "Uniform claim formats across all states",
+      "Fully automated billing processes"
+    ],
+    "correctAnswer": "The complexity of service documentation requirements"
+  },
+  {
+    "question": "98. What is the purpose of integrating an EHR system with billing processes?",
+    "options": [
+      "To streamline clinical documentation with claim submission",
+      "To replace the need for billing altogether",
+      "To manage only patient appointments",
+      "To handle only administrative tasks"
+    ],
+    "correctAnswer": "To streamline clinical documentation with claim submission"
+  },
+  {
+    "question": "99. Which factor can directly impact the reimbursement amount for a service?",
+    "options": [
+      "Service complexity and documented duration",
+      "Provider's office location",
+      "Patient's zip code",
+      "Weather conditions"
+    ],
+    "correctAnswer": "Service complexity and documented duration"
+  },
+  {
+    "question": "100. What is the purpose of provider credentialing in Medicaid?",
+    "options": [
+      "To verify a provider’s qualifications and eligibility to bill",
+      "To schedule patient appointments",
+      "To manage billing software",
+      "To update clinical treatment protocols"
+    ],
+    "correctAnswer": "To verify a provider’s qualifications and eligibility to bill"
+  },
+  {
+    "question": "101. Which department typically handles billing issues within a healthcare organization?",
+    "options": [
+      "Billing and coding department",
+      "Human resources",
+      "Clinical care department",
+      "Marketing department"
+    ],
+    "correctAnswer": "Billing and coding department"
+  },
+  {
+    "question": "102. What is the impact of claim resubmission after a denial?",
+    "options": [
+      "It allows providers to correct errors and seek payment",
+      "It guarantees immediate payment",
+      "It resets the entire billing cycle",
+      "It voids the original claim permanently"
+    ],
+    "correctAnswer": "It allows providers to correct errors and seek payment"
+  },
+  {
+    "question": "103. Which best practice helps ensure accurate Medicaid billing?",
+    "options": [
+      "Regular training on coding and documentation",
+      "Ignoring updates in billing guidelines",
+      "Submitting claims without review",
+      "Using outdated coding systems"
+    ],
+    "correctAnswer": "Regular training on coding and documentation"
+  },
+  {
+    "question": "104. What does 'claim reconciliation' involve in medical billing?",
+    "options": [
+      "Matching submitted claims with payments received",
+      "Filing new claims",
+      "Updating patient records",
+      "Scheduling follow-up appointments"
+    ],
+    "correctAnswer": "Matching submitted claims with payments received"
+  },
+  {
+    "question": "105. Which measure helps ensure billing practices comply with state regulations?",
+    "options": [
+      "Regular internal audits and external reviews",
+      "Relying solely on provider experience",
+      "Using only manual processes",
+      "Ignoring discrepancies in claims"
+    ],
+    "correctAnswer": "Regular internal audits and external reviews"
+  },
+  {
+    "question": "106. What does 'claim adjustment' refer to in billing?",
+    "options": [
+      "Making modifications to a claim after initial payment due to errors",
+      "Forcing a claim to be paid in full",
+      "Resubmitting an identical claim",
+      "Escalating a claim to a higher billing tier"
+    ],
+    "correctAnswer": "Making modifications to a claim after initial payment due to errors"
+  },
+  {
+    "question": "107. Why are accurate patient demographics important in billing?",
+    "options": [
+      "They ensure claims are processed and matched correctly",
+      "They are used only for marketing purposes",
+      "They have no impact on claim processing",
+      "They are optional in Medicaid billing"
+    ],
+    "correctAnswer": "They ensure claims are processed and matched correctly"
+  },
+  {
+    "question": "108. What does the 'clean claim rate' measure?",
+    "options": [
+      "The percentage of claims submitted without errors",
+      "The percentage of claims denied",
+      "The total number of claims processed",
+      "The average reimbursement per claim"
+    ],
+    "correctAnswer": "The percentage of claims submitted without errors"
+  },
+  {
+    "question": "109. What is the primary role of a clearinghouse in the Medicaid billing process?",
+    "options": [
+      "To electronically transmit and check claims for errors",
+      "To provide direct clinical care",
+      "To set reimbursement rates",
+      "To enroll new patients"
+    ],
+    "correctAnswer": "To electronically transmit and check claims for errors"
+  },
+  {
+    "question": "110. What ensures successful follow-up on Medicaid claims?",
+    "options": [
+      "Accurate contact information and diligent claim tracking",
+      "Ignoring denial notices",
+      "Resubmitting claims without review",
+      "Relying solely on initial claim submission"
+    ],
+    "correctAnswer": "Accurate contact information and diligent claim tracking"
+  },
+  {
+    "question": "111. What is the primary goal of medical billing in the developmental disability Medicaid space?",
+    "options": [
+      "To secure appropriate reimbursement for specialized services provided",
+      "To provide direct clinical care",
+      "To manage patient scheduling",
+      "To promote provider services"
+    ],
+    "correctAnswer": "To secure appropriate reimbursement for specialized services provided"
+  },
+  {
+    "question": "112. Which factor is critical for preventing billing fraud in Medicaid?",
+    "options": [
+      "Strict adherence to coding and documentation standards",
+      "Allowing unverified billing submissions",
+      "Minimal oversight of claims",
+      "Infrequent internal audits"
+    ],
+    "correctAnswer": "Strict adherence to coding and documentation standards"
+  },
+  {
+    "question": "113. What does 'eligible charge' refer to in Medicaid billing?",
+    "options": [
+      "The amount on which reimbursement is calculated",
+      "The total amount billed",
+      "The patient’s co-payment amount",
+      "The administrative fee"
+    ],
+    "correctAnswer": "The amount on which reimbursement is calculated"
+  },
+  {
+    "question": "114. Which document is used to verify that services were delivered for Medicaid claims?",
+    "options": [
+      "Service logs and progress notes",
+      "Marketing brochures",
+      "Provider resumes",
+      "Appointment cards"
+    ],
+    "correctAnswer": "Service logs and progress notes"
+  },
+  {
+    "question": "115. What is the purpose of using claim modifiers in billing?",
+    "options": [
+      "To indicate specific circumstances that alter the standard billing code",
+      "To delay claim processing",
+      "To add extra charges automatically",
+      "To update patient demographics"
+    ],
+    "correctAnswer": "To indicate specific circumstances that alter the standard billing code"
+  },
+  {
+    "question": "116. When billing for long-term developmental disability services, what is especially important?",
+    "options": [
+      "Accurate documentation of ongoing services and outcomes",
+      "One-time service documentation",
+      "Irregular claim submissions",
+      "Minimal record-keeping"
+    ],
+    "correctAnswer": "Accurate documentation of ongoing services and outcomes"
+  },
+  {
+    "question": "117. Which element is key to Medicaid billing compliance in Arizona’s developmental disability space?",
+    "options": [
+      "Following state-specific guidelines and documentation requirements",
+      "Using only federal guidelines",
+      "Ignoring periodic updates",
+      "Relying on outdated billing manuals"
+    ],
+    "correctAnswer": "Following state-specific guidelines and documentation requirements"
+  },
+  {
+    "question": "118. What does the term 'claim submission window' refer to?",
+    "options": [
+      "The time frame within which claims must be submitted to be eligible for reimbursement",
+      "The duration of the billing cycle",
+      "The period for provider revalidation",
+      "The timeframe for patient follow-up"
+    ],
+    "correctAnswer": "The time frame within which claims must be submitted to be eligible for reimbursement"
+  },
+  {
+    "question": "119. What is a key benefit of electronic claim submission in Medicaid billing?",
+    "options": [
+      "Reduced processing time and improved accuracy",
+      "Increased paper usage",
+      "Longer processing times",
+      "Higher error rates"
+    ],
+    "correctAnswer": "Reduced processing time and improved accuracy"
+  },
+  {
+    "question": "120. What is the main focus of medical billing in the Division of Developmental Disability Medicaid space in Arizona?",
+    "options": [
+      "Ensuring accurate reimbursement for specialized services provided to individuals with developmental disabilities",
+      "Managing patient appointments",
+      "Providing clinical diagnoses",
+      "Developing treatment protocols"
+    ],
+    "correctAnswer": "Ensuring accurate reimbursement for specialized services provided to individuals with developmental disabilities"
+  }
+]

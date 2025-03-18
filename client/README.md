@@ -1,12 +1,36 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+getting the questions to randomism and then conditionally randomizing the options based on 'Both" proved alot...ai is gay
+next plans our to add context to persist the state and maybe a database of sorts, 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<!-- 
+
+[
+    {
+        "question": "1. What does CSS stand for?",
+        "options": [
+            "Cascading Style Sheets",
+            "Colorful Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style Sheets"
+        ],
+        "correctAnswer": "Cascading Style Sheets"
+    },
+    {
+        "question": "2. Which HTML tag is used to define an internal style sheet?",
+        "options": [
+            "<style>",
+            "<css>",
+            "<script>",
+            "<link>"
+        ],
+        "correctAnswer": "<style>"
+    }
+]
+
+using the above format, create a  test for javascript, include array methods, manipulating a object, functions, arrow functions, string methods, OOP, functional programming , etc 
+Please make all answer a similar length and do not repeat questions.
+Please provide 100 questions
+-->

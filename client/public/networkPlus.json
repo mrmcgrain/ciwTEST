@@ -1,0 +1,1202 @@
+[
+  {
+    "question": "1. Which OSI layer is responsible for routing packets between networks?",
+    "options": [
+      "Network",
+      "Data Link",
+      "Transport",
+      "Application"
+    ],
+    "correctAnswer": "Network"
+  },
+  {
+    "question": "2. Which OSI layer encapsulates data into segments?",
+    "options": [
+      "Transport",
+      "Session",
+      "Presentation",
+      "Physical"
+    ],
+    "correctAnswer": "Transport"
+  },
+  {
+    "question": "3. What is the primary function of a router?",
+    "options": [
+      "To forward packets between networks based on IP addresses",
+      "To filter data frames based on MAC addresses",
+      "To connect devices within the same network segment",
+      "To amplify network signals"
+    ],
+    "correctAnswer": "To forward packets between networks based on IP addresses"
+  },
+  {
+    "question": "4. What does TCP stand for?",
+    "options": [
+      "Transmission Control Protocol",
+      "Transfer Communication Protocol",
+      "Transport Connection Protocol",
+      "Transmission Communication Process"
+    ],
+    "correctAnswer": "Transmission Control Protocol"
+  },
+  {
+    "question": "5. What does UDP stand for?",
+    "options": [
+      "User Datagram Protocol",
+      "Universal Data Protocol",
+      "User Data Process",
+      "Unified Datagram Protocol"
+    ],
+    "correctAnswer": "User Datagram Protocol"
+  },
+  {
+    "question": "6. Which protocol is connectionless and does not guarantee delivery?",
+    "options": [
+      "UDP",
+      "TCP",
+      "HTTP",
+      "FTP"
+    ],
+    "correctAnswer": "UDP"
+  },
+  {
+    "question": "7. What is an IP address?",
+    "options": [
+      "A unique identifier assigned to each device on a network",
+      "A physical address of a device's network interface",
+      "A protocol for routing data",
+      "A method to encrypt network traffic"
+    ],
+    "correctAnswer": "A unique identifier assigned to each device on a network"
+  },
+  {
+    "question": "8. Which of the following ranges is reserved for private IPv4 addresses (Class C)?",
+    "options": [
+      "192.168.0.0 - 192.168.255.255",
+      "10.0.0.0 - 10.255.255.255",
+      "172.16.0.0 - 172.31.255.255",
+      "169.254.0.0 - 169.254.255.255"
+    ],
+    "correctAnswer": "192.168.0.0 - 192.168.255.255"
+  },
+  {
+    "question": "9. What is a subnet mask used for?",
+    "options": [
+      "To determine the network and host portions of an IP address",
+      "To encrypt data transmissions",
+      "To assign IP addresses automatically",
+      "To prioritize network traffic"
+    ],
+    "correctAnswer": "To determine the network and host portions of an IP address"
+  },
+  {
+    "question": "10. What does CIDR stand for?",
+    "options": [
+      "Classless Inter-Domain Routing",
+      "Classful Internet Data Routing",
+      "Connectionless Inter-Domain Routing",
+      "Classless Internal Data Routing"
+    ],
+    "correctAnswer": "Classless Inter-Domain Routing"
+  },
+  {
+    "question": "11. Which device operates at the data link layer to forward frames based on MAC addresses?",
+    "options": [
+      "Switch",
+      "Router",
+      "Hub",
+      "Bridge"
+    ],
+    "correctAnswer": "Switch"
+  },
+  {
+    "question": "12. Which device is primarily used to connect multiple networks together?",
+    "options": [
+      "Router",
+      "Switch",
+      "Repeater",
+      "Bridge"
+    ],
+    "correctAnswer": "Router"
+  },
+  {
+    "question": "13. What is the main function of a hub in a network?",
+    "options": [
+      "To repeat and broadcast incoming signals to all ports",
+      "To intelligently forward data to the correct port",
+      "To filter traffic based on IP addresses",
+      "To route packets between networks"
+    ],
+    "correctAnswer": "To repeat and broadcast incoming signals to all ports"
+  },
+  {
+    "question": "14. Which type of cable is most commonly used for wired Ethernet networks?",
+    "options": [
+      "Cat5e/Cat6",
+      "Coaxial",
+      "Fiber optic",
+      "Twisted pair (Cat3)"
+    ],
+    "correctAnswer": "Cat5e/Cat6"
+  },
+  {
+    "question": "15. What does PoE stand for?",
+    "options": [
+      "Power over Ethernet",
+      "Protocol over Ethernet",
+      "Port of Entry",
+      "Packet over Ethernet"
+    ],
+    "correctAnswer": "Power over Ethernet"
+  },
+  {
+    "question": "16. Which IEEE 802.11 standard primarily operates in the 5 GHz band?",
+    "options": [
+      "802.11a",
+      "802.11b",
+      "802.11g",
+      "802.11n"
+    ],
+    "correctAnswer": "802.11a"
+  },
+  {
+    "question": "17. Which wireless security protocol is considered most secure for Wi-Fi networks?",
+    "options": [
+      "WPA2",
+      "WEP",
+      "WPA",
+      "Open authentication"
+    ],
+    "correctAnswer": "WPA2"
+  },
+  {
+    "question": "18. Which technology provides secure remote access to a private network over the internet?",
+    "options": [
+      "VPN",
+      "NAT",
+      "DNS",
+      "DHCP"
+    ],
+    "correctAnswer": "VPN"
+  },
+  {
+    "question": "19. Which port is the default for HTTP traffic?",
+    "options": [
+      "80",
+      "443",
+      "21",
+      "25"
+    ],
+    "correctAnswer": "80"
+  },
+  {
+    "question": "20. Which port is commonly used for HTTPS traffic?",
+    "options": [
+      "443",
+      "80",
+      "22",
+      "25"
+    ],
+    "correctAnswer": "443"
+  },
+  {
+    "question": "21. Which port is used by FTP for control commands?",
+    "options": [
+      "21",
+      "20",
+      "22",
+      "23"
+    ],
+    "correctAnswer": "21"
+  },
+  {
+    "question": "22. Which port is used for SMTP email transmission?",
+    "options": [
+      "25",
+      "110",
+      "143",
+      "587"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "question": "23. What is the function of Network Address Translation (NAT)?",
+    "options": [
+      "To map private IP addresses to a public IP address",
+      "To assign IP addresses automatically",
+      "To segment a network into subnets",
+      "To encrypt network traffic"
+    ],
+    "correctAnswer": "To map private IP addresses to a public IP address"
+  },
+  {
+    "question": "24. What does PAT stand for in networking?",
+    "options": [
+      "Port Address Translation",
+      "Private Address Translation",
+      "Packet Addressing Technique",
+      "Public Access Terminal"
+    ],
+    "correctAnswer": "Port Address Translation"
+  },
+  {
+    "question": "25. What is the primary purpose of DNS?",
+    "options": [
+      "To translate domain names into IP addresses",
+      "To assign IP addresses dynamically",
+      "To route packets across networks",
+      "To provide secure communication"
+    ],
+    "correctAnswer": "To translate domain names into IP addresses"
+  },
+  {
+    "question": "26. Which protocol is used to retrieve email from a server?",
+    "options": [
+      "POP3",
+      "SMTP",
+      "IMAP",
+      "HTTP"
+    ],
+    "correctAnswer": "POP3"
+  },
+  {
+    "question": "27. Which command-line tool is used to test connectivity between devices?",
+    "options": [
+      "ping",
+      "traceroute",
+      "nslookup",
+      "netstat"
+    ],
+    "correctAnswer": "ping"
+  },
+  {
+    "question": "28. Which command traces the route packets take to a destination?",
+    "options": [
+      "traceroute",
+      "ping",
+      "ipconfig",
+      "nslookup"
+    ],
+    "correctAnswer": "traceroute"
+  },
+  {
+    "question": "29. What is the default port for SSH connections?",
+    "options": [
+      "22",
+      "23",
+      "80",
+      "443"
+    ],
+    "correctAnswer": "22"
+  },
+  {
+    "question": "30. Which OSI layer is responsible for the physical transmission of data?",
+    "options": [
+      "Physical",
+      "Data Link",
+      "Network",
+      "Transport"
+    ],
+    "correctAnswer": "Physical"
+  },
+  {
+    "question": "31. Which OSI layer is responsible for data encryption and compression?",
+    "options": [
+      "Presentation",
+      "Session",
+      "Transport",
+      "Application"
+    ],
+    "correctAnswer": "Presentation"
+  },
+  {
+    "question": "32. What is a MAC address?",
+    "options": [
+      "A hardware address assigned to a network interface",
+      "A logical IP address assigned by DHCP",
+      "A type of network protocol",
+      "A public IP address"
+    ],
+    "correctAnswer": "A hardware address assigned to a network interface"
+  },
+  {
+    "question": "33. Which protocol automatically assigns IP addresses to network devices?",
+    "options": [
+      "DHCP",
+      "DNS",
+      "ARP",
+      "ICMP"
+    ],
+    "correctAnswer": "DHCP"
+  },
+  {
+    "question": "34. What is the primary purpose of ARP?",
+    "options": [
+      "To map IP addresses to MAC addresses",
+      "To translate domain names to IP addresses",
+      "To secure network communications",
+      "To manage routing tables"
+    ],
+    "correctAnswer": "To map IP addresses to MAC addresses"
+  },
+  {
+    "question": "35. What does VPN stand for?",
+    "options": [
+      "Virtual Private Network",
+      "Variable Public Network",
+      "Virtual Public Node",
+      "Verified Private Network"
+    ],
+    "correctAnswer": "Virtual Private Network"
+  },
+  {
+    "question": "36. Which protocol is commonly used to secure VPN connections?",
+    "options": [
+      "IPSec",
+      "HTTP",
+      "FTP",
+      "SMTP"
+    ],
+    "correctAnswer": "IPSec"
+  },
+  {
+    "question": "37. Which routing protocol is a link-state protocol?",
+    "options": [
+      "OSPF",
+      "RIP",
+      "BGP",
+      "EIGRP"
+    ],
+    "correctAnswer": "OSPF"
+  },
+  {
+    "question": "38. Which routing protocol is classified as a distance-vector protocol?",
+    "options": [
+      "RIP",
+      "OSPF",
+      "BGP",
+      "IS-IS"
+    ],
+    "correctAnswer": "RIP"
+  },
+  {
+    "question": "39. Which routing protocol is primarily used for inter-domain routing on the Internet?",
+    "options": [
+      "BGP",
+      "OSPF",
+      "RIP",
+      "EIGRP"
+    ],
+    "correctAnswer": "BGP"
+  },
+  {
+    "question": "40. What does VLAN stand for?",
+    "options": [
+      "Virtual Local Area Network",
+      "Virtual Linear Access Node",
+      "Variable LAN",
+      "Verified Local Area Network"
+    ],
+    "correctAnswer": "Virtual Local Area Network"
+  },
+  {
+    "question": "41. What is the primary purpose of a firewall?",
+    "options": [
+      "To block unauthorized access while permitting outward communication",
+      "To route data between networks",
+      "To assign IP addresses automatically",
+      "To manage wireless connections"
+    ],
+    "correctAnswer": "To block unauthorized access while permitting outward communication"
+  },
+  {
+    "question": "42. What is subnetting?",
+    "options": [
+      "Dividing a network into smaller network segments",
+      "Combining multiple networks into one",
+      "Encrypting network traffic",
+      "Routing packets between networks"
+    ],
+    "correctAnswer": "Dividing a network into smaller network segments"
+  },
+  {
+    "question": "43. What is the purpose of Quality of Service (QoS) in a network?",
+    "options": [
+      "To prioritize certain types of traffic over others",
+      "To encrypt network traffic",
+      "To assign IP addresses",
+      "To filter out malicious packets"
+    ],
+    "correctAnswer": "To prioritize certain types of traffic over others"
+  },
+  {
+    "question": "44. Which device is typically used to filter traffic between networks?",
+    "options": [
+      "Firewall",
+      "Switch",
+      "Hub",
+      "Repeater"
+    ],
+    "correctAnswer": "Firewall"
+  },
+  {
+    "question": "45. Which wireless security protocol is considered more secure: WPA or WPA2?",
+    "options": [
+      "WPA2",
+      "WPA",
+      "WEP",
+      "Open"
+    ],
+    "correctAnswer": "WPA2"
+  },
+  {
+    "question": "46. What is the purpose of a proxy server?",
+    "options": [
+      "To act as an intermediary for requests between a client and the internet",
+      "To assign IP addresses",
+      "To encrypt data",
+      "To filter MAC addresses"
+    ],
+    "correctAnswer": "To act as an intermediary for requests between a client and the internet"
+  },
+  {
+    "question": "47. What does bandwidth measure in a network?",
+    "options": [
+      "The maximum rate of data transfer",
+      "The delay in data transmission",
+      "The number of connected devices",
+      "The security level of the network"
+    ],
+    "correctAnswer": "The maximum rate of data transfer"
+  },
+  {
+    "question": "48. What is latency in networking?",
+    "options": [
+      "The delay between sending and receiving data",
+      "The rate of data transfer",
+      "The number of errors in transmission",
+      "The size of data packets"
+    ],
+    "correctAnswer": "The delay between sending and receiving data"
+  },
+  {
+    "question": "49. What does jitter refer to in a network?",
+    "options": [
+      "The variation in packet arrival times",
+      "The loss of packets during transmission",
+      "The maximum throughput of a connection",
+      "The encryption level of a VPN"
+    ],
+    "correctAnswer": "The variation in packet arrival times"
+  },
+  {
+    "question": "50. What is throughput in a network?",
+    "options": [
+      "The actual rate of successful data transfer",
+      "The maximum capacity of a network link",
+      "The delay in data transmission",
+      "The number of connected devices"
+    ],
+    "correctAnswer": "The actual rate of successful data transfer"
+  },
+  {
+    "question": "51. Which device forwards data frames based on MAC addresses?",
+    "options": [
+      "Switch",
+      "Router",
+      "Modem",
+      "Firewall"
+    ],
+    "correctAnswer": "Switch"
+  },
+  {
+    "question": "52. What is a collision domain?",
+    "options": [
+      "A network segment where data packet collisions can occur",
+      "A group of devices sharing the same IP address",
+      "A security zone within a network",
+      "A method to encrypt data"
+    ],
+    "correctAnswer": "A network segment where data packet collisions can occur"
+  },
+  {
+    "question": "53. What is a broadcast domain?",
+    "options": [
+      "A network segment in which a broadcast frame is propagated to all devices",
+      "A domain used for routing protocols",
+      "A segment of a network where collisions are prevented",
+      "A secured area within a network"
+    ],
+    "correctAnswer": "A network segment in which a broadcast frame is propagated to all devices"
+  },
+  {
+    "question": "54. Which protocol is commonly used for remote desktop connections?",
+    "options": [
+      "RDP",
+      "SSH",
+      "FTP",
+      "Telnet"
+    ],
+    "correctAnswer": "RDP"
+  },
+  {
+    "question": "55. What does SNMP stand for?",
+    "options": [
+      "Simple Network Management Protocol",
+      "Secure Network Monitoring Protocol",
+      "Standard Network Management Procedure",
+      "Simple Node Management Protocol"
+    ],
+    "correctAnswer": "Simple Network Management Protocol"
+  },
+  {
+    "question": "56. Which protocol is used for time synchronization across network devices?",
+    "options": [
+      "NTP",
+      "SNTP",
+      "HTTP",
+      "FTP"
+    ],
+    "correctAnswer": "NTP"
+  },
+  {
+    "question": "57. What does SSL stand for?",
+    "options": [
+      "Secure Sockets Layer",
+      "Simple Secure Layer",
+      "Secure System Link",
+      "Safe Sockets Layer"
+    ],
+    "correctAnswer": "Secure Sockets Layer"
+  },
+  {
+    "question": "58. Which protocol is the successor to SSL for secure communications?",
+    "options": [
+      "TLS",
+      "SSH",
+      "IPSec",
+      "HTTPS"
+    ],
+    "correctAnswer": "TLS"
+  },
+  {
+    "question": "59. What is network topology?",
+    "options": [
+      "The physical and logical arrangement of network devices",
+      "A type of network protocol",
+      "A method of encrypting data",
+      "A device used to route packets"
+    ],
+    "correctAnswer": "The physical and logical arrangement of network devices"
+  },
+  {
+    "question": "60. Which topology uses a central hub to connect all devices?",
+    "options": [
+      "Star topology",
+      "Bus topology",
+      "Ring topology",
+      "Mesh topology"
+    ],
+    "correctAnswer": "Star topology"
+  },
+  {
+    "question": "61. Which topology connects devices in a daisy-chain format?",
+    "options": [
+      "Bus topology",
+      "Star topology",
+      "Ring topology",
+      "Mesh topology"
+    ],
+    "correctAnswer": "Bus topology"
+  },
+  {
+    "question": "62. Which topology is considered the most resilient due to multiple paths between nodes?",
+    "options": [
+      "Mesh topology",
+      "Bus topology",
+      "Star topology",
+      "Ring topology"
+    ],
+    "correctAnswer": "Mesh topology"
+  },
+  {
+    "question": "63. What is the primary function of a load balancer?",
+    "options": [
+      "To distribute traffic across multiple servers",
+      "To filter network packets",
+      "To assign IP addresses",
+      "To encrypt data"
+    ],
+    "correctAnswer": "To distribute traffic across multiple servers"
+  },
+  {
+    "question": "64. What does WAN stand for?",
+    "options": [
+      "Wide Area Network",
+      "Wireless Area Network",
+      "Web Access Network",
+      "Wide Access Node"
+    ],
+    "correctAnswer": "Wide Area Network"
+  },
+  {
+    "question": "65. What does LAN stand for?",
+    "options": [
+      "Local Area Network",
+      "Large Area Network",
+      "Link Access Network",
+      "Logical Access Node"
+    ],
+    "correctAnswer": "Local Area Network"
+  },
+  {
+    "question": "66. What does MAN stand for?",
+    "options": [
+      "Metropolitan Area Network",
+      "Main Access Network",
+      "Mobile Area Network",
+      "Managed Area Network"
+    ],
+    "correctAnswer": "Metropolitan Area Network"
+  },
+  {
+    "question": "67. What does PAN stand for?",
+    "options": [
+      "Personal Area Network",
+      "Private Access Network",
+      "Public Area Network",
+      "Packet Area Network"
+    ],
+    "correctAnswer": "Personal Area Network"
+  },
+  {
+    "question": "68. Which technology is commonly used for Personal Area Networks?",
+    "options": [
+      "Bluetooth",
+      "Wi-Fi",
+      "Ethernet",
+      "Fiber"
+    ],
+    "correctAnswer": "Bluetooth"
+  },
+  {
+    "question": "69. Which type of cable is best suited for high-speed data transmission over long distances?",
+    "options": [
+      "Fiber optic cable",
+      "Coaxial cable",
+      "Twisted pair cable",
+      "Cat5 cable"
+    ],
+    "correctAnswer": "Fiber optic cable"
+  },
+  {
+    "question": "70. What is the primary function of a modem?",
+    "options": [
+      "To modulate and demodulate digital signals for transmission over analog lines",
+      "To route packets between networks",
+      "To switch data between LAN segments",
+      "To filter network traffic"
+    ],
+    "correctAnswer": "To modulate and demodulate digital signals for transmission over analog lines"
+  },
+  {
+    "question": "71. Which technology is used to provide high-speed internet via cable systems?",
+    "options": [
+      "DOCSIS",
+      "DSL",
+      "Fiber",
+      "Satellite"
+    ],
+    "correctAnswer": "DOCSIS"
+  },
+  {
+    "question": "72. Which protocol is used for secure file transfer over a network?",
+    "options": [
+      "SFTP",
+      "FTP",
+      "HTTP",
+      "SMTP"
+    ],
+    "correctAnswer": "SFTP"
+  },
+  {
+    "question": "73. What does VoIP stand for?",
+    "options": [
+      "Voice over Internet Protocol",
+      "Video over Internet Protocol",
+      "Virtual over Internet Protocol",
+      "Voice on Integrated Platforms"
+    ],
+    "correctAnswer": "Voice over Internet Protocol"
+  },
+  {
+    "question": "74. Which protocol is often used for streaming real-time audio and video?",
+    "options": [
+      "RTP",
+      "TCP",
+      "UDP",
+      "ICMP"
+    ],
+    "correctAnswer": "RTP"
+  },
+  {
+    "question": "75. What does the term 'latency' refer to in networking?",
+    "options": [
+      "The time delay between sending and receiving data",
+      "The total available bandwidth",
+      "The number of hops between devices",
+      "The error rate in packet transmission"
+    ],
+    "correctAnswer": "The time delay between sending and receiving data"
+  },
+  {
+    "question": "76. In the TCP/IP model, which layer corresponds to the OSI Network layer?",
+    "options": [
+      "Internet layer",
+      "Application layer",
+      "Transport layer",
+      "Link layer"
+    ],
+    "correctAnswer": "Internet layer"
+  },
+  {
+    "question": "77. In the TCP/IP model, which layer corresponds to the OSI Transport layer?",
+    "options": [
+      "Transport layer",
+      "Internet layer",
+      "Application layer",
+      "Network interface layer"
+    ],
+    "correctAnswer": "Transport layer"
+  },
+  {
+    "question": "78. What is the purpose of the TCP three-way handshake?",
+    "options": [
+      "To establish a reliable connection between two devices",
+      "To terminate a connection",
+      "To encrypt data during transmission",
+      "To perform error correction"
+    ],
+    "correctAnswer": "To establish a reliable connection between two devices"
+  },
+  {
+    "question": "79. What are the three steps of the TCP handshake?",
+    "options": [
+      "SYN, SYN-ACK, ACK",
+      "ACK, SYN, FIN",
+      "SYN, ACK, FIN",
+      "FIN, SYN, ACK"
+    ],
+    "correctAnswer": "SYN, SYN-ACK, ACK"
+  },
+  {
+    "question": "80. Which protocol ensures reliable delivery of data by establishing connections?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "HTTP"
+    ],
+    "correctAnswer": "TCP"
+  },
+  {
+    "question": "81. Which protocol does not guarantee delivery of packets?",
+    "options": [
+      "UDP",
+      "TCP",
+      "SMTP",
+      "FTP"
+    ],
+    "correctAnswer": "UDP"
+  },
+  {
+    "question": "82. What is a socket in networking?",
+    "options": [
+      "A combination of an IP address and a port number",
+      "A physical network connector",
+      "A protocol for secure communication",
+      "A network switch interface"
+    ],
+    "correctAnswer": "A combination of an IP address and a port number"
+  },
+  {
+    "question": "83. What does ICMP stand for?",
+    "options": [
+      "Internet Control Message Protocol",
+      "Internal Communication Management Protocol",
+      "Internet Connection Monitoring Protocol",
+      "Integrated Control Message Protocol"
+    ],
+    "correctAnswer": "Internet Control Message Protocol"
+  },
+  {
+    "question": "84. Which tool is commonly used to capture and analyze network traffic?",
+    "options": [
+      "Wireshark",
+      "Nmap",
+      "Netstat",
+      "Traceroute"
+    ],
+    "correctAnswer": "Wireshark"
+  },
+  {
+    "question": "85. What is the primary function of a network adapter?",
+    "options": [
+      "To connect a device to a network",
+      "To assign IP addresses",
+      "To route data between networks",
+      "To secure wireless connections"
+    ],
+    "correctAnswer": "To connect a device to a network"
+  },
+  {
+    "question": "86. What is a DMZ in network security?",
+    "options": [
+      "A demilitarized zone that acts as a buffer between an internal network and the internet",
+      "A type of virtual LAN",
+      "A secure wireless network",
+      "A method of encrypting data"
+    ],
+    "correctAnswer": "A demilitarized zone that acts as a buffer between an internal network and the internet"
+  },
+  {
+    "question": "87. What does the term 'throughput' refer to in networking?",
+    "options": [
+      "The actual rate of successful data transfer over a network",
+      "The maximum bandwidth available",
+      "The delay in data transmission",
+      "The number of connected devices"
+    ],
+    "correctAnswer": "The actual rate of successful data transfer over a network"
+  },
+  {
+    "question": "88. Which protocol translates domain names into IP addresses?",
+    "options": [
+      "DNS",
+      "DHCP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correctAnswer": "DNS"
+  },
+  {
+    "question": "89. What is the primary function of a repeater?",
+    "options": [
+      "To regenerate and amplify signals to extend transmission distance",
+      "To route data between networks",
+      "To filter out malicious traffic",
+      "To assign IP addresses"
+    ],
+    "correctAnswer": "To regenerate and amplify signals to extend transmission distance"
+  },
+  {
+    "question": "90. What is the primary function of a switch?",
+    "options": [
+      "To forward frames based on MAC addresses within a LAN",
+      "To route packets between different networks",
+      "To convert digital signals to analog",
+      "To connect a LAN to the internet"
+    ],
+    "correctAnswer": "To forward frames based on MAC addresses within a LAN"
+  },
+  {
+    "question": "91. What does a network collision mean?",
+    "options": [
+      "Two devices sending data simultaneously on a shared medium",
+      "A conflict between two IP addresses",
+      "A security breach",
+      "A network device failure"
+    ],
+    "correctAnswer": "Two devices sending data simultaneously on a shared medium"
+  },
+  {
+    "question": "92. Which OSI layer is responsible for error detection and correction in data frames?",
+    "options": [
+      "Data Link",
+      "Network",
+      "Transport",
+      "Physical"
+    ],
+    "correctAnswer": "Data Link"
+  },
+  {
+    "question": "93. What is the main function of the OSI Network layer?",
+    "options": [
+      "Logical addressing and routing of packets",
+      "Physical transmission of bits",
+      "Session management",
+      "Data encryption"
+    ],
+    "correctAnswer": "Logical addressing and routing of packets"
+  },
+  {
+    "question": "94. What does bandwidth measure in a network?",
+    "options": [
+      "The capacity of a network link to carry data",
+      "The delay in data transmission",
+      "The error rate in packet delivery",
+      "The number of devices connected"
+    ],
+    "correctAnswer": "The capacity of a network link to carry data"
+  },
+  {
+    "question": "95. What is the primary purpose of a VPN?",
+    "options": [
+      "To provide secure remote access to a private network",
+      "To increase network speed",
+      "To assign IP addresses automatically",
+      "To manage network routing"
+    ],
+    "correctAnswer": "To provide secure remote access to a private network"
+  },
+  {
+    "question": "96. What is port forwarding used for?",
+    "options": [
+      "To allow external devices to access services on a private network",
+      "To encrypt data between networks",
+      "To assign static IP addresses",
+      "To monitor network traffic"
+    ],
+    "correctAnswer": "To allow external devices to access services on a private network"
+  },
+  {
+    "question": "97. Which command-line tool can display active network connections?",
+    "options": [
+      "netstat",
+      "ipconfig",
+      "ping",
+      "traceroute"
+    ],
+    "correctAnswer": "netstat"
+  },
+  {
+    "question": "98. Which protocol is used to securely manage network devices?",
+    "options": [
+      "SSH",
+      "Telnet",
+      "HTTP",
+      "FTP"
+    ],
+    "correctAnswer": "SSH"
+  },
+  {
+    "question": "99. How is a MAC address typically represented?",
+    "options": [
+      "As a 12-digit hexadecimal number",
+      "As a 10-digit decimal number",
+      "As a binary string",
+      "As an IP address"
+    ],
+    "correctAnswer": "As a 12-digit hexadecimal number"
+  },
+  {
+    "question": "100. What is the purpose of the traceroute command?",
+    "options": [
+      "To determine the path packets take to reach a destination",
+      "To test the speed of a network connection",
+      "To assign IP addresses",
+      "To filter network traffic"
+    ],
+    "correctAnswer": "To determine the path packets take to reach a destination"
+  },
+  {
+    "question": "101. What does DHCP stand for?",
+    "options": [
+      "Dynamic Host Configuration Protocol",
+      "Domain Host Control Protocol",
+      "Dynamic Hypertext Configuration Protocol",
+      "Data Host Communication Protocol"
+    ],
+    "correctAnswer": "Dynamic Host Configuration Protocol"
+  },
+  {
+    "question": "102. What is a broadcast address?",
+    "options": [
+      "An address that targets all hosts on a network segment",
+      "An address assigned to a router",
+      "An address used for secure communications",
+      "An address that is never used"
+    ],
+    "correctAnswer": "An address that targets all hosts on a network segment"
+  },
+  {
+    "question": "103. Which OSI layer handles the conversion of data into electrical, optical, or radio signals?",
+    "options": [
+      "Physical",
+      "Data Link",
+      "Network",
+      "Transport"
+    ],
+    "correctAnswer": "Physical"
+  },
+  {
+    "question": "104. What is the purpose of a network bridge?",
+    "options": [
+      "To connect and filter traffic between two network segments",
+      "To route packets between different networks",
+      "To assign IP addresses dynamically",
+      "To encrypt data"
+    ],
+    "correctAnswer": "To connect and filter traffic between two network segments"
+  },
+  {
+    "question": "105. What is a VPN concentrator used for?",
+    "options": [
+      "To create and manage multiple VPN connections",
+      "To assign IP addresses to VPN clients",
+      "To encrypt local network traffic",
+      "To monitor network performance"
+    ],
+    "correctAnswer": "To create and manage multiple VPN connections"
+  },
+  {
+    "question": "106. Which protocol is used to secure email transmissions?",
+    "options": [
+      "TLS",
+      "HTTP",
+      "FTP",
+      "SNMP"
+    ],
+    "correctAnswer": "TLS"
+  },
+  {
+    "question": "107. What does packet loss refer to?",
+    "options": [
+      "The percentage of packets that are lost during transmission",
+      "The delay in data transmission",
+      "The maximum capacity of a network link",
+      "The encryption of packets"
+    ],
+    "correctAnswer": "The percentage of packets that are lost during transmission"
+  },
+  {
+    "question": "108. Which tool is often used for network performance monitoring via SNMP?",
+    "options": [
+      "Network monitoring software (e.g., SolarWinds)",
+      "Wireshark",
+      "Traceroute",
+      "Ping"
+    ],
+    "correctAnswer": "Network monitoring software (e.g., SolarWinds)"
+  },
+  {
+    "question": "109. What does BGP stand for?",
+    "options": [
+      "Border Gateway Protocol",
+      "Basic Gateway Protocol",
+      "Binary Gateway Protocol",
+      "Broadcast Gateway Protocol"
+    ],
+    "correctAnswer": "Border Gateway Protocol"
+  },
+  {
+    "question": "110. Which routing protocol is typically used for exchanging routing information within an autonomous system?",
+    "options": [
+      "OSPF",
+      "BGP",
+      "RIP",
+      "EIGRP"
+    ],
+    "correctAnswer": "OSPF"
+  },
+  {
+    "question": "111. Which cable type is immune to electromagnetic interference?",
+    "options": [
+      "Fiber optic cable",
+      "Cat5e cable",
+      "Coaxial cable",
+      "Twisted pair cable"
+    ],
+    "correctAnswer": "Fiber optic cable"
+  },
+  {
+    "question": "112. Which device is used to extend the range of a wireless network?",
+    "options": [
+      "Wireless repeater (or extender)",
+      "Router",
+      "Switch",
+      "Hub"
+    ],
+    "correctAnswer": "Wireless repeater (or extender)"
+  },
+  {
+    "question": "113. Which network topology connects all devices to a single central cable?",
+    "options": [
+      "Bus topology",
+      "Star topology",
+      "Ring topology",
+      "Mesh topology"
+    ],
+    "correctAnswer": "Bus topology"
+  },
+  {
+    "question": "114. What is the maximum recommended cable length for Ethernet (Cat5/Cat6) in a LAN?",
+    "options": [
+      "100 meters",
+      "50 meters",
+      "200 meters",
+      "10 meters"
+    ],
+    "correctAnswer": "100 meters"
+  },
+  {
+    "question": "115. Which port is used by Telnet by default?",
+    "options": [
+      "23",
+      "22",
+      "80",
+      "443"
+    ],
+    "correctAnswer": "23"
+  },
+  {
+    "question": "116. What is the primary function of a load balancer in networking?",
+    "options": [
+      "To distribute network or application traffic across multiple servers",
+      "To filter malicious traffic",
+      "To encrypt data",
+      "To assign IP addresses"
+    ],
+    "correctAnswer": "To distribute network or application traffic across multiple servers"
+  },
+  {
+    "question": "117. Which IEEE 802.11 standard is associated with Wi-Fi 6?",
+    "options": [
+      "802.11ax",
+      "802.11ac",
+      "802.11n",
+      "802.11g"
+    ],
+    "correctAnswer": "802.11ax"
+  },
+  {
+    "question": "118. What is link aggregation?",
+    "options": [
+      "The process of combining multiple network connections to increase throughput",
+      "A method to reduce network latency",
+      "A security protocol for data encryption",
+      "A technique for error correction in data transmission"
+    ],
+    "correctAnswer": "The process of combining multiple network connections to increase throughput"
+  },
+  {
+    "question": "119. What does NFV stand for in networking?",
+    "options": [
+      "Network Functions Virtualization",
+      "Network Framework Versioning",
+      "Node Function Virtualization",
+      "New Frequency Variation"
+    ],
+    "correctAnswer": "Network Functions Virtualization"
+  },
+  {
+    "question": "120. What is SDN in the context of networking?",
+    "options": [
+      "Software-Defined Networking",
+      "Secure Data Network",
+      "Standard Digital Network",
+      "Server-Driven Networking"
+    ],
+    "correctAnswer": "Software-Defined Networking"
+  }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "question": "1. What does CSS stand for?",
+        "options": [
+            "1s",
+            "2s",
+            "3s",
+            "4s"
+            
+        ],
+        "correctAnswer": "Cascading Style Sheets"
+    },
+    {
+        "question": "2. Which 2",
+        "options": [
+            "<1>",
+            "<2>",
+            "<3>",
+            "<4>"
+        ],
+        "correctAnswer": "<style>"
+    },
+    {
+        "question": "3. Which?",
+        "options": [
+            "<1>",
+            "<2>",
+            "<3>",
+            "Both A and B"
+        ],
+        "correctAnswer": "Both A and B"
+    }
+]
