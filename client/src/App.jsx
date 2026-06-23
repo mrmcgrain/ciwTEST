@@ -28,7 +28,7 @@ function App() {
     <main className="app-shell">
       <section className="entry-layout">
         <div className="hero-panel">
-          <h1>Portfolio Assessment Platform</h1>
+          <h1>Candidate Assessment Platform</h1>
           <p className="hero-copy">
             A focused certification-style testing suite with randomized questions,
             timing, completion reporting, and attention monitoring.
