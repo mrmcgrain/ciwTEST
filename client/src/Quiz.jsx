@@ -1,5 +1,17 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+
+const testOptions = [
+    { file: 'css.json', label: 'CSS', detail: 'Selectors, layout, styling fundamentals' },
+    { file: 'html.json', label: 'HTML', detail: 'Semantic structure and markup basics' },
+    { file: 'javaScript.json', label: 'JavaScript', detail: 'Language features and browser logic' },
+    { file: 'react.json', label: 'React', detail: 'Components, state, and rendering' },
+    { file: 'backend.json', label: 'Backend', detail: 'Server-side concepts and APIs' },
+    { file: 'secplus.json', label: 'Security+', detail: 'CompTIA security foundations' },
+    { file: 'networkPlus.json', label: 'Network+', detail: 'Networking principles and operations' },
+    { file: 'test.json', label: 'Practice Exam', detail: 'General validation test' },
+    { file: 'ddd.json', label: 'DDD', detail: 'Domain-driven design concepts' },
+];
 
 function Quiz({ username }) {
     const [questions, setQuestions] = useState([]);
@@ -19,42 +31,13 @@ function Quiz({ username }) {
     // const [selectedQuestionIndex, setSelectedQuestionIndex] = useState(0);
     const [originalQuestions, setOriginalQuestions] = useState([])
     const [adminTestQuestion, setAdminTestQuestion] = useState(false)
-    //STate to display resultes to user
-    const [results, setResults] = useState({
-        // Test: "",
-        // Name: "",
-        // Score: "",
-        // TotalQuestions: null,
-        // percentage: null,
-        // totalTime: null,
-        // totalAwayTime: null,
-        // wrongAnswers: "",
-        // tabSwitches: null,
-    })
-
-
-
-
-    const intervalRef = useRef(null);
+    const emailSentRef = useRef(false);
 
     // Add state for away tracking
     const [isAway, setIsAway] = useState(false);
     const [awayStartTime, setAwayStartTime] = useState(null);
     const [totalAwayTime, setTotalAwayTime] = useState(0);
     const [exitPoints, setExitPoints] = useState([]);
-
-    // Move buttonStyle inside the component to avoid the invalid hook call error
-    const buttonStyle = {
-        width: '100%',
-        padding: '10px',
-        backgroundColor: '#4CAF50',
-        color: 'white',
-        border: 'none',
-        borderRadius: '4px',
-        cursor: 'pointer',
-        marginTop: '10px'
-    };
-
 
     // Helper function to shuffle array
     const shuffleArray = (array) => {
@@ -70,7 +53,7 @@ function Quiz({ username }) {
         async function loadQuestions() {
             if (!testType) return;
             try {
-                const response = await fetch(`/${testType}`);
+                const response = await fetch(`${import.meta.env.BASE_URL}${testType}`);
                 const data = await response.json();
 
                 // State to hold OG question array pre scramble for indice check for debuging
@@ -282,7 +265,6 @@ function Quiz({ username }) {
             window.removeEventListener('focus', handleWindowFocus);
             document.removeEventListener('mouseleave', handleMouseLeave);
             document.removeEventListener('click', handleClick);
-            if (intervalRef.current) clearInterval(intervalRef.current);
         };
     }, [testType, quizFinished, currentQuestion, isAway, awayStartTime, showWarning]);
 
@@ -342,7 +324,7 @@ function Quiz({ username }) {
     // });
     // };
 
-    const sendEmail = (username) => {
+    const sendEmail = useCallback((name) => {
 
         const percentage = ((score / questions.length) * 100).toFixed(2);
 
@@ -354,7 +336,7 @@ function Quiz({ username }) {
 
         const templateParams = {
             test_type: testType,
-            from_name: username,
+            from_name: name,
             score: score,
             totalQuestions: questions.length,
             percentage: percentage,
@@ -377,189 +359,158 @@ function Quiz({ username }) {
         console.error('FAILED...', error);
     });
 
-    }
+    }, [awayStartTime, exitPoints, isAway, questions.length, score, tabSwitchCount, tabSwitchEvents, testType, totalAwayTime, totalTime, wrongAnswers])
+
+    useEffect(() => {
+        if (quizFinished && questions.length > 0 && !emailSentRef.current) {
+            emailSentRef.current = true;
+            sendEmail(username);
+        }
+    }, [quizFinished, questions.length, sendEmail, username]);
 
 
 
 
     if (!testType) {
         return (
-            <div style={{
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                minHeight: '100vh',
-                width: '100vw',
-                textAlign: 'center'
-            }}>
-                <h1> {`Welcome ${username} `}</h1>
-                <h2>Select Test Type</h2>
-                <div style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    width: '300px',
-                    maxWidth: '400px',
-                    gap: '10px'
-                }}>
-                    <button onClick={() => setTestType('css.json')} style={buttonStyle}>CSS Test</button>
-                    <button onClick={() => setTestType('html.json')} style={buttonStyle}>HTML Test</button>
-                    <button onClick={() => setTestType('javaScript.json')} style={buttonStyle}>JavaScript Test</button>
-                    <button onClick={() => setTestType('react.json')} style={buttonStyle}>React Test</button>
-                    {/* <button onClick={() => setTestType('Oldbackend.json')} style={buttonStyle}>Backend Basic</button> */}
-                    <button onClick={() => setTestType('backend.json')} style={buttonStyle}>Backend </button>
-                    <button onClick={() => setTestType('secplus.json')} style={buttonStyle}>CompTIA Security+ Test</button>
-                    <button onClick={() => setTestType('networkPlus.json')} style={buttonStyle}>Network+ Test</button>
-                    {username === "Admin 23" && <button onClick={() => setTestType('test.json')} style={buttonStyle}>Test Exam</button>}
-                    {username !== "Admin 23" && <button onClick={() => setTestType('test.json')} style={buttonStyle}>Test Exam</button>}
-                    <button onClick={() => setTestType('ddd.json')} style={buttonStyle}>DDD Test</button>
-                </div>
-                <br />
-                <h2> {`Happy Testing!!`}</h2>
+            <main className="app-shell">
+                <section className="selection-shell">
+                    <div className="section-heading">
+                        <p className="eyebrow">Welcome, {username}</p>
+                        <h1>Select Assessment</h1>
+                        <p>Choose a pathway to start a timed, randomized testing session.</p>
+                    </div>
 
-            </div>
+                    <div className="test-grid">
+                        {testOptions.map((test) => (
+                            <button
+                                className="test-card"
+                                key={test.file}
+                                onClick={() => setTestType(test.file)}
+                                type="button"
+                            >
+                                <span>{test.label}</span>
+                                <small>{test.detail}</small>
+                            </button>
+                        ))}
+                    </div>
+
+                    <div className="suite-footer">
+                        <span>Randomized questions</span>
+                        <span>Elapsed-time tracking</span>
+                        <span>Completion reporting</span>
+                    </div>
+                </section>
+            </main>
         );
     }
 
     if (questions.length === 0) {
         return (
-            <div style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                minHeight: '100vh',
-                width: '100vw'
-            }}>
-                <p>Loading questions...</p>
-            </div>
+            <main className="app-shell">
+                <div className="loading-card">
+                    <div className="loader" />
+                    <p>Loading questions...</p>
+                </div>
+            </main>
         );
     }
 
     if (quizFinished) {
-        console.log("rwe", wrongAnswers)
         const percentage = ((score / questions.length) * 100).toFixed(2);
-        sendEmail(username); // Re-enable email sending
-        // let end = handleResults()
 
         return (
-            <div style={{
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'center',
-                minHeight: '100vh',
-                width: '100vw',
-                textAlign: 'center'
-            }}>
-                {/* 
-                {console.log(end)} */}
-                <h2>Quiz Finished!</h2>
-                <div style={{
-                    width: '300px',
-                    maxWidth: '400px',
-                    textAlign: 'center'
-                }}>
-                    <p>Your Score: {score} / {questions.length}</p>
-                    <p>Percentage of Correct Answers: </p>
-                    <p>{percentage}%</p>
-                    <p>Total Time: {formatTime(totalTime)}</p>
-                    <br />
-                    <h3>Incorrect Answers</h3>
+            <main className="app-shell">
+                <section className="results-shell">
+                    <div className="section-heading">
+                        <p className="eyebrow">Session Complete</p>
+                        <h1>Quiz Finished</h1>
+                        <p>Results have been prepared for email delivery.</p>
+                    </div>
 
-<hr />
-                    {wrongAnswers.map(item => {
+                    <div className="results-summary">
+                        <div>
+                            <span>Score</span>
+                            <strong>{score} / {questions.length}</strong>
+                        </div>
+                        <div>
+                            <span>Accuracy</span>
+                            <strong>{percentage}%</strong>
+                        </div>
+                        <div>
+                            <span>Total Time</span>
+                            <strong>{formatTime(totalTime)}</strong>
+                        </div>
+                    </div>
 
-                        return (
-
-                            <div style={{width: '100%', marginBottom: '10px', borderBottom: "1px white solid"}}>
-
-
-                                {/* make comp for better formating, per 3. x */}
-                                <p>{`Question:        ${item.question}`}</p>
-                                <p>{`Your answer:     ${item.userAnswer} `}</p>
-                                <p>{`Correct Answer : ${item.correctAnswer}`}</p>
-
+                    <div className="review-panel">
+                        <h2>Incorrect Answers</h2>
+                        {wrongAnswers.length === 0 ? (
+                            <p className="empty-state">Perfect score. No incorrect answers to review.</p>
+                        ) : (
+                            <div className="wrong-answer-list">
+                                {wrongAnswers.map((item, index) => (
+                                    <article className="wrong-answer" key={`${item.question}-${index}`}>
+                                        <h3>{item.question}</h3>
+                                        <p><span>Your answer</span>{item.userAnswer || 'No answer selected'}</p>
+                                        <p><span>Correct answer</span>{item.correctAnswer}</p>
+                                    </article>
+                                ))}
                             </div>
-                        )
-                    })}
-                
+                        )}
+                    </div>
 
                     <button
+                        className="primary-button compact"
                         onClick={() => window.location.reload()}
-                        style={buttonStyle}
+                        type="button"
                     >
                         Take Another Test
                     </button>
-                </div>
-            </div>
+                </section>
+            </main>
         );
     }
 
+    const progress = ((currentQuestion + 1) / questions.length) * 100;
 
     return (
-        <div style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            minHeight: '100vh',
-            width: '100vw',
-            textAlign: 'center'
-        }}>
+        <main className="app-shell">
             {showWarning && (
-                <div style={{
-                    position: 'fixed',
-                    top: '10px',
-                    left: '50%',
-                    transform: 'translateX(-50%)',
-                    backgroundColor: '#ff4d4d',
-                    color: 'white',
-                    padding: '10px 20px',
-                    borderRadius: '5px',
-                    zIndex: 1000,
-                }}>
-                    <p>
-                        Warning: Tab switching detected! This will be recorded.
-                    </p>
+                <div className="warning-banner">
+                    Warning: Tab switching detected. This will be recorded.
                 </div>
             )}
 
-            <div style={{
-                width: '100%',
-                maxWidth: '600px',
-                padding: '20px'
-            }}>
+            <section className="quiz-shell">
+                <header className="quiz-header">
+                    <div>
+                        <p className="eyebrow">{testType.replace('.json', '')} assessment</p>
+                        <h1>Question {currentQuestion + 1}</h1>
+                    </div>
+                    <div className="quiz-stats">
+                        <span>{formatTime(totalTime)}</span>
+                        <span>{currentQuestion + 1} / {questions.length}</span>
+                    </div>
+                </header>
 
+                <div className="progress-track" aria-label="Quiz progress">
+                    <span style={{ width: `${progress}%` }} />
+                </div>
 
                 {username !== "Admin 23"
                     ?
                     (
-                        <div>
-                            <h2>Question {currentQuestion + 1}</h2>
-                            <p>Time elapsed: {formatTime(totalTime)}</p>
-                            <p style={{ fontSize: '18px', margin: '20px 0' }}>{questions[currentQuestion].question}</p>
-                            <ul style={{
-                                listStyle: 'none',
-                                padding: 0,
-                                margin: '20px 0'
-                            }}>
-                                {/* {console.log("SRRA", shuffledOptions)} */}
-                                {/* {options.map((option) => ( */}
+                        <div className="question-card">
+                            <p className="question-text">{questions[currentQuestion].question}</p>
+                            <ul className="answer-list">
                                 {shuffledOptions.map((option) => (
 
-                                    <li key={option} style={{ margin: '10px 0' }}>
+                                    <li key={option}>
                                         <button
+                                            className={`answer-button ${selectedAnswer === option ? 'selected' : ''}`}
                                             onClick={() => handleAnswerSelect(option)}
-                                            style={{
-                                                width: '100%',
-                                                padding: '10px',
-                                                backgroundColor: selectedAnswer === option ? '#a8d5ba' : '#f0f0f0',
-                                                color: 'black',
-                                                border: '1px solid #ccc',
-                                                borderRadius: '4px',
-                                                cursor: 'pointer',
-                                                textAlign: 'left'
-                                            }}
+                                            type="button"
                                         >
                                             {option}
                                         </button>
@@ -567,20 +518,18 @@ function Quiz({ username }) {
                                 ))}
                             </ul>
                             <button
+                                className="primary-button"
                                 onClick={handleNextQuestion}
                                 disabled={selectedAnswer === null}
-                                style={{
-                                    ...buttonStyle,
-                                    opacity: selectedAnswer === null ? 0.5 : 1
-                                }}
+                                type="button"
                             >
-                                Next Question
+                                {currentQuestion < questions.length - 1 ? 'Next Question' : 'Finish Quiz'}
                             </button>
                         </div>
                     )
                     :
                     (
-                        <div>
+                        <div className="question-card admin-card">
                             <input
                                 type="number"
                                 // value={selectedQuestionIndex}
@@ -594,38 +543,24 @@ function Quiz({ username }) {
                                     }
                                 }}
                                 placeholder="Enter original question index"
-                                style={{ marginBottom: '10px', padding: '5px', width: '100%' }}
+                                className="admin-input"
                             />
-                            <button onClick={(e) => console.log(originalQuestions[adminTestQuestion])}>check</button>
-
-                            <h2>Question {currentQuestion + 1}</h2>
+                            <button className="secondary-button" onClick={() => console.log(originalQuestions[adminTestQuestion])} type="button">Check</button>
 
                             {questions[currentQuestion] && (
                                 <>
-                                    <p style={{ fontSize: '18px', margin: '20px 0' }}>
+                                    <p className="question-text">
                                         {questions[currentQuestion].question}
                                     </p>
-                                    <ul style={{
-                                        listStyle: 'none',
-                                        padding: 0,
-                                        margin: '20px 0'
-                                    }}>
+                                    <ul className="answer-list">
 
                                         {shuffledOptions.map((option) => (
 
-                                            <li key={option} style={{ margin: '10px 0' }}>
+                                            <li key={option}>
                                                 <button
+                                                    className={`answer-button ${selectedAnswer === option ? 'selected' : ''}`}
                                                     onClick={() => handleAnswerSelect(option)}
-                                                    style={{
-                                                        width: '100%',
-                                                        padding: '10px',
-                                                        backgroundColor: selectedAnswer === option ? '#a8d5ba' : '#f0f0f0',
-                                                        color: 'black',
-                                                        border: '1px solid #ccc',
-                                                        borderRadius: '4px',
-                                                        cursor: 'pointer',
-                                                        textAlign: 'left'
-                                                    }}
+                                                    type="button"
                                                 >
                                                     {option}
                                                 </button>
@@ -635,20 +570,18 @@ function Quiz({ username }) {
                                 </>
                             )}
                             <button
+                                className="primary-button"
                                 onClick={handleNextQuestion}
                                 disabled={selectedAnswer === null}
-                                style={{
-                                    ...buttonStyle,
-                                    opacity: selectedAnswer === null ? 0.5 : 1
-                                }}
+                                type="button"
                             >
-                                Next Question
+                                {currentQuestion < questions.length - 1 ? 'Next Question' : 'Finish Quiz'}
                             </button>
                         </div>
                     )
                 }
-            </div>
-        </div>
+            </section>
+        </main>
     );
 }
 

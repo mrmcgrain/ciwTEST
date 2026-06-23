@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Quiz from './Quiz';
+import './App.css';
 
 function App() {
   const [firstName, setFirstName] = useState('');
@@ -7,28 +8,14 @@ function App() {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
 
-  // Define buttonStyle inside the component function
-  const buttonStyle = {
-    width: '100%',
-    padding: '10px',
-    backgroundColor: '#4CAF50',
-    color: 'white',
-    border: 'none',
-    borderRadius: '4px',
-    cursor: 'pointer',
-    marginTop: '10px',
-    marginLeft: '10px'
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-    // Validate that both fields are filled
+
     if (!firstName.trim() || !lastName.trim()) {
       setError('Both first and last name are required.');
       return;
     }
-    
+
     setError('');
     setSubmitted(true);
   };
@@ -38,55 +25,74 @@ function App() {
   }
 
   return (
-    <div className="app-container" 
-    style={{
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-      minHeight: '100vh',
-      width:  '100vw',
-  
-    }}
-    >
+    <main className="app-shell">
+      <section className="entry-layout">
+        <div className="hero-panel">
+          <h1>Portfolio Assessment Platform</h1>
+          <p className="hero-copy">
+            A focused certification-style testing suite with randomized questions,
+            timing, completion reporting, and attention monitoring.
+          </p>
+          <div className="metric-row" aria-label="Platform highlights">
+            <div>
+              <strong>9</strong>
+              <span>Pathways</span>
+            </div>
+            <div>
+              <strong>100+</strong>
+              <span>Questions</span>
+            </div>
+            <div>
+              <strong>Live</strong>
+              <span>Tracking</span>
+            </div>
+          </div>
+        </div>
 
-      <h1>Testing Station </h1>
-      <form onSubmit={handleSubmit} style={{
-        width: '300px',
-        maxWidth: '400px'
-      }}>
-        <div style={{ margin: '15px 0' }}>
-          <label htmlFor="firstName" style={{ display: 'block', marginBottom: '5px' }}>First Name:</label>
+        <form className="entry-card" onSubmit={handleSubmit}>
+          <div className="form-header">
+            <span className="status-dot" />
+            <div>
+              <h2>Candidate Check-In</h2>
+              <p>Enter your name to begin a test session.</p>
+            </div>
+          </div>
+
+          <label className="field" htmlFor="firstName">
+            <span>First Name</span>
           <input
             type="text"
             id="firstName"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
-            style={{ width: '100%', padding: '8px' }}
+              autoComplete="given-name"
           />
-        </div>
-        <div style={{ margin: '15px 0' }}>
-          <label htmlFor="lastName" style={{ display: 'block', marginBottom: '5px' }}>Last Name:</label>
+          </label>
+
+          <label className="field" htmlFor="lastName">
+            <span>Last Name</span>
           <input
             type="text"
             id="lastName"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
-            style={{ width: '100%', padding: '8px' }}
+              autoComplete="family-name"
           />
-        </div>
-        {error && <p className="error" style={{ color: 'red' }}>{error}</p>}
+          </label>
 
-        <button type="submit" style={buttonStyle}>Start Quiz</button>
-      </form>
+          {error && <p className="error">{error}</p>}
 
-      <br />
+          <button className="primary-button" type="submit">Start Quiz</button>
 
-      <p>There are roughly 100 questions per pathway</p>
-      <p>Do not refresh your screen or go back</p>
-      <p>Viewing other tabs or browsers are monitored</p>
-      <p>Results will be emailed upon completion</p>
-    </div>
+          <div className="notice-list">
+            <p>Roughly 100 questions per pathway</p>
+            <p>Do not refresh or navigate back during a session</p>
+            <p>Tab and window changes are monitored</p>
+            <p>Results are emailed upon completion</p>
+          </div>
+        </form>
+      </section>
+    </main>
   );
 
 }
