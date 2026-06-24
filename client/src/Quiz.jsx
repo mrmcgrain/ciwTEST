@@ -1,5 +1,4 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
 
 const testOptions = [
     { file: 'css.json', label: 'CSS', detail: 'Selectors, layout, styling fundamentals' },
@@ -12,6 +11,11 @@ const testOptions = [
     { file: 'test.json', label: 'Practice Exam', detail: 'General validation test' },
     { file: 'ddd.json', label: 'DDD', detail: 'Domain-driven design concepts' },
 ];
+
+const googleSheetsEndpoint =
+    window.APP_CONFIG?.GOOGLE_SHEETS_WEB_APP_URL ||
+    import.meta.env.VITE_GOOGLE_SHEETS_WEB_APP_URL ||
+    '';
 
 function Quiz({ username }) {
     const [questions, setQuestions] = useState([]);
@@ -26,12 +30,13 @@ function Quiz({ username }) {
     const [tabSwitchCount, setTabSwitchCount] = useState(0);
     const [showWarning, setShowWarning] = useState(false);
     const [tabSwitchEvents, setTabSwitchEvents] = useState([]);
+    const [submissionStatus, setSubmissionStatus] = useState('idle');
     // const [focusEvents, setFocusEvents] = useState([]);
     const [shuffledOptions, setShuffledOptions] = useState([]);
     // const [selectedQuestionIndex, setSelectedQuestionIndex] = useState(0);
     const [originalQuestions, setOriginalQuestions] = useState([])
     const [adminTestQuestion, setAdminTestQuestion] = useState(false)
-    const emailSentRef = useRef(false);
+    const resultsSubmittedRef = useRef(false);
 
     // Add state for away tracking
     const [isAway, setIsAway] = useState(false);
@@ -309,22 +314,7 @@ function Quiz({ username }) {
 
 
 
-    // 
-    // const sendEmail = (username) => {
-
-
-    // console.log("EMAIL", templateParams)
-    // emailjs.send('service_pcnfdzu', 'template_ptulihe', templateParams, '-QcsYaoZ84q24igTs')
-    // emailjs.send('service_a0in6ii', 'template_tctf7om', templateParams, 'FMmd_SU-O_PCPoPTV')
-    // .then((response) => {
-    //     console.log('SUCCESS!', response.status, response.text);
-    // })
-    // .catch((error) => {
-    //     console.error('FAILED...', error);
-    // });
-    // };
-
-    const sendEmail = useCallback((name) => {
+    const submitResults = useCallback((name) => {
 
         const percentage = ((score / questions.length) * 100).toFixed(2);
 
@@ -334,39 +324,54 @@ function Quiz({ username }) {
             finalAwayTime += Math.floor((Date.now() - awayStartTime) / 1000);
         }
 
-        const templateParams = {
-            test_type: testType,
-            from_name: name,
-            score: score,
+        const resultPayload = {
+            timestamp: new Date().toISOString(),
+            name,
+            testType,
+            score,
             totalQuestions: questions.length,
-            percentage: percentage,
+            percentage,
             totalTime: formatTime(totalTime),
             totalAwayTime: formatTime(finalAwayTime),
-            wrongAnswers: JSON.stringify(wrongAnswers, null, 2),
             tabSwitches: tabSwitchCount,
-            tabSwitchDetails: JSON.stringify(tabSwitchEvents, null, 2),
-            exitPoints: JSON.stringify(exitPoints, null, 2)
-
+            wrongAnswers,
+            tabSwitchDetails: tabSwitchEvents,
+            exitPoints,
+            userAgent: navigator.userAgent,
+            pageUrl: window.location.href,
         };
 
-        console.log("EMAIL", templateParams)
-    // emailjs.send('service_pcnfdzu', 'template_ptulihe', templateParams, '-QcsYaoZ84q24igTs')
-    emailjs.send('service_a0in6ii', 'template_tctf7om', templateParams, 'FMmd_SU-O_PCPoPTV')
-    .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-    })
-    .catch((error) => {
-        console.error('FAILED...', error);
-    });
+        if (!googleSheetsEndpoint) {
+            console.warn('Google Sheets endpoint is not configured.', resultPayload);
+            setSubmissionStatus('not-configured');
+            return;
+        }
 
+        setSubmissionStatus('submitting');
+        fetch(googleSheetsEndpoint, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: {
+                'Content-Type': 'text/plain;charset=utf-8',
+            },
+            body: JSON.stringify(resultPayload),
+        })
+            .then(() => {
+                setSubmissionStatus('submitted');
+                console.log('Results submitted to Google Sheets.');
+            })
+            .catch((error) => {
+                setSubmissionStatus('failed');
+                console.error('Failed to submit results to Google Sheets:', error);
+            });
     }, [awayStartTime, exitPoints, isAway, questions.length, score, tabSwitchCount, tabSwitchEvents, testType, totalAwayTime, totalTime, wrongAnswers])
 
     useEffect(() => {
-        if (quizFinished && questions.length > 0 && !emailSentRef.current) {
-            emailSentRef.current = true;
-            sendEmail(username);
+        if (quizFinished && questions.length > 0 && !resultsSubmittedRef.current) {
+            resultsSubmittedRef.current = true;
+            submitResults(username);
         }
-    }, [quizFinished, questions.length, sendEmail, username]);
+    }, [quizFinished, questions.length, submitResults, username]);
 
 
 
@@ -398,7 +403,7 @@ function Quiz({ username }) {
                     <div className="suite-footer">
                         <span>Randomized questions</span>
                         <span>Elapsed-time tracking</span>
-                        <span>Completion reporting</span>
+                        <span>Sheet-ready reporting</span>
                     </div>
                 </section>
             </main>
@@ -425,7 +430,13 @@ function Quiz({ username }) {
                     <div className="section-heading">
                         <p className="eyebrow">Session Complete</p>
                         <h1>Quiz Finished</h1>
-                        <p>Results have been prepared for email delivery.</p>
+                        <p>
+                            {submissionStatus === 'submitted' && 'Results were submitted to your assessment log.'}
+                            {submissionStatus === 'submitting' && 'Submitting results to your assessment log...'}
+                            {submissionStatus === 'not-configured' && 'Results are ready, but Google Sheets is not configured yet.'}
+                            {submissionStatus === 'failed' && 'Results could not be submitted. Please review the browser console.'}
+                            {submissionStatus === 'idle' && 'Results have been prepared for your assessment log.'}
+                        </p>
                     </div>
 
                     <div className="results-summary">

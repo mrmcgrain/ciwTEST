@@ -88,7 +88,7 @@ function App() {
             <p>Roughly 100 questions per pathway</p>
             <p>Do not refresh or navigate back during a session</p>
             <p>Tab and window changes are monitored</p>
-            <p>Results are emailed upon completion</p>
+            <p>Results are saved upon completion</p>
           </div>
         </form>
       </section>
